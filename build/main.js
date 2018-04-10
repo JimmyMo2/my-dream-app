@@ -857,6 +857,7 @@ var VisitlistPage = (function () {
                         position: 'bottom' //位置
                     });
                     toast.present();
+                    break;
                 }
             }
             console.log('Async operation has ended');
@@ -6365,8 +6366,8 @@ var AppModule = (function () {
                     }
                 }, {
                     links: [
-                        { loadChildren: '../pages/about/about.module#AboutPageModule', name: 'AboutPage', segment: 'about', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/accountDetail/accountDetail.module#AccountDetailPageModule', name: 'AccountDetailPage', segment: 'accountDetail', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/about/about.module#AboutPageModule', name: 'AboutPage', segment: 'about', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/accountSearch/accountSearch.module#AccountSearchPageModule', name: 'AccountSearchPage', segment: 'accountSearch', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/addattend/addattend.module#AddattendPageModule', name: 'AddattendPage', segment: 'addattend', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/addmeetinginfo/addmeetinginfo.module#AddmeetinginfoPageModule', name: 'AddmeetinginfoPage', segment: 'addmeetinginfo', priority: 'low', defaultHistory: [] },
@@ -6376,7 +6377,6 @@ var AppModule = (function () {
                         { loadChildren: '../pages/approve/approve.module#ApprovePageModule', name: 'ApprovePage', segment: 'approve', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/approvedetail/approvedetail.module#ApprovedetailPageModule', name: 'ApprovedetailPage', segment: 'approvedetail', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/approvedpenddetail/approvedpenddetail.module#ApprovedpenddetailPageModule', name: 'ApprovedpenddetailPage', segment: 'approvedpenddetail', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/approvedpending/approvedpending.module#ApprovedpendingPageModule', name: 'ApprovedpendingPage', segment: 'approvedpending', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/approveindiadetail/approveindiadetail.module#ApproveindiadetailPageModule', name: 'ApproveindiadetailPage', segment: 'approveindiadetail', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/approveprojectdetail/approveprojectdetail.module#ApproveprojectdetailPageModule', name: 'ApproveprojectdetailPage', segment: 'approveprojectdetail', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/approvewechartdetail/approvewechartdetail.module#ApprovewechartdetailPageModule', name: 'ApprovewechartdetailPage', segment: 'approvewechartdetail', priority: 'low', defaultHistory: [] },
@@ -6385,9 +6385,9 @@ var AppModule = (function () {
                         { loadChildren: '../pages/balance/balance.module#BalancePageModule', name: 'BalancePage', segment: 'balance', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/balanceDetail/balanceDetail.module#BalanceDetailPageModule', name: 'BalanceDetailPage', segment: 'balanceDetail', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/branchlinereport/branchlinereport.module#BranchlinereportPageModule', name: 'BranchlinereportPage', segment: 'branchlinereport', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/approvedpending/approvedpending.module#ApprovedpendingPageModule', name: 'ApprovedpendingPage', segment: 'approvedpending', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/bulletin/bulletin.module#BulletinPageModule', name: 'BulletinPage', segment: 'bulletin', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/businessreport/businessreport.module#BusinessreportPageModule', name: 'BusinessreportPage', segment: 'businessreport', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/businessreportdetail/businessreportdetail.module#BusinessreportdetailPageModule', name: 'BusinessreportdetailPage', segment: 'businessreportdetail', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/camera/camera.module#CameraPageModule', name: 'CameraPage', segment: 'camera', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/carddetil/carddetil.module#CarddetilPageModule', name: 'CarddetilPage', segment: 'carddetil', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/customer/customer.module#CustomerPageModule', name: 'CustomerPage', segment: 'customer', priority: 'low', defaultHistory: [] },
@@ -6398,6 +6398,7 @@ var AppModule = (function () {
                         { loadChildren: '../pages/customermanagerlist/customermanagerlist.module#CustomermanagerlistPageModule', name: 'CustomermanagerlistPage', segment: 'customermanagerlist', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/customermanagerprodetail/customermanagerprodetail.module#CustomermanagerprodetailPageModule', name: 'CustomermanagerprodetailPage', segment: 'customermanagerprodetail', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/enjoycard/enjoycard.module#EnjoycardPageModule', name: 'EnjoycardPage', segment: 'enjoycard', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/businessreportdetail/businessreportdetail.module#BusinessreportdetailPageModule', name: 'BusinessreportdetailPage', segment: 'businessreportdetail', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/examinerecord/examinerecord.module#ExaminerecordPageModule', name: 'ExaminerecordPage', segment: 'examinerecord', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/formalcust/formalcust.module#FormalcustPageModule', name: 'FormalcustPage', segment: 'formalcust', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/formalparticulars/formalparticulars.module#FormalparticularsPageModule', name: 'FormalparticularsPage', segment: 'formalparticulars', priority: 'low', defaultHistory: [] },
@@ -6406,7 +6407,6 @@ var AppModule = (function () {
                         { loadChildren: '../pages/knowledge/knowledge.module#KnowledgePageModule', name: 'KnowledgePage', segment: 'knowledge', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/largechangereport/largechangereport.module#LargechangereportPageModule', name: 'LargechangereportPage', segment: 'largechangereport', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/largeremind/largeremind.module#LargeremindPageModule', name: 'LargeremindPage', segment: 'largeremind', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/mine/mine.module#MinePageModule', name: 'MinePage', segment: 'mine', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/myapprove/myapprove.module#MyapprovePageModule', name: 'MyapprovePage', segment: 'myapprove', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/myapprovedetil/myapprovedetil.module#MyapprovedetilPageModule', name: 'MyapprovedetilPage', segment: 'myapprovedetil', priority: 'low', defaultHistory: [] },
@@ -6416,6 +6416,7 @@ var AppModule = (function () {
                         { loadChildren: '../pages/potentialcust/potentialcust.module#PotentialcustPageModule', name: 'PotentialcustPage', segment: 'potentialcust', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/potentialcustdetails/potentialcustdetails.module#PotentialcustdetailsPageModule', name: 'PotentialcustdetailsPage', segment: 'potentialcustdetails', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/potentialcustedit/potentialcustedit.module#PotentialcusteditPageModule', name: 'PotentialcusteditPage', segment: 'potentialcustedit', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/project/project.module#ProjectPageModule', name: 'ProjectPage', segment: 'project', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/projectDetail/projectDetail.module#ProjectDetailPageModule', name: 'ProjectDetailPage', segment: 'projectDetail', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/prompt/prompt.module#PromptPageModule', name: 'PromptPage', segment: 'prompt', priority: 'low', defaultHistory: [] },
