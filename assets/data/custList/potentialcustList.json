@@ -1,0 +1,80 @@
+{
+  "serviceId": "auth.login",
+  "status": "0",
+  "datetime": "2016-11-09 10:35:13",
+  "info": "成功",
+  "resultRes": {
+      "potentialcustList": [
+        {
+          "name":"乔布斯",
+          "gender":"1",
+          "old":"33",
+          "unit":"技术部",
+          "section":"部门经理",
+          "jobnum":"11357",
+          "phonenum":"135****4056",
+          "custDetailsList":[
+            {"title":"名字","content":"乔布斯"},
+            {"title":"性别","content":"男"},
+            {"title":"年龄","content":"33"},
+            {"title":"单位","content":"技术部"},
+            {"title":"职位","content":"部门经理"},
+            {"title":"工号","content":"11357"},
+            {"title":"电话","content":"135****4056"}
+          ]
+        },{
+          "name":"李大钊",
+          "gender":"0",
+          "old":"77",
+          "unit":"技术部",
+          "section":"部门经理",
+          "jobnum":"11357",
+          "phonenum":"135****4056",
+          "custDetailsList":[
+            {"title":"名字","content":"李大钊"},
+            {"title":"性别","content":"女"},
+            {"title":"年龄","content":"77"},
+            {"title":"单位","content":"技术部"},
+            {"title":"职位","content":"部门经理"},
+            {"title":"工号","content":"11357"},
+            {"title":"电话","content":"135****4056"}
+          ]
+        },{
+          "name":"陈独秀",
+          "gender":"1",
+          "old":"22",
+          "unit":"技术部",
+          "section":"客户经理",
+          "jobnum":"11357",
+          "phonenum":"135****4056",
+          "custDetailsList":[
+            {"title":"名字","content":"陈独秀"},
+            {"title":"性别","content":"男"},
+            {"title":"年龄","content":"22"},
+            {"title":"单位","content":"技术部"},
+            {"title":"职位","content":"客户经理"},
+            {"title":"工号","content":"11357"},
+            {"title":"电话","content":"135****4056"}
+          ]
+        },{
+          "name":"鲁迅",
+          "gender":"0",
+          "old":"35",
+          "unit":"技术部",
+          "section":"技术总监",
+          "jobnum":"11357",
+          "phonenum":"135****4056",
+          "custDetailsList":[
+            {"title":"名字","content":"鲁迅"},
+            {"title":"性别","content":"女"},
+            {"title":"年龄","content":"35"},
+            {"title":"单位","content":"技术部"},
+            {"title":"职位","content":"技术总监"},
+            {"title":"工号","content":"11357"},
+            {"title":"电话","content":"135****4056"}
+          ]
+        }
+      ]
+
+  }
+}

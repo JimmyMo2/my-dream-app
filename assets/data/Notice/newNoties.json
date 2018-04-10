@@ -1,0 +1,15 @@
+{
+  "serviceId":"1",
+  "status":"1",
+  "datetime":"2018-3-8",
+  "info":"公告页面信息",
+  "resultRes":{
+     "data":[
+       {
+        "title":"公告页面1",
+        "picurl":"imgs/info_img/img_one.jpg"
+      }
+     ]
+  }
+}
+

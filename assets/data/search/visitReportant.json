@@ -1,0 +1,44 @@
+{
+	"serviceId": "auth.login",
+	"status": "0",
+	"datetime": "2016-11-09 10:35:13",
+	"info": "成功",
+	"visitReports":[
+		{
+			"reportId":"0001",
+			"userName":"张经理",
+			"status":"2",
+			"realDate":"2018-03-26",
+			"processinstId":"0000111"
+		},
+		{
+			"reportId":"0002",
+			"userName":"王经理",
+			"status":"3",
+			"realDate":"2018-03-30",
+			"processinstId":"0000222"
+		},
+		{
+			"reportId":"0003",
+			"userName":"刘经理",
+			"status":"4",
+			"realDate":"2018-04-01",
+			"processinstId":"0000333"
+		},
+		{
+			"reportId":"0004",
+			"userName":"赵经理",
+			"status":"2",
+			"realDate":"2018-04-02",
+			"processinstId":"0000444"
+		},
+		{
+			"reportId":"0005",
+			"userName":"钱经理",
+			"status":"3",
+			"realDate":"2018-04-03",
+			"processinstId":"0000555"
+		}
+	],
+	"allPage":"10"
+}

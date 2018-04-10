@@ -1,0 +1,68 @@
+{
+	"serviceId": "auth.login",
+	"status": "0",
+	"datetime": "2016-11-09 10:35:13",
+	"info": "成功",
+	"visitPlans":[
+		{
+			"planId":"0001",
+			"customName":"重点客户张三",
+			"planDate":"2018-04-04",
+			"status":"2"
+		},
+		{
+			"planId":"0002",
+			"customName":"重点拜访客户李四",
+			"planDate":"2018-04-06",
+			"status":"3"
+		},
+		{
+			"planId":"0003",
+			"customName":"与重点客户李四进行活动",
+			"planDate":"2018-04-07",
+			"status":"4"
+		},
+		{
+			"planId":"0004",
+			"customName":"提交下周计划",
+			"planDate":"2018-04-08",
+			"status":"2"
+		},
+		{
+			"planId":"0005",
+			"customName":"李四",
+			"planDate":"2018-03-12",
+			"status":"3"
+		},
+    {
+      "planId":"0005",
+      "customName":"李四",
+      "planDate":"2018-04-14",
+      "status":"3"
+    },
+    {
+      "planId":"0005",
+      "customName":"李四",
+      "planDate":"2018-04-17",
+      "status":"3"
+    },
+    {
+      "planId":"0005",
+      "customName":"李四",
+      "planDate":"2018-04-18",
+      "status":"3"
+    },
+    {
+      "planId":"0005",
+      "customName":"李四",
+      "planDate":"2018-04-09",
+      "status":"3"
+    },
+    {
+      "planId":"0005",
+      "customName":"李四",
+      "planDate":"2018-04-30",
+      "status":"3"
+    }
+	]
+}

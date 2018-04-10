@@ -1,0 +1,34 @@
+{
+	"serviceId": "auth.login",
+	"status": "0",
+	"datetime": "2016-11-09 10:35:13",
+	"info": "成功",
+	"resultRes": {
+		"targetSummary":[
+			{
+				"indicatorType":"存款余额",
+				"indicatorPercent":"10%"
+			},
+			{
+				"indicatorType":"存款日均",
+				"indicatorPercent":"20%"
+			},
+			{
+				"indicatorType":"个贷余额",
+				"indicatorPercent":"30%"
+			},
+			{
+				"indicatorType":"理财余额",
+				"indicatorPercent":"40%"
+			},
+			{
+				"indicatorType":"个人银行业务量",
+				"indicatorPercent":"50%"
+			},
+			{
+				"indicatorType":"信用卡业务量",
+				"indicatorPercent":"60%"
+			}
+		]
+	}
+}

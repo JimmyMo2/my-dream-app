@@ -1,0 +1,27 @@
+{
+  "serviceId": "auth.login",
+  "status": "0",
+  "datetime": "2016-11-09 10:35:13",
+  "info": "成功",
+  "operationSealDetailInfo": {
+    "sealBizName":"资产托管业务",
+    "proName":"--",
+    "cName":"上海金元百利资产管理有限公司",
+    "contractType":"--",
+    "amt":"0.00元",
+    "capitalizationAmt":"0元整",
+    "fileType":"标准文本",
+    "applyType":"原件",
+    "sealType":"托管合同专用章",
+    "stampNunber":"2",
+    "proCreater":"何意",
+    "compName":"总行",
+    "approves":[
+      {
+        "approver":"何意",
+        "comments":"同意",
+        "approverDate":"2018-3-30"
+      }
+    ]
+  }
+}

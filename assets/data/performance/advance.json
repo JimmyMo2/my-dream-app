@@ -1,0 +1,18 @@
+{
+  "serviceId": "auth.login",
+  "status": "0",
+  "datetime": "2016-11-09 10:35:13",
+  "info": "成功",
+  "resultRes": {
+    "targetSummary":[
+      {
+        "id":"1",
+        "name":"你有1条定存提前支...",
+        "count":"尊敬的客户你好，接运营方通知引用进企业不再租运营方",
+        "time":"02-06 16:02",
+        "state":false
+      }
+
+    ]
+  }
+}

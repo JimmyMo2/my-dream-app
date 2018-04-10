@@ -1,0 +1,25 @@
+{
+	"serviceId": "auth.login",
+	"status": "0",
+	"datetime": "2016-11-09 10:35:13",
+	"info": "成功",
+	"projects":{
+		"name":"项目名称",
+		"id":"项目ID",
+		"proType":"项目类型",
+		"customName":"客户名称",
+		"compCode":"所属机构",
+		"consignorId":"委托人",
+		"investRange":"投向",
+		"scale":"托管规模",
+		"scaleUpper":"大写金额",
+		"planRate":"托管费率",
+		"chargingType":"收费方式",
+		"foundDate":"预计成立日期",
+		"planEndDate":"预计结束日期",
+		"isEstimate":"是否估值",
+		"estimateFrequency":"估值频率",
+		"estimateType":"估值方法",
+		"isOverPrint":"是否套印"
+	}
+}

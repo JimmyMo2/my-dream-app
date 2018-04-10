@@ -1,0 +1,70 @@
+{
+	"serviceId": "auth.login",
+	"status": "0",
+	"datetime": "2016-11-09 10:35:13",
+	"info": "成功",
+	"resultRes": {
+		"dataList":[
+			{
+				"indicatorTy":"存款",
+				"pointType":"1月",
+				"pointPercent":"1%"
+			},
+			{
+				"indicatorTy":"财富",
+				"pointType":"2月",
+				"pointPercent":"2%"
+			},
+			{
+				"indicatorTy":"个人银行",
+				"pointType":"3月",
+				"pointPercent":"3%"
+			},
+			{
+				"indicatorTy":"贷款",
+				"pointType":"4月",
+				"pointPercent":"4%"
+			},
+			{
+				"indicatorTy":"其他",
+				"pointType":"5月",
+				"pointPercent":"5%"
+			},
+			{
+				"indicatorTy":"存款",
+				"pointType":"6月",
+				"pointPercent":"6%"
+			},
+			{
+				"indicatorTy":"存款",
+				"pointType":"7月",
+				"pointPercent":"7%"
+			},
+			{
+				"indicatorTy":"存款",
+				"pointType":"8月",
+				"pointPercent":"8%"
+			},
+			{
+				"indicatorTy":"存款",
+				"pointType":"9月",
+				"pointPercent":"9%"
+			},
+			{
+				"indicatorTy":"存款",
+				"pointType":"10月",
+				"pointPercent":"10%"
+			},
+			{
+				"indicatorTy":"存款",
+				"pointType":"11月",
+				"pointPercent":"11%"
+			},
+			{
+				"indicatorTy":"存款",
+				"pointType":"12月",
+				"pointPercent":"12%"
+			}
+		]
+	}
+}

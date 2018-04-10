@@ -1,0 +1,20 @@
+{
+	"serviceId": "auth.login",
+	"status": "0",
+	"datetime": "2016-11-09 10:35:13",
+	"info": "成功",
+	"name":"英大信托-联赢LY003号-沈阳维世佳特定资产收益集合资金系信托计划",
+	"instructs":[
+		{
+			"instructDate":"2018-03-04",
+			"amt":"888.00",
+			"stutas":"出账"
+		},
+		{
+			"instructDate":"2018-03-06",
+			"amt":"666.00",
+			"stutas":"未出账"
+		}
+	],
+	"allPage":""
+}

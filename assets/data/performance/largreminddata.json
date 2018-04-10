@@ -1,0 +1,30 @@
+{
+  "serviceId": "auth.login",
+  "status": "0",
+  "datetime": "2016-11-09 10:35:13",
+  "info": "成功",
+  "resultRes": {
+    "targetSummary":[
+      {
+        "id":"1",
+        "customerid":"78865",
+        "customeridname":"张##",
+        "customerlist":"四级",
+        "money":"-5000",
+        "type":"面对面",
+        "time":"02-09 16:02",
+        "date":"20180102-20180901",
+        "accounts":"999878777",
+        "marketingpeople":"三##",
+        "manager":"李##",
+        "org":"上海支行-徐家汇网点",
+        "point":"徐家汇网点",
+        "orglist":"上海支行",
+        "year":"三年",
+        "card":"41122983087656",
+        "state":false
+      }
+
+    ]
+  }
+}
