@@ -28089,7 +28089,37 @@ page-addreportpage .attend {
   text-align: center;
   float: left;
   text-overflow: ellipsis;
-  overflow: hidden;
+  background: #FCB451;
+  border-radius: 15px;
+  margin-left: 4px;
+  margin-bottom: 4px;
+}
+
+page-addreportpage i {
+  height: 14px;
+  width: 14px;
+  display: block;
+  position: relative;
+  top: -30px;
+  left: 57px;
+}
+
+page-addreportpage .icon-del {
+  border-radius: 7px;
+  background: #f94848;
+}
+
+page-addreportpage .icon-del:after {
+  content: '';
+  height: 3px;
+  width: 11px;
+  display: block;
+  background: #fff;
+  position: absolute;
+  top: 5px;
+  left: 2px;
+  border-radius: 10px;
+  z-index: 99;
 }
 
 page-addreportpage .serach_lists {
@@ -31269,8 +31299,91 @@ page-home .nav_number {
 }
 
 page-home .home_menu {
-  padding: 0rem 1rem;
+  padding: 1rem 1rem;
   background: #ffffff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+page-home .customer_icon {
+  font-size: 1.6rem;
+  color: #79CDB2;
+}
+
+page-home .project_icon {
+  font-size: 1.6rem;
+  color: cornflowerblue;
+}
+
+page-home .rate_icon {
+  font-size: 1.6rem;
+  color: #F98685;
+}
+
+page-home .account_icon {
+  font-size: 1.6rem;
+  color: #FEBD7C;
+}
+
+page-home .balance_icon {
+  font-size: 1.6rem;
+  color: #8BD4BB;
+}
+
+page-home .market_icon {
+  font-size: 1.6rem;
+  color: #FDC88D;
+}
+
+page-home .icon {
+  font-size: 3.3rem;
+}
+
+page-home .fontSize {
+  position: absolute;
+  left: 11px;
+  top: 38px;
+  font-size: 1.2rem;
+}
+
+page-home .fontColor1 {
+  color: #79CDB2;
+}
+
+page-home .fontColor2 {
+  color: cornflowerblue;
+}
+
+page-home .fontColor3 {
+  color: #F98685;
+}
+
+page-home .fontColor4 {
+  color: #FEBD7C;
+}
+
+page-home .fontColor5 {
+  color: #8BD4BB;
+}
+
+page-home .fontColor6 {
+  color: #FDC88D;
+}
+
+page-home .fontColor7 {
+  color: #FDC88D;
+}
+
+page-home .fontColor8 {
+  color: #FDC88D;
+}
+
+page-home .fontColor9 {
+  color: #FDC88D;
+}
+
+page-home .fontColor10 {
+  color: #FDC88D;
 }
 
 page-home .menu_list {
@@ -31280,11 +31393,13 @@ page-home .menu_list {
   display: flex;
   width: 100%;
   padding: 2rem 0rem;
+  margin-bottom: 1rem;
 }
 
 page-home .menu_item {
   font-size: 1.4rem;
   color: #ddd;
+  position: relative;
 }
 
 page-home .common_title {
