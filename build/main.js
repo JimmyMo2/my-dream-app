@@ -1,15 +1,15 @@
 webpackJsonp([0],{
 
-/***/ 104:
+/***/ 105:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabs_tabs__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabs_tabs__ = __webpack_require__(216);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ng2_cookies_ng2_cookies__ = __webpack_require__(463);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ng2_cookies_ng2_cookies__ = __webpack_require__(464);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ng2_cookies_ng2_cookies___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_ng2_cookies_ng2_cookies__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -167,7 +167,7 @@ var LoginPage = (function () {
     };
     LoginPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-login',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\login\login.html"*/'\n<ion-header>\n  <ion-navbar style="background:#ff8611">\n    <ion-title style="background:#ff8611"><span style="color:#ffffff">资产项目管理登录</span></ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n  <div class="login_content">\n\n    <div class="login_info">\n      <ion-item style="text-indent: 16px; padding-left: 0px;">\n        <ion-label>用户</ion-label>\n        <ion-input type="text"  placeholder="输入员工号"  #username  [(ngModel)]="login_username"></ion-input>\n      </ion-item>\n      <ion-item style="text-indent: 16px; padding-left: 0px;">\n        <ion-label>密码</ion-label>\n        <ion-input type="password" placeholder="输入密码" #password [(ngModel)]="login_password"></ion-input>\n      </ion-item>\n    </div>\n\n    <div class="login_button" (click)="logIn(username, password)">\n      登录\n    </div>\n    <div class="footer_forget">\n      <input type="checkbox" [(ngModel)]="login_get_checkbox">记住密码\n    </div>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\login\login.html"*/,
+            selector: 'page-login',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\login\login.html"*/'\n<ion-header>\n  <ion-navbar style="background:#ff8611">\n    <ion-title style="background:#ff8611"><span style="color:#ffffff">资产项目管理登录</span></ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n  <div class="login_content">\n\n    <div class="login_info">\n      <ion-item style="text-indent: 16px; padding-left: 0px;">\n        <ion-label>用户</ion-label>\n        <ion-input type="text"  placeholder="输入员工号"  #username  [(ngModel)]="login_username"></ion-input>\n      </ion-item>\n      <ion-item style="text-indent: 16px; padding-left: 0px;">\n        <ion-label>密码</ion-label>\n        <ion-input type="password" placeholder="输入密码" #password [(ngModel)]="login_password"></ion-input>\n      </ion-item>\n    </div>\n\n    <div class="login_button" (click)="logIn(username, password)">\n      登录\n    </div>\n    <div class="footer_forget">\n      <input type="checkbox"  [(ngModel)]="login_get_checkbox">记住密码\n    </div>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\login\login.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__["a" /* HttpService */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* ToastController */]])
     ], LoginPage);
@@ -178,7 +178,7 @@ var LoginPage = (function () {
 
 /***/ }),
 
-/***/ 105:
+/***/ 106:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -381,376 +381,7 @@ var AddOtherPage = (function () {
 
 /***/ }),
 
-/***/ 106:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ExaminerecordPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the ExaminerecordPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var ExaminerecordPage = (function () {
-    function ExaminerecordPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    ExaminerecordPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ExaminerecordPage');
-    };
-    ExaminerecordPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-examinerecord',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\examinerecord\examinerecord.html"*/'<!--\n  Generated template for the ExaminerecordPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>审批记录</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n  <div class="newrecord clearfix" style="background-color: #fff !important;">\n    <div class="market-list">\n      <span class="market-list-name">处理环节</span>\n      <span class="market-list-cont">一级支行管理部门经理审批</span>\n    </div>\n    <div class="market-list">\n      <span class="market-list-name">处理人</span>\n      <span class="market-list-cont">沈XX</span>\n    </div>\n    <div class="market-list">\n      <span class="market-list-name">操作时间</span>\n      <span class="market-list-cont">2018-3-3 12:00:00</span>\n    </div>\n    <div class="market-list">\n      <span class="market-list-name">处理结果</span>\n      <span class="market-list-cont">同意</span>\n    </div>\n    <div class="market-list">\n      <span class="market-list-name">处理意见</span>\n      <span class="market-list-cont">同意</span>\n    </div>\n  </div>\n\n  <div class="newrecord clearfix" style="background-color: #fff !important;">\n    <div class="market-list">\n      <span class="market-list-name">处理环节</span>\n      <span class="market-list-cont">一级支行管理部门经理审批</span>\n    </div>\n    <div class="market-list">\n      <span class="market-list-name">处理人</span>\n      <span class="market-list-cont">沈XX</span>\n    </div>\n    <div class="market-list">\n      <span class="market-list-name">操作时间</span>\n      <span class="market-list-cont">2018-3-3 12:00:00</span>\n    </div>\n    <div class="market-list">\n      <span class="market-list-name">处理结果</span>\n      <span class="market-list-cont">同意</span>\n    </div>\n    <div class="market-list">\n      <span class="market-list-name">处理意见</span>\n      <span class="market-list-cont">同意</span>\n    </div>\n  </div>\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\examinerecord\examinerecord.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
-    ], ExaminerecordPage);
-    return ExaminerecordPage;
-}());
-
-//# sourceMappingURL=examinerecord.js.map
-
-/***/ }),
-
 /***/ 107:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PotentialcusteditPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_Constants__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__ = __webpack_require__(5);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-/**
- * Generated class for the PotentialcusteditPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var PotentialcusteditPage = (function () {
-    function PotentialcusteditPage(navCtrl, navParams, httpServer) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.httpServer = httpServer;
-        this.custName = '';
-        this.custPhoneNum = '';
-        this.companyName = '';
-        this.dutyCd = '';
-        this.navParams.get("detail");
-        this.isEdit = this.navParams.get('isEdit');
-    }
-    PotentialcusteditPage.prototype.ionViewDidLoad = function () {
-        this.msgDatasList = this.navParams.get("detail");
-        console.log(this.msgDatasList);
-    };
-    // 添加潜在客户
-    PotentialcusteditPage.prototype.addinfo = function () {
-        this.httpServer.postData({
-            url: __WEBPACK_IMPORTED_MODULE_2__providers_Constants__["a" /* Contents */].HTTP_LOCAL_ORIGIN,
-            body: {
-                "appId": "mcrm",
-                "reqParam": {
-                    "custName": this.custName,
-                    "mobile": this.custPhoneNum,
-                    "dutyCd": this.dutyCd,
-                    "companyName": this.companyName
-                },
-                "serviceId": "cust.mobile.potenCust.addPotenCustInfo"
-            }
-        })
-            .then(function (res) {
-            console.log(res);
-        }).catch(function (err) {
-            console.log(err);
-        });
-    };
-    //修改潜在客户信息
-    PotentialcusteditPage.prototype.back = function () {
-        console.log(this.msgDatasList);
-        this.httpServer.postData({
-            url: __WEBPACK_IMPORTED_MODULE_2__providers_Constants__["a" /* Contents */].HTTP_LOCAL_ORIGIN,
-            body: {
-                "appId": "mcrm",
-                "reqParam": {
-                    "changejson": "ceshi",
-                    "custId": "",
-                    "sex": "F"
-                },
-                "serviceId": "cust.mobile.potenCust.updata360CustPotenCustInfo"
-            }
-        })
-            .then(function (res) {
-            console.log(res);
-        }).catch(function (err) {
-            console.log(err);
-        });
-    };
-    PotentialcusteditPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-potentialcustedit',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\potentialcustedit\potentialcustedit.html"*/'<!--\n  Generated template for the PotentialcusteditPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title *ngIf="isEdit">编辑</ion-title>\n    <ion-title *ngIf="!isEdit">新增潜在客户</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n  <!--编辑页视图-->\n  <div *ngIf="isEdit">\n    <ion-list *ngFor="let list of msgDatasList" class="list">\n      <ion-item  class="list-item">\n        <ion-row>\n          <span col-2 class="item-title">名字</span>\n          <input class="iteminput" [ngModel]="list.custName" type="text"/>\n        </ion-row>\n      </ion-item>\n      <ion-item  class="list-item">\n        <ion-row>\n          <span col-2 class="item-title">性别</span>\n          <input class="iteminput" [ngModel]="list.sex==\'M\'?\'男\':\'女\'" type="text"/>\n        </ion-row>\n      </ion-item>\n      <ion-item  class="list-item">\n        <ion-row>\n          <span col-2 class="item-title">年龄</span>\n          <input class="iteminput" [ngModel]="list.age" type="text"/>\n        </ion-row>\n      </ion-item>\n      <ion-item  class="list-item">\n        <ion-row>\n          <span col-2 class="item-title">单位</span>\n          <input class="iteminput" [ngModel]="list.companyName==undefined?\'\':list.companyName" type="text"/>\n        </ion-row>\n      </ion-item>\n      <ion-item  class="list-item">\n        <ion-row>\n          <span col-2 class="item-title">职位</span>\n          <input class="iteminput" [ngModel]="list.dutyCd" type="text"/>\n        </ion-row>\n      </ion-item>\n      <ion-item  class="list-item">\n        <ion-row>\n          <span col-2 class="item-title">工号</span>\n          <input class="iteminput" [ngModel]="list.pkId" type="text"/>\n        </ion-row>\n      </ion-item>\n      <ion-item  class="list-item">\n        <ion-row>\n          <span col-2 class="item-title">电话</span>\n          <input class="iteminput" [ngModel]="list.mobileNo" type="text"/>\n        </ion-row>\n      </ion-item>\n    </ion-list>\n  </div>\n\n\n  <!--添加页视图-->\n  <div *ngIf="!isEdit">\n    <ion-list class="list">\n      <ion-item  class="list-item">\n        <ion-row>\n          <span col-2 class="item-title">名字</span>\n          <input class="iteminput" placeholder="请输入您的姓名" [ngModel]="custName" type="text"/>\n        </ion-row>\n      </ion-item>\n      <ion-item  class="list-item">\n        <ion-row>\n          <span col-2 class="item-title">电话</span>\n          <input class="iteminput" placeholder="请输入您的电话" [ngModel]="custPhoneNum" type="text"/>\n        </ion-row>\n      </ion-item>\n      <ion-item  class="list-item">\n        <ion-row>\n          <span col-2 class="item-title">单位</span>\n          <input class="iteminput" placeholder="请输入您的工作单位"  [ngModel]="companyName" type="text"/>\n        </ion-row>\n      </ion-item>\n      <ion-item  class="list-item">\n        <ion-row>\n          <span col-2 class="item-title">职务</span>\n          <input class="iteminput" placeholder="亲输入您的职务" [ngModel]="dutyCd" type="text"/>\n        </ion-row>\n      </ion-item>\n    </ion-list>\n  </div>\n\n  <div *ngIf="isEdit" class="submit">\n    <ion-row>\n      <button (click)="back()" col-12  ion-button>确定</button>\n    </ion-row>\n  </div>\n  <div *ngIf="!isEdit" class="submit">\n    <ion-row>\n      <button (click)="addinfo()" col-12  ion-button>提交</button>\n    </ion-row>\n  </div>\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\potentialcustedit\potentialcustedit.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__["a" /* HttpService */]])
-    ], PotentialcusteditPage);
-    return PotentialcusteditPage;
-}());
-
-//# sourceMappingURL=potentialcustedit.js.map
-
-/***/ }),
-
-/***/ 108:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CustomermanagerprodetailPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_HttpService__ = __webpack_require__(5);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-/**
- * Generated class for the CustomermanagerprodetailPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var CustomermanagerprodetailPage = (function () {
-    function CustomermanagerprodetailPage(navCtrl, navParams, httpService) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.httpService = httpService;
-        this.customId = navParams.get("customId");
-    }
-    CustomermanagerprodetailPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad CustomermanagerprodetailPage');
-        this.getDetail();
-    };
-    //查询主界面的接口
-    CustomermanagerprodetailPage.prototype.getDetail = function () {
-        var _this = this;
-        var url = "home_g/home_g.json";
-        // const url = "http://127.0.0.1:8000/mcrm/zwebmcrm/com.nbcb.pcrm.mcrm.mobile";
-        var data = {
-            "appId": "mcrm",
-            "reqParam": {
-                "customId": this.customId,
-            },
-            "serviceId": "auth.mcrmLogin"
-        };
-        this.httpService.getData({
-            url: url,
-            body: {}
-        }).then(function (res) {
-            _this.customerList = res;
-            console.log(_this.customerList);
-        });
-    };
-    CustomermanagerprodetailPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-customermanagerprodetail',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\customermanagerprodetail\customermanagerprodetail.html"*/'<!--\n  Generated template for the CustomermanagerprodetailPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header class="header">\n\n  <ion-navbar>\n    <ion-title>客户信息</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <div>\n    <div class="header_title">华林证券-桃林一号定向资产管理计划</div>\n\n    <div class="detail_content" style="margin-bottom: 3rem">\n      <div class="detail_item">\n        <div class="item_name flex_one">项目类型</div>\n        <div class="item_name flex_four" style="border-right: 0px;">卷商定向</div>\n      </div>\n\n      <div class="detail_item" style="border-top:0px;">\n        <div class="item_name flex_one">项目状态</div>\n        <div class="item_name flex_four" style="border-right: 0px;">已成立</div>\n      </div>\n\n      <div class="detail_item" style="border-top:0px;">\n        <div class="item_name flex_one">费用/费率</div>\n        <div class="item_name flex_four" style="border-right: 0px;">0.0000%</div>\n      </div>\n\n      <div class="detail_item" style="border-top:0px;">\n        <div class="item_name flex_one">主办行</div>\n        <div class="item_name flex_four" style="border-right: 0px;">XX银行</div>\n      </div>\n\n      <div class="detail_item" style="border-top:0px;">\n        <div class="item_name flex_one" style="border-right: 0px;">最初报价</div>\n        <div class="item_name flex_four" style="border-right: 0px;border-left: 1px #ddd solid">20000110.00元</div>\n      </div>\n\n      <div class="detail_item" style="border-top:0px;">\n        <div class="item_name flex_one">当初规模</div>\n        <div class="item_name flex_four" style="border-right: 0px;">200000000.00元</div>\n      </div>\n\n      <div class="detail_item" style="border-top:0px;">\n        <div class="item_name flex_one">立项日期</div>\n        <div class="item_name flex_four" style="border-right: 0px;">2015-05-22</div>\n      </div>\n    </div>\n\n\n    <div class="header_title">华林证券-桃林一号定向资产管理计划</div>\n\n    <div class="detail_content" style="margin-bottom: 3rem">\n      <div class="detail_item">\n        <div class="item_name flex_one">项目类型</div>\n        <div class="item_name flex_four" style="border-right: 0px;">卷商定向</div>\n      </div>\n\n      <div class="detail_item" style="border-top:0px;">\n        <div class="item_name flex_one">项目状态</div>\n        <div class="item_name flex_four" style="border-right: 0px;">已成立</div>\n      </div>\n\n      <div class="detail_item" style="border-top:0px;">\n        <div class="item_name flex_one">费用/费率</div>\n        <div class="item_name flex_four" style="border-right: 0px;">0.0000%</div>\n      </div>\n\n      <div class="detail_item" style="border-top:0px;">\n        <div class="item_name flex_one">主办行</div>\n        <div class="item_name flex_four" style="border-right: 0px;">XX银行</div>\n      </div>\n\n      <div class="detail_item" style="border-top:0px;">\n        <div class="item_name flex_one" style="border-right: 0px;">最初报价</div>\n        <div class="item_name flex_four" style="border-right: 0px;border-left: 1px #ddd solid">20000110.00元</div>\n      </div>\n\n      <div class="detail_item" style="border-top:0px;">\n        <div class="item_name flex_one">当初规模</div>\n        <div class="item_name flex_four" style="border-right: 0px;">200000000.00元</div>\n      </div>\n\n      <div class="detail_item" style="border-top:0px;">\n        <div class="item_name flex_one">立项日期</div>\n        <div class="item_name flex_four" style="border-right: 0px;">2015-05-22</div>\n      </div>\n    </div>\n\n\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\customermanagerprodetail\customermanagerprodetail.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_HttpService__["a" /* HttpService */]])
-    ], CustomermanagerprodetailPage);
-    return CustomermanagerprodetailPage;
-}());
-
-//# sourceMappingURL=customermanagerprodetail.js.map
-
-/***/ }),
-
-/***/ 109:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ApprovedpenddetailPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_HttpService__ = __webpack_require__(5);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-/**
- * Generated class for the ApprovedpenddetailPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var ApprovedpenddetailPage = (function () {
-    function ApprovedpenddetailPage(navCtrl, navParams, httpService) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.httpService = httpService;
-    }
-    ApprovedpenddetailPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ApprovedpenddetailPage');
-        this.getDetail();
-    };
-    //查询报告详情
-    ApprovedpenddetailPage.prototype.getDetail = function () {
-        var _this = this;
-        var url = "home_g/home_g.json";
-        // const url = "http://127.0.0.1:8000/mcrm/zwebmcrm/com.nbcb.pcrm.mcrm.mobile";
-        var data = {
-            "appId": "mcrm",
-            "reqParam": {
-                "reportId": this.reportId,
-                "userId": this.userId,
-                "approveMsg": "",
-                "status": "",
-                "approveDate": "",
-                "processinstId": "",
-                "workItemId": ""
-            },
-            "serviceId": "auth.mcrmLogin"
-        };
-        this.httpService.getData({
-            url: url,
-            body: {}
-        }).then(function (res) {
-            _this.dependdingDetail = res;
-            console.log(_this.dependdingDetail);
-        });
-    };
-    ApprovedpenddetailPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-approvedpenddetail',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\approvedpenddetail\approvedpenddetail.html"*/'<!--\n  Generated template for the ApprovedpenddetailPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header class="header">\n\n  <ion-navbar>\n    <ion-title>宁波天心企业咨询有限公司资产</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n  <div class="detail_content">\n    <div class="detail_item">\n      <span>用户名</span>\n      <span style="margin-left: 30px;">希维尔</span>\n    </div>\n    <div class="detail_item">\n      <span>用户名称</span>\n      <span style="margin-left: 30px;">上海希维尔</span>\n    </div>\n    <div class="detail_item">\n      <span>申请角色</span>\n      <span style="margin-left: 30px;">用户管理员</span>\n    </div>\n    <div class="detail_item">\n      <span>员工状态</span>\n      <span style="margin-left: 30px;">在线</span>\n    </div>\n    <div class="detail_item">\n      <span>申请类型</span>\n      <span style="margin-left: 30px;">宁波行方</span>\n    </div>\n    <div class="detail_item">\n      <span>申请类型</span>\n      <span style="margin-left: 30px;">宁波行方</span>\n    </div>\n    <div class="detail_item">\n      <span>所属机构</span>\n      <span style="margin-left: 30px;">宁波银行</span>\n    </div>\n    <div class="detail_item">\n      <span>申请人</span>\n      <span style="margin-left: 30px;">希维尔</span>\n    </div>\n    <div class="detail_item">\n      <span>申请日期</span>\n      <span style="margin-left: 30px;">2018-3-20</span>\n    </div>\n    <div class="detail_item">\n      <span>审批状态</span>\n      <span style="margin-left: 30px;">未审批</span>\n    </div>\n\n  </div>\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\approvedpenddetail\approvedpenddetail.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_HttpService__["a" /* HttpService */]])
-    ], ApprovedpenddetailPage);
-    return ApprovedpenddetailPage;
-}());
-
-//# sourceMappingURL=approvedpenddetail.js.map
-
-/***/ }),
-
-/***/ 110:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BusinessreportdetailPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_HttpService__ = __webpack_require__(5);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-/**
- * Generated class for the BusinessreportdetailPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var BusinessreportdetailPage = (function () {
-    function BusinessreportdetailPage(navCtrl, navParams, httpService) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.httpService = httpService;
-        //申明员工ID
-        this.empId = 1;
-        this.startTime = navParams.get("startTime");
-        this.endTime = navParams.get("endTime");
-        this.reprotArrListLastWeek = navParams.get("reprotArrListLastWeek");
-        console.log("这是传递过来的week:" + this.reprotArrListLastWeek);
-        console.log("开始时间" + this.startTime + " 结束时间：" + this.endTime);
-    }
-    BusinessreportdetailPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad BusinessreportdetailPage');
-        this.getDetail();
-    };
-    //查询主界面的接口
-    BusinessreportdetailPage.prototype.getDetail = function () {
-        var _this = this;
-        var url = "home_g/home_g.json";
-        // const url = "http://127.0.0.1:8000/mcrm/zwebmcrm/com.nbcb.pcrm.mcrm.mobile";
-        var data = {
-            "appId": "mcrm",
-            "reqParam": {
-                "userId": this.empId,
-                "startTime": this.startTime,
-                "endTime": this.endTime
-            },
-            "serviceId": "auth.mcrmLogin"
-        };
-        this.httpService.getData({
-            url: url,
-            body: {}
-        }).then(function (res) {
-            _this.pageDetail = res;
-            console.log(_this.pageDetail);
-        });
-    };
-    BusinessreportdetailPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-businessreportdetail',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\businessreportdetail\businessreportdetail.html"*/'<!--\n  Generated template for the BusinessreportdetailPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header  class="header">\n\n  <ion-navbar>\n    <ion-title>2017年第{{reprotArrListLastWeek}}周业务报告</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n  <div class="common_title">\n    <span class="nav_icon"></span>\n      本周全行规模\n  </div>\n  <div class="flex" style="padding: 2rem 0rem;">\n    <div class="flex_one common_nav_font">\n      项目总数<span class="common_num">5000</span>\n    </div>\n    <div class="flex_one common_nav_font">\n      较上周变化<span class="common_num">288<span class="top_icon">↑</span></span>\n    </div>\n  </div>\n\n  <div class="common_title">\n    <span class="nav_icon"></span>\n    本周分行规模\n  </div>\n  <div class="flex"  style="padding: 2rem 0rem;">\n    <div class="flex_one common_nav_font">\n      项目总数<span class="common_num">10000</span>\n    </div>\n    <div class="flex_one common_nav_font">\n      较上周变化<span class="common_num">68<span class="top_icon">↑</span></span>\n    </div>\n  </div>\n\n  <div class="common_title">\n    <span class="nav_icon"></span>\n    本周重客规模\n  </div>\n  <div class="flex"  style="padding: 2rem 0rem;">\n    <div class="flex_one common_nav_font">\n      项目总数<span class="common_num">600</span>\n    </div>\n    <div class="flex_one common_nav_font">\n      较上周变化<span class="common_num">38<span class="top_icon">↑</span></span>\n    </div>\n  </div>\n\n  <div class="common_title">\n    <span class="nav_icon" style="background: rgb(85, 221, 170)"></span>\n    本周分行业绩完成情况\n  </div>\n  <div style="width: 100%;height: 5rem">\n\n  </div>\n\n  <div class="common_title">\n    <span class="nav_icon" style="background: rgb(85, 221, 170)"></span>\n    本周所在团队业绩完成情况\n  </div>\n  <div style="width: 100%;height: 5rem">\n\n  </div>\n\n  <div class="common_title">\n    <span class="nav_icon" style="background: #0099ff"></span>\n    本周客户走访情况\n  </div>\n  <div style="width: 100%;height: 5rem">\n\n  </div>\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\businessreportdetail\businessreportdetail.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_HttpService__["a" /* HttpService */]])
-    ], BusinessreportdetailPage);
-    return BusinessreportdetailPage;
-}());
-
-//# sourceMappingURL=businessreportdetail.js.map
-
-/***/ }),
-
-/***/ 111:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -857,6 +488,7 @@ var VisitlistPage = (function () {
                         position: 'bottom' //位置
                     });
                     toast.present();
+                    break;
                 }
             }
             console.log('Async operation has ended');
@@ -880,7 +512,799 @@ var VisitlistPage = (function () {
 
 /***/ }),
 
-/***/ 124:
+/***/ 108:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ExaminerecordPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the ExaminerecordPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var ExaminerecordPage = (function () {
+    function ExaminerecordPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    ExaminerecordPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ExaminerecordPage');
+    };
+    ExaminerecordPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-examinerecord',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\examinerecord\examinerecord.html"*/'<!--\n  Generated template for the ExaminerecordPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>审批记录</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n  <div class="newrecord clearfix" style="background-color: #fff !important;">\n    <div class="market-list">\n      <span class="market-list-name">处理环节</span>\n      <span class="market-list-cont">一级支行管理部门经理审批</span>\n    </div>\n    <div class="market-list">\n      <span class="market-list-name">处理人</span>\n      <span class="market-list-cont">沈XX</span>\n    </div>\n    <div class="market-list">\n      <span class="market-list-name">操作时间</span>\n      <span class="market-list-cont">2018-3-3 12:00:00</span>\n    </div>\n    <div class="market-list">\n      <span class="market-list-name">处理结果</span>\n      <span class="market-list-cont">同意</span>\n    </div>\n    <div class="market-list">\n      <span class="market-list-name">处理意见</span>\n      <span class="market-list-cont">同意</span>\n    </div>\n  </div>\n\n  <div class="newrecord clearfix" style="background-color: #fff !important;">\n    <div class="market-list">\n      <span class="market-list-name">处理环节</span>\n      <span class="market-list-cont">一级支行管理部门经理审批</span>\n    </div>\n    <div class="market-list">\n      <span class="market-list-name">处理人</span>\n      <span class="market-list-cont">沈XX</span>\n    </div>\n    <div class="market-list">\n      <span class="market-list-name">操作时间</span>\n      <span class="market-list-cont">2018-3-3 12:00:00</span>\n    </div>\n    <div class="market-list">\n      <span class="market-list-name">处理结果</span>\n      <span class="market-list-cont">同意</span>\n    </div>\n    <div class="market-list">\n      <span class="market-list-name">处理意见</span>\n      <span class="market-list-cont">同意</span>\n    </div>\n  </div>\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\examinerecord\examinerecord.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+    ], ExaminerecordPage);
+    return ExaminerecordPage;
+}());
+
+//# sourceMappingURL=examinerecord.js.map
+
+/***/ }),
+
+/***/ 109:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PotentialcusteditPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_Constants__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__ = __webpack_require__(5);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+/**
+ * Generated class for the PotentialcusteditPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var PotentialcusteditPage = (function () {
+    function PotentialcusteditPage(navCtrl, navParams, httpServer) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.httpServer = httpServer;
+        this.custName = '';
+        this.custPhoneNum = '';
+        this.companyName = '';
+        this.dutyCd = '';
+        this.navParams.get("detail");
+        this.isEdit = this.navParams.get('isEdit');
+    }
+    PotentialcusteditPage.prototype.ionViewDidLoad = function () {
+        this.msgDatasList = this.navParams.get("detail");
+        console.log(this.msgDatasList);
+    };
+    // 添加潜在客户
+    PotentialcusteditPage.prototype.addinfo = function () {
+        this.httpServer.postData({
+            url: __WEBPACK_IMPORTED_MODULE_2__providers_Constants__["a" /* Contents */].HTTP_LOCAL_ORIGIN,
+            body: {
+                "appId": "mcrm",
+                "reqParam": {
+                    "custName": this.custName,
+                    "mobile": this.custPhoneNum,
+                    "dutyCd": this.dutyCd,
+                    "companyName": this.companyName
+                },
+                "serviceId": "cust.mobile.potenCust.addPotenCustInfo"
+            }
+        })
+            .then(function (res) {
+            console.log(res);
+        }).catch(function (err) {
+            console.log(err);
+        });
+    };
+    //修改潜在客户信息
+    PotentialcusteditPage.prototype.back = function () {
+        console.log(this.msgDatasList);
+        this.httpServer.postData({
+            url: __WEBPACK_IMPORTED_MODULE_2__providers_Constants__["a" /* Contents */].HTTP_LOCAL_ORIGIN,
+            body: {
+                "appId": "mcrm",
+                "reqParam": {
+                    "changejson": "ceshi",
+                    "custId": "",
+                    "sex": "F"
+                },
+                "serviceId": "cust.mobile.potenCust.updata360CustPotenCustInfo"
+            }
+        })
+            .then(function (res) {
+            console.log(res);
+        }).catch(function (err) {
+            console.log(err);
+        });
+    };
+    PotentialcusteditPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-potentialcustedit',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\potentialcustedit\potentialcustedit.html"*/'<!--\n  Generated template for the PotentialcusteditPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title *ngIf="isEdit">编辑</ion-title>\n    <ion-title *ngIf="!isEdit">新增潜在客户</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n  <!--编辑页视图-->\n  <div *ngIf="isEdit">\n    <ion-list *ngFor="let list of msgDatasList" class="list">\n      <ion-item  class="list-item">\n        <ion-row>\n          <span col-2 class="item-title">名字</span>\n          <input class="iteminput" [ngModel]="list.custName" type="text"/>\n        </ion-row>\n      </ion-item>\n      <ion-item  class="list-item">\n        <ion-row>\n          <span col-2 class="item-title">性别</span>\n          <input class="iteminput" [ngModel]="list.sex==\'M\'?\'男\':\'女\'" type="text"/>\n        </ion-row>\n      </ion-item>\n      <ion-item  class="list-item">\n        <ion-row>\n          <span col-2 class="item-title">年龄</span>\n          <input class="iteminput" [ngModel]="list.age" type="text"/>\n        </ion-row>\n      </ion-item>\n      <ion-item  class="list-item">\n        <ion-row>\n          <span col-2 class="item-title">单位</span>\n          <input class="iteminput" [ngModel]="list.companyName==undefined?\'\':list.companyName" type="text"/>\n        </ion-row>\n      </ion-item>\n      <ion-item  class="list-item">\n        <ion-row>\n          <span col-2 class="item-title">职位</span>\n          <input class="iteminput" [ngModel]="list.dutyCd" type="text"/>\n        </ion-row>\n      </ion-item>\n      <ion-item  class="list-item">\n        <ion-row>\n          <span col-2 class="item-title">工号</span>\n          <input class="iteminput" [ngModel]="list.pkId" type="text"/>\n        </ion-row>\n      </ion-item>\n      <ion-item  class="list-item">\n        <ion-row>\n          <span col-2 class="item-title">电话</span>\n          <input class="iteminput" [ngModel]="list.mobileNo" type="text"/>\n        </ion-row>\n      </ion-item>\n    </ion-list>\n  </div>\n\n\n  <!--添加页视图-->\n  <div *ngIf="!isEdit">\n    <ion-list class="list">\n      <ion-item  class="list-item">\n        <ion-row>\n          <span col-2 class="item-title">名字</span>\n          <input class="iteminput" placeholder="请输入您的姓名" [ngModel]="custName" type="text"/>\n        </ion-row>\n      </ion-item>\n      <ion-item  class="list-item">\n        <ion-row>\n          <span col-2 class="item-title">电话</span>\n          <input class="iteminput" placeholder="请输入您的电话" [ngModel]="custPhoneNum" type="text"/>\n        </ion-row>\n      </ion-item>\n      <ion-item  class="list-item">\n        <ion-row>\n          <span col-2 class="item-title">单位</span>\n          <input class="iteminput" placeholder="请输入您的工作单位"  [ngModel]="companyName" type="text"/>\n        </ion-row>\n      </ion-item>\n      <ion-item  class="list-item">\n        <ion-row>\n          <span col-2 class="item-title">职务</span>\n          <input class="iteminput" placeholder="亲输入您的职务" [ngModel]="dutyCd" type="text"/>\n        </ion-row>\n      </ion-item>\n    </ion-list>\n  </div>\n\n  <div *ngIf="isEdit" class="submit">\n    <ion-row>\n      <button (click)="back()" col-12  ion-button>确定</button>\n    </ion-row>\n  </div>\n  <div *ngIf="!isEdit" class="submit">\n    <ion-row>\n      <button (click)="addinfo()" col-12  ion-button>提交</button>\n    </ion-row>\n  </div>\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\potentialcustedit\potentialcustedit.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__["a" /* HttpService */]])
+    ], PotentialcusteditPage);
+    return PotentialcusteditPage;
+}());
+
+//# sourceMappingURL=potentialcustedit.js.map
+
+/***/ }),
+
+/***/ 110:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CustomerPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__customerdetail_customerdetail__ = __webpack_require__(237);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__ = __webpack_require__(5);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+/**
+ * Generated class for the MarketingPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var CustomerPage = (function () {
+    function CustomerPage(navCtrl, navParams, modalCtrl, httpService) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.modalCtrl = modalCtrl;
+        this.httpService = httpService;
+        this.search = {};
+        this.searchLists = [];
+    }
+    CustomerPage.prototype.goCustomer = function (cust) {
+        console.log('去客户详情');
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__customerdetail_customerdetail__["a" /* CustomerDetailPage */], { "customer": this.search.customer }, { animate: true });
+    };
+    CustomerPage.prototype.goSearch = function () {
+        var _this = this;
+        var url = "search/customer.json";
+        var param = {
+            "customName": this.search.customer,
+            "pageNo": "1",
+            "dataCount": "10",
+            "fisrPageNo": "10",
+            "vague": true
+        };
+        this.httpService.getData({
+            url: url,
+            body: param
+        })
+            .then(function (res) {
+            console.log(res);
+            _this.searchLists = res.customs;
+        });
+    };
+    CustomerPage.prototype.presentModal = function () {
+        console.log('分享');
+    };
+    CustomerPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-customerpage',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\customer\customer.html"*/'\n<ion-header class="header">\n\n  <ion-navbar>\n    <ion-title>用户信息</ion-title>\n    <!--<div class="edit right" (click)="goEditOther(otherDetails)">编辑</div>-->\n    <div class="edit right" (click)="presentModal()">分享</div>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding class="cont_bg_color">\n  <div class="customer_search">\n   	<div class="serach_top">\n   		<div class="serach_title">客户名称</div>\n   		<div class="serach_cont">\n   			<ion-icon name="search" class="search_icon" (keyup)="goSearch()"></ion-icon>\n   			<input type="text" class="serach_inp" placeholder="客户名称"  [(ngModel)]="search.customer" (keyup)="goSearch()"/>\n   		</div>\n   	</div>\n   	<div class="serach_lists">\n   		<div class="lists_cont">\n   			<div class="list_item" (click)="goCustomer(cust)" *ngFor="let item of searchLists">{{item.customName}}</div>\n   		</div>\n   	</div>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\customer\customer.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__["a" /* HttpService */]])
+    ], CustomerPage);
+    return CustomerPage;
+}());
+
+//# sourceMappingURL=customer.js.map
+
+/***/ }),
+
+/***/ 111:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CustomermanagerprodetailPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_HttpService__ = __webpack_require__(5);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the CustomermanagerprodetailPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var CustomermanagerprodetailPage = (function () {
+    function CustomermanagerprodetailPage(navCtrl, navParams, httpService) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.httpService = httpService;
+        this.customId = navParams.get("customId");
+    }
+    CustomermanagerprodetailPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad CustomermanagerprodetailPage');
+        this.getDetail();
+    };
+    //查询主界面的接口
+    CustomermanagerprodetailPage.prototype.getDetail = function () {
+        var _this = this;
+        var url = "home_g/home_g.json";
+        // const url = "http://127.0.0.1:8000/mcrm/zwebmcrm/com.nbcb.pcrm.mcrm.mobile";
+        var data = {
+            "appId": "mcrm",
+            "reqParam": {
+                "customId": this.customId,
+            },
+            "serviceId": "auth.mcrmLogin"
+        };
+        this.httpService.getData({
+            url: url,
+            body: {}
+        }).then(function (res) {
+            _this.customerList = res;
+            console.log(_this.customerList);
+        });
+    };
+    CustomermanagerprodetailPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-customermanagerprodetail',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\customermanagerprodetail\customermanagerprodetail.html"*/'<!--\n  Generated template for the CustomermanagerprodetailPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header class="header">\n\n  <ion-navbar>\n    <ion-title>客户信息</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <div>\n    <div class="header_title">华林证券-桃林一号定向资产管理计划</div>\n\n    <div class="detail_content" style="margin-bottom: 3rem">\n      <div class="detail_item">\n        <div class="item_name flex_one">项目类型</div>\n        <div class="item_name flex_four" style="border-right: 0px;">卷商定向</div>\n      </div>\n\n      <div class="detail_item" style="border-top:0px;">\n        <div class="item_name flex_one">项目状态</div>\n        <div class="item_name flex_four" style="border-right: 0px;">已成立</div>\n      </div>\n\n      <div class="detail_item" style="border-top:0px;">\n        <div class="item_name flex_one">费用/费率</div>\n        <div class="item_name flex_four" style="border-right: 0px;">0.0000%</div>\n      </div>\n\n      <div class="detail_item" style="border-top:0px;">\n        <div class="item_name flex_one">主办行</div>\n        <div class="item_name flex_four" style="border-right: 0px;">XX银行</div>\n      </div>\n\n      <div class="detail_item" style="border-top:0px;">\n        <div class="item_name flex_one" style="border-right: 0px;">最初报价</div>\n        <div class="item_name flex_four" style="border-right: 0px;border-left: 1px #ddd solid">20000110.00元</div>\n      </div>\n\n      <div class="detail_item" style="border-top:0px;">\n        <div class="item_name flex_one">当初规模</div>\n        <div class="item_name flex_four" style="border-right: 0px;">200000000.00元</div>\n      </div>\n\n      <div class="detail_item" style="border-top:0px;">\n        <div class="item_name flex_one">立项日期</div>\n        <div class="item_name flex_four" style="border-right: 0px;">2015-05-22</div>\n      </div>\n    </div>\n\n\n    <div class="header_title">华林证券-桃林一号定向资产管理计划</div>\n\n    <div class="detail_content" style="margin-bottom: 3rem">\n      <div class="detail_item">\n        <div class="item_name flex_one">项目类型</div>\n        <div class="item_name flex_four" style="border-right: 0px;">卷商定向</div>\n      </div>\n\n      <div class="detail_item" style="border-top:0px;">\n        <div class="item_name flex_one">项目状态</div>\n        <div class="item_name flex_four" style="border-right: 0px;">已成立</div>\n      </div>\n\n      <div class="detail_item" style="border-top:0px;">\n        <div class="item_name flex_one">费用/费率</div>\n        <div class="item_name flex_four" style="border-right: 0px;">0.0000%</div>\n      </div>\n\n      <div class="detail_item" style="border-top:0px;">\n        <div class="item_name flex_one">主办行</div>\n        <div class="item_name flex_four" style="border-right: 0px;">XX银行</div>\n      </div>\n\n      <div class="detail_item" style="border-top:0px;">\n        <div class="item_name flex_one" style="border-right: 0px;">最初报价</div>\n        <div class="item_name flex_four" style="border-right: 0px;border-left: 1px #ddd solid">20000110.00元</div>\n      </div>\n\n      <div class="detail_item" style="border-top:0px;">\n        <div class="item_name flex_one">当初规模</div>\n        <div class="item_name flex_four" style="border-right: 0px;">200000000.00元</div>\n      </div>\n\n      <div class="detail_item" style="border-top:0px;">\n        <div class="item_name flex_one">立项日期</div>\n        <div class="item_name flex_four" style="border-right: 0px;">2015-05-22</div>\n      </div>\n    </div>\n\n\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\customermanagerprodetail\customermanagerprodetail.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_HttpService__["a" /* HttpService */]])
+    ], CustomermanagerprodetailPage);
+    return CustomermanagerprodetailPage;
+}());
+
+//# sourceMappingURL=customermanagerprodetail.js.map
+
+/***/ }),
+
+/***/ 112:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProjectPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__projectDetail_projectDetail__ = __webpack_require__(238);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__ = __webpack_require__(5);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+// import { Cookie } from 'ng2-cookies/ng2-cookies';
+/**
+ * Generated class for the MarketingPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var ProjectPage = (function () {
+    function ProjectPage(navCtrl, navParams, modalCtrl, httpService) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.modalCtrl = modalCtrl;
+        this.httpService = httpService;
+        this.search = {};
+        this.projectLists = [];
+        this.userName = sessionStorage.getItem('userName');
+    }
+    ProjectPage.prototype.goCustomer = function (instId) {
+        console.log(instId);
+        console.log('去客户详情');
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__projectDetail_projectDetail__["a" /* ProjectDetailPage */], { "instId": instId }, { animate: true });
+    };
+    ProjectPage.prototype.goSearch = function () {
+        var _this = this;
+        console.log('搜索');
+        var url = "search/project.json";
+        var param = {
+            "customName": this.search.project,
+            "userId": this.userName,
+            "pageNo": "1",
+            "dataCount": "10",
+            "firstPageNo": "10"
+        };
+        this.httpService.getData({
+            url: url,
+            body: param
+        })
+            .then(function (res) {
+            console.log(res);
+            _this.projectLists = res.projects;
+        });
+    };
+    ProjectPage.prototype.presentModal = function () {
+        console.log("分享");
+    };
+    ProjectPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-projectpage',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\project\project.html"*/'\n<ion-header class="header">\n\n  <ion-navbar>\n    <ion-title>项目信息</ion-title>\n    <!--<div class="edit right" (click)="goEditOther(otherDetails)">编辑</div>-->\n    <div class="edit right" (click)="presentModal()">分享</div>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding class="cont_bg_color">\n  <div class="customer_search">\n   	<div class="serach_top">\n   		<div class="serach_title">项目名称</div>\n   		<div class="serach_cont">\n   			<ion-icon name="search" class="search_icon" (click)="goSearch()"></ion-icon>\n   			<input type="text" class="serach_inp" placeholder="客户名称"  [(ngModel)]="search.project" (keyup)="goSearch()"/>\n   			\n   		</div>\n   	</div>\n   	<div class="serach_lists">\n   		<div class="lists_cont">\n   			<div class="list_item" (click)="goCustomer(item.instId)" *ngFor="let item of projectLists">{{item.name}}</div>\n   		</div>\n   	</div>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\project\project.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__["a" /* HttpService */]])
+    ], ProjectPage);
+    return ProjectPage;
+}());
+
+//# sourceMappingURL=project.js.map
+
+/***/ }),
+
+/***/ 113:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RatePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__rateDetail_rateDetail__ = __webpack_require__(239);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__ = __webpack_require__(5);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+/**
+ * Generated class for the MarketingPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var RatePage = (function () {
+    function RatePage(navCtrl, navParams, modalCtrl, httpService) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.modalCtrl = modalCtrl;
+        this.httpService = httpService;
+        this.rates = {};
+        this.isSearch = 'none';
+        this.reports = {};
+    }
+    RatePage.prototype.goSearch = function () {
+        var _this = this;
+        var url = "search/customer.json";
+        // const param={
+        //   "customName":this.reports.customer,
+        //   "pageNo":"1",
+        //   "dataCount":"10",
+        //   "fisrPageNo":"10",
+        //   "vague":true
+        // }
+        this.httpService.getData({
+            url: url
+            // body: param
+        })
+            .then(function (res) {
+            console.log(res);
+            _this.searchLists = res.customs;
+            if (_this.searchLists.length == 0) {
+                _this.isSearch = 'none';
+            }
+            else {
+                _this.isSearch = 'block';
+            }
+        });
+    };
+    RatePage.prototype.goCustomer = function (cust) {
+        this.reports.customer = cust.customName;
+        this.isSearch = 'none';
+    };
+    RatePage.prototype.goRateDetail = function () {
+        var _this = this;
+        console.log('去客户详情');
+        var url = "search/rate.json";
+        var param = {
+            "name": this.rates.name,
+            "beginDate": this.rates.start,
+            "endDate": this.rates.end,
+            "pageNo": "1",
+            "dataCount": "10",
+            "firstPageNo": "10"
+        };
+        this.httpService.getData({
+            url: url,
+            body: param
+        })
+            .then(function (res) {
+            console.log(res);
+            _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__rateDetail_rateDetail__["a" /* RateDetailPage */], { "ratesDetails": res }, { animate: true });
+        });
+    };
+    RatePage.prototype.presentModal = function () {
+        console.log("分享");
+    };
+    RatePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-ratepage',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\rate\rate.html"*/'\n<ion-header class="header">\n\n  <ion-navbar>\n    <ion-title>指令进度</ion-title>\n    <!--<div class="edit right" (click)="goEditOther(otherDetails)">编辑</div>-->\n    <div class="edit right" (click)="presentModal()">分享</div>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding class="cont_bg_color">\n   <!--<div class="rate">\n			<ion-list>\n			  <ion-item>\n				  <ion-label fixed>项目名称:</ion-label>\n				  <ion-input type="text" placeholder="项目名称"></ion-input>\n				</ion-item>\n				<ion-item>\n				  <ion-label>开始日期:</ion-label>\n				  <ion-datetime displayFormat="YYYY/MM/DD" placeholder="开始时间" cancelText="取消" doneText="完成" [(ngModel)]="start" ></ion-datetime>\n				</ion-item>\n				<ion-item>\n				  <ion-label>结束日期:</ion-label>\n				  <ion-datetime displayFormat="YYYY/MM/DD" placeholder="结束时间" cancelText="取消" doneText="完成" [(ngModel)]="end" ></ion-datetime>\n				</ion-item>\n				<div class="search_btn">\n					<button ion-button (click)="goRateDetail(rate)">查询</button>\n				</div>\n			</ion-list>\n   </div>-->\n\n   <div class="rate">\n			<ion-list>\n			  <ion-item>\n				  <ion-label fixed>项目名称:</ion-label>\n				  <ion-input type="text" [(ngModel)]="rates.name" placeholder="项目名称" (keyup)="goSearch()"></ion-input>\n				</ion-item>\n\n        <div class="serach_lists" [ngStyle]="{\'display\':isSearch}">\n          <div class="lists_cont">\n            <div class="list_item" (click)="goCustomer(item)" *ngFor="let item of searchLists">{{item.customName}}</div>\n          </div>\n        </div>\n\n				<ion-item>\n				  <ion-label>开始日期:</ion-label>\n				  <ion-datetime displayFormat="YYYY/MM/DD" placeholder="开始时间" cancelText="取消" doneText="完成" [(ngModel)]="rates.start" ></ion-datetime>\n				</ion-item>\n				<ion-item>\n				  <ion-label>结束日期:</ion-label>\n				  <ion-datetime displayFormat="YYYY/MM/DD" placeholder="结束时间" cancelText="取消" doneText="完成" [(ngModel)]="rates.end" ></ion-datetime>\n				</ion-item>\n				<div class="search_btn">\n					<button ion-button (click)="goRateDetail()">查询</button>\n				</div>\n			</ion-list>\n   </div>\n\n		<!--<button (click)="goRateDetail(rate)">进度详情</button>-->\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\rate\rate.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__["a" /* HttpService */]])
+    ], RatePage);
+    return RatePage;
+}());
+
+//# sourceMappingURL=rate.js.map
+
+/***/ }),
+
+/***/ 114:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AccountSearchPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__accountDetail_accountDetail__ = __webpack_require__(240);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__ = __webpack_require__(5);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+/**
+ * Generated class for the MarketingPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var AccountSearchPage = (function () {
+    function AccountSearchPage(navCtrl, navParams, modalCtrl, httpService) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.modalCtrl = modalCtrl;
+        this.httpService = httpService;
+        this.accounts = {};
+    }
+    AccountSearchPage.prototype.goRateDetail = function (search) {
+        var _this = this;
+        console.log('去客户详情');
+        var url = "search/accountSearch.json";
+        var param = {
+            "name": this.accounts.name,
+            "AccountId": this.accounts.AccountId,
+            "beginDate": this.accounts.start,
+            "endDate": this.accounts.end,
+            "pageNo": "1",
+            "dataCount": "10",
+            "firstPageNo": "10"
+        };
+        this.httpService.getData({
+            url: url,
+            body: param
+        })
+            .then(function (res) {
+            console.log(res);
+            _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__accountDetail_accountDetail__["a" /* AccountDetailPage */], { "accountDetails": res }, { animate: true });
+        });
+    };
+    AccountSearchPage.prototype.presentModal = function () {
+        console.log("分享");
+    };
+    AccountSearchPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-accountSearchpage',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\accountSearch\accountSearch.html"*/'\n<ion-header class="header">\n\n  <ion-navbar>\n    <ion-title>资金进出</ion-title>\n    <!--<div class="edit right" (click)="goEditOther(otherDetails)">编辑</div>-->\n    <div class="edit right" (click)="presentModal()">分享</div>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding class="cont_bg_color">\n   <div class="rate">\n			<ion-list>\n			  <ion-item>\n				  <ion-label fixed>项目名称:</ion-label>\n				  <ion-input type="text" placeholder="项目名称" [(ngModel)]="accounts.name"></ion-input>\n				</ion-item>\n				<ion-item>\n				  <ion-label fixed>账户信息:</ion-label>\n				  <ion-input type="text" placeholder="账户信息" [(ngModel)]="accounts.AccountId"></ion-input>\n				</ion-item>\n				<ion-item>\n				  <ion-label>开始日期:</ion-label>\n				  <ion-datetime displayFormat="YYYY/MM/DD" placeholder="开始时间" cancelText="取消" doneText="完成" [(ngModel)]="accounts.start" ></ion-datetime>\n				</ion-item>\n				<ion-item>\n				  <ion-label>结束日期:</ion-label>\n				  <ion-datetime displayFormat="YYYY/MM/DD" placeholder="结束时间" cancelText="取消" doneText="完成" [(ngModel)]="accounts.end" ></ion-datetime>\n				</ion-item>\n				<div class="search_btn">\n					<button ion-button (click)="goRateDetail(search)">查询</button>\n				</div>\n			</ion-list>\n   	\n   	\n   </div>\n		<!--<button (click)="goRateDetail(rate)">进度详情</button>-->\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\accountSearch\accountSearch.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__["a" /* HttpService */]])
+    ], AccountSearchPage);
+    return AccountSearchPage;
+}());
+
+//# sourceMappingURL=accountSearch.js.map
+
+/***/ }),
+
+/***/ 115:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BalancePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__balanceDetail_balanceDetail__ = __webpack_require__(241);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__ = __webpack_require__(5);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+/**
+ * Generated class for the MarketingPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var BalancePage = (function () {
+    function BalancePage(navCtrl, navParams, modalCtrl, httpService) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.modalCtrl = modalCtrl;
+        this.httpService = httpService;
+        this.balance = {};
+    }
+    BalancePage.prototype.goRateDetail = function (search) {
+        var _this = this;
+        console.log('去客户详情');
+        var url = "search/balance.json";
+        var param = {
+            "name": this.balance.name,
+            "AccountId": this.balance.AccountId,
+            "beginDate": this.balance.start,
+            "endDate": this.balance.end,
+            "pageNo": "1",
+            "dataCount": "1",
+            "firstPageNo": "1"
+        };
+        this.httpService.getData({
+            url: url,
+            body: param
+        })
+            .then(function (res) {
+            console.log(res);
+            _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__balanceDetail_balanceDetail__["a" /* BalanceDetailPage */], { "balanceDetails": res }, { animate: true });
+        });
+    };
+    BalancePage.prototype.presentModal = function () {
+        console.log("分享");
+    };
+    BalancePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-balancepage',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\balance\balance.html"*/'\n<ion-header class="header">\n\n  <ion-navbar>\n    <ion-title>余额查询</ion-title>\n    <!--<div class="edit right" (click)="goEditOther(otherDetails)">编辑</div>-->\n    <div class="edit right" (click)="presentModal()">分享</div>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding class="cont_bg_color">\n   <div class="rate">\n			<ion-list>\n			  <ion-item>\n				  <ion-label fixed>项目名称:</ion-label>\n				  <ion-input type="text" placeholder="项目名称" [(ngModel)]="balance.name"></ion-input>\n				</ion-item>\n				<ion-item>\n				  <ion-label fixed>账户信息:</ion-label>\n				  <ion-input type="text" placeholder="账户信息" [(ngModel)]="balance.AccountId"></ion-input>\n				</ion-item>\n				<ion-item>\n				  <ion-label>开始日期:</ion-label>\n				  <ion-datetime displayFormat="YYYY/MM/DD" placeholder="开始时间" cancelText="取消" doneText="完成" [(ngModel)]="balance.start" ></ion-datetime>\n				</ion-item>\n				<ion-item>\n				  <ion-label>结束日期:</ion-label>\n				  <ion-datetime displayFormat="YYYY/MM/DD" placeholder="结束时间" cancelText="取消" doneText="完成" [(ngModel)]="balance.end" ></ion-datetime>\n				</ion-item>\n				<div class="search_btn">\n					<button ion-button (click)="goRateDetail(search)">查询</button>\n				</div>\n			</ion-list>\n   	\n   	\n   </div>\n		<!--<button (click)="goRateDetail(rate)">进度详情</button>-->\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\balance\balance.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__["a" /* HttpService */]])
+    ], BalancePage);
+    return BalancePage;
+}());
+
+//# sourceMappingURL=balance.js.map
+
+/***/ }),
+
+/***/ 116:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ApprovedpenddetailPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_HttpService__ = __webpack_require__(5);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the ApprovedpenddetailPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var ApprovedpenddetailPage = (function () {
+    function ApprovedpenddetailPage(navCtrl, navParams, httpService) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.httpService = httpService;
+    }
+    ApprovedpenddetailPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ApprovedpenddetailPage');
+        this.getDetail();
+    };
+    //查询报告详情
+    ApprovedpenddetailPage.prototype.getDetail = function () {
+        var _this = this;
+        var url = "home_g/home_g.json";
+        // const url = "http://127.0.0.1:8000/mcrm/zwebmcrm/com.nbcb.pcrm.mcrm.mobile";
+        var data = {
+            "appId": "mcrm",
+            "reqParam": {
+                "reportId": this.reportId,
+                "userId": this.userId,
+                "approveMsg": "",
+                "status": "",
+                "approveDate": "",
+                "processinstId": "",
+                "workItemId": ""
+            },
+            "serviceId": "auth.mcrmLogin"
+        };
+        this.httpService.getData({
+            url: url,
+            body: {}
+        }).then(function (res) {
+            _this.dependdingDetail = res;
+            console.log(_this.dependdingDetail);
+        });
+    };
+    ApprovedpenddetailPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-approvedpenddetail',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\approvedpenddetail\approvedpenddetail.html"*/'<!--\n  Generated template for the ApprovedpenddetailPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header class="header">\n\n  <ion-navbar>\n    <ion-title>宁波天心企业咨询有限公司资产</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n  <div class="detail_content">\n    <div class="detail_item">\n      <span>用户名</span>\n      <span style="margin-left: 30px;">希维尔</span>\n    </div>\n    <div class="detail_item">\n      <span>用户名称</span>\n      <span style="margin-left: 30px;">上海希维尔</span>\n    </div>\n    <div class="detail_item">\n      <span>申请角色</span>\n      <span style="margin-left: 30px;">用户管理员</span>\n    </div>\n    <div class="detail_item">\n      <span>员工状态</span>\n      <span style="margin-left: 30px;">在线</span>\n    </div>\n    <div class="detail_item">\n      <span>申请类型</span>\n      <span style="margin-left: 30px;">宁波行方</span>\n    </div>\n    <div class="detail_item">\n      <span>申请类型</span>\n      <span style="margin-left: 30px;">宁波行方</span>\n    </div>\n    <div class="detail_item">\n      <span>所属机构</span>\n      <span style="margin-left: 30px;">宁波银行</span>\n    </div>\n    <div class="detail_item">\n      <span>申请人</span>\n      <span style="margin-left: 30px;">希维尔</span>\n    </div>\n    <div class="detail_item">\n      <span>申请日期</span>\n      <span style="margin-left: 30px;">2018-3-20</span>\n    </div>\n    <div class="detail_item">\n      <span>审批状态</span>\n      <span style="margin-left: 30px;">未审批</span>\n    </div>\n\n  </div>\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\approvedpenddetail\approvedpenddetail.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_HttpService__["a" /* HttpService */]])
+    ], ApprovedpenddetailPage);
+    return ApprovedpenddetailPage;
+}());
+
+//# sourceMappingURL=approvedpenddetail.js.map
+
+/***/ }),
+
+/***/ 117:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BusinessreportdetailPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_HttpService__ = __webpack_require__(5);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the BusinessreportdetailPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var BusinessreportdetailPage = (function () {
+    function BusinessreportdetailPage(navCtrl, navParams, httpService) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.httpService = httpService;
+        //申明员工ID
+        this.empId = 1;
+        this.startTime = navParams.get("startTime");
+        this.endTime = navParams.get("endTime");
+        this.reprotArrListLastWeek = navParams.get("reprotArrListLastWeek");
+        console.log("这是传递过来的week:" + this.reprotArrListLastWeek);
+        console.log("开始时间" + this.startTime + " 结束时间：" + this.endTime);
+    }
+    BusinessreportdetailPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad BusinessreportdetailPage');
+        this.getDetail();
+    };
+    //查询主界面的接口
+    BusinessreportdetailPage.prototype.getDetail = function () {
+        var _this = this;
+        var url = "home_g/home_g.json";
+        // const url = "http://127.0.0.1:8000/mcrm/zwebmcrm/com.nbcb.pcrm.mcrm.mobile";
+        var data = {
+            "appId": "mcrm",
+            "reqParam": {
+                "userId": this.empId,
+                "startTime": this.startTime,
+                "endTime": this.endTime
+            },
+            "serviceId": "auth.mcrmLogin"
+        };
+        this.httpService.getData({
+            url: url,
+            body: {}
+        }).then(function (res) {
+            _this.pageDetail = res;
+            console.log(_this.pageDetail);
+        });
+    };
+    BusinessreportdetailPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-businessreportdetail',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\businessreportdetail\businessreportdetail.html"*/'<!--\n  Generated template for the BusinessreportdetailPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header  class="header">\n\n  <ion-navbar>\n    <ion-title>2017年第{{reprotArrListLastWeek}}周业务报告</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n  <div class="common_title">\n    <span class="nav_icon"></span>\n      本周全行规模\n  </div>\n  <div class="flex" style="padding: 2rem 0rem;">\n    <div class="flex_one common_nav_font">\n      项目总数<span class="common_num">5000</span>\n    </div>\n    <div class="flex_one common_nav_font">\n      较上周变化<span class="common_num">288<span class="top_icon">↑</span></span>\n    </div>\n  </div>\n\n  <div class="common_title">\n    <span class="nav_icon"></span>\n    本周分行规模\n  </div>\n  <div class="flex"  style="padding: 2rem 0rem;">\n    <div class="flex_one common_nav_font">\n      项目总数<span class="common_num">10000</span>\n    </div>\n    <div class="flex_one common_nav_font">\n      较上周变化<span class="common_num">68<span class="top_icon">↑</span></span>\n    </div>\n  </div>\n\n  <div class="common_title">\n    <span class="nav_icon"></span>\n    本周重客规模\n  </div>\n  <div class="flex"  style="padding: 2rem 0rem;">\n    <div class="flex_one common_nav_font">\n      项目总数<span class="common_num">600</span>\n    </div>\n    <div class="flex_one common_nav_font">\n      较上周变化<span class="common_num">38<span class="top_icon">↑</span></span>\n    </div>\n  </div>\n\n  <div class="common_title">\n    <span class="nav_icon" style="background: rgb(85, 221, 170)"></span>\n    本周分行业绩完成情况\n  </div>\n  <div style="width: 100%;height: 5rem">\n\n  </div>\n\n  <div class="common_title">\n    <span class="nav_icon" style="background: rgb(85, 221, 170)"></span>\n    本周所在团队业绩完成情况\n  </div>\n  <div style="width: 100%;height: 5rem">\n\n  </div>\n\n  <div class="common_title">\n    <span class="nav_icon" style="background: #0099ff"></span>\n    本周客户走访情况\n  </div>\n  <div style="width: 100%;height: 5rem">\n\n  </div>\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\businessreportdetail\businessreportdetail.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_HttpService__["a" /* HttpService */]])
+    ], BusinessreportdetailPage);
+    return BusinessreportdetailPage;
+}());
+
+//# sourceMappingURL=businessreportdetail.js.map
+
+/***/ }),
+
+/***/ 130:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -893,11 +1317,11 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 124;
+webpackEmptyAsyncContext.id = 130;
 
 /***/ }),
 
-/***/ 166:
+/***/ 172:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -910,11 +1334,11 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 166;
+webpackEmptyAsyncContext.id = 172;
 
 /***/ }),
 
-/***/ 210:
+/***/ 215:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -956,17 +1380,17 @@ var KnowledgePage = (function () {
 
 /***/ }),
 
-/***/ 211:
+/***/ 216:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__about_about__ = __webpack_require__(212);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__workbench_workbench__ = __webpack_require__(218);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(241);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__mine_mine__ = __webpack_require__(246);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__customermanager_customermanager__ = __webpack_require__(247);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__about_about__ = __webpack_require__(217);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__workbench_workbench__ = __webpack_require__(224);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(242);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__mine_mine__ = __webpack_require__(247);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__customermanager_customermanager__ = __webpack_require__(248);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -977,7 +1401,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-//
 
 
 
@@ -1020,7 +1443,7 @@ var TabsPage = (function () {
 
 /***/ }),
 
-/***/ 212:
+/***/ 217:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1028,10 +1451,11 @@ var TabsPage = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_HttpService__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__otherdetailpage_otherdetailpage__ = __webpack_require__(214);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__addotherpage_addotherpage__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__addplanpage_addplanpage__ = __webpack_require__(215);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__otherdetailpage_otherdetailpage__ = __webpack_require__(219);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__addotherpage_addotherpage__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__addplanpage_addplanpage__ = __webpack_require__(220);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__addreport_addreport__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__visidetail_visidetail__ = __webpack_require__(223);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1041,6 +1465,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -1103,9 +1528,14 @@ var AboutPage = (function () {
         //hou 日历
         this.title = {};
         this.isTodayFlag = true;
+        this.ordinaryActivityList = [];
         this.hasEvent = '';
         //点击某一天请求事件
         this.onDayEvent = function (event) {
+            if (_this.workList.length != 0) {
+                _this.workList = [];
+                _this.hasEvent = 'false';
+            }
             console.log(event);
             console.log(event.date);
             _this.day = _this.tranformDate(event.date);
@@ -1114,7 +1544,7 @@ var AboutPage = (function () {
             _this.date = fullDate.cMonth + '月' + fullDate.cDay + '日'; //cYear
             // this.date2 = fullDate.cYear + '/' + fullDate.cMonth + '/' + fullDate.cDay;//cYear
             var hasEvent = event.hasEvent;
-            if (hasEvent) {
+            if (!hasEvent) {
                 _this.hasEvent = 'true';
                 var par = {
                     "userId": _this.userId,
@@ -1128,14 +1558,24 @@ var AboutPage = (function () {
                 _this.httpService.postData({
                     url: url,
                     body: par
-                })
-                    .then(function (res) {
+                }).then(function (res) {
                     console.log(res);
-                    if (res.status != 0) {
-                        return;
+                    for (var i = 0, len = res.visitPlans.length; i < len; i++) {
+                        if (res.visitPlans[i].planDate.replace(/-/g, '/') == event.date) {
+                            console.log("666");
+                            _this.ordinaryActivityList.push(res.visitPlans[i]);
+                        }
+                        else {
+                            ;
+                        }
                     }
-                    var ordinaryActivityList = res.visitPlans;
-                    _this.workList = ordinaryActivityList;
+                    if (_this.ordinaryActivityList.length != 0) {
+                        _this.workList = _this.ordinaryActivityList;
+                    }
+                    else {
+                        _this.workList = [];
+                        _this.hasEvent = 'false';
+                    }
                 }).catch(function (error) {
                 });
             }
@@ -1229,6 +1669,8 @@ var AboutPage = (function () {
     };
     AboutPage.prototype.gomeeting = function () {
     };
+    AboutPage.prototype.gotomeetingdetil = function (item) {
+    };
     AboutPage.prototype.gotoCardDetail = function (item) {
     };
     AboutPage.prototype.CallPhone = function (phone) {
@@ -1295,12 +1737,6 @@ var AboutPage = (function () {
             .then(function (res) {
             _this.reportants = res.visitReports;
         });
-    };
-    //获取会议信息
-    AboutPage.prototype.getmeetinginfo = function () {
-    };
-    //会议详情
-    AboutPage.prototype.gotomeetingdetil = function (item) {
     };
     AboutPage.prototype.parseData = function (date) {
         if (date) {
@@ -1403,6 +1839,13 @@ var AboutPage = (function () {
         });
         reportModal.present();
     };
+    AboutPage.prototype.go_visidetail = function (item) {
+        this.status = item.approveStatus;
+        console.log(this.status);
+        this.interviewId = item.id;
+        console.log(this.interviewId);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_7__visidetail_visidetail__["a" /* VisidetailPage */], { "index": this.status, "item": this.interviewId }, { animate: true });
+    };
     //************走访报告*************
     AboutPage.prototype.goSearch = function () {
         console.log('走访报告');
@@ -1435,22 +1878,13 @@ var AboutPage = (function () {
         //		  promptModal.present();
         //  }
     };
-    AboutPage.prototype.switchType = function () {
-        console.log("类型");
-    };
-    AboutPage.prototype.switchType2 = function () {
-        console.log("类型");
-    };
-    AboutPage.prototype.switchType3 = function () {
-        console.log("类型");
-    };
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])('calendar'),
         __metadata("design:type", Object)
     ], AboutPage.prototype, "calendar", void 0);
     AboutPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-about',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\about\about.html"*/'<ion-header class="header">\n  <ion-navbar>\n    <ion-title>\n      {{title}}\n      <ion-badge item-end (click)="goToday()" *ngIf="(isTodayFlag) && kk==\'kittens\'" style="font-size: 1.3rem;background:#7CC839">今</ion-badge>\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n\n  <div style="background: #ffffff">\n    <ion-segment [(ngModel)]="kk" class="about-list">\n      <ion-segment-button class="seg-btn" value="kittens">\n        走访计划\n      </ion-segment-button>\n      <ion-segment-button class="seg-btn" value="mareketing"  (click)="getmarketing()" >\n        走访报告\n      </ion-segment-button>\n      <!--<ion-segment-button class="seg-btn" value="meeting" (click)="getmeetinginfo()">\n        会议\n      </ion-segment-button>\n      <ion-segment-button class="seg-btn" value="card" (click)="getcardinfo()">\n        信用卡\n      </ion-segment-button>-->\n      <!--<ion-segment-button class="seg-btn" value="other"  (click)="nowflage()">\n        其他\n      </ion-segment-button>-->\n\n    </ion-segment>\n  </div>\n  <!--走访报告-->\n  <div [ngSwitch]="kk">\n    <ion-list *ngSwitchCase="\'mareketing\'">\n\n      <!--************************************-->\n      <ion-list class="item-thumbnail-left" style="margin-bottom: 0px;">\n        <ion-item class="items"  >\n         <div class="search_inp">\n         	 <input type="text" placeholder="请输入客户名称" [(ngModel)]="reports.customer"/>\n         	 <ion-icon name="search" class="search_icon" (click)="goSearch()"></ion-icon>\n         </div>\n        </ion-item>\n\n				<div *ngIf="!isShowArrow">\n	        <ion-item style="border:none" class="visit">\n			      <!--<ion-label class="common_font" style="max-width:30%;width: 30%;">走访类型</ion-label>-->\n			      <ion-select class="common_font" style="max-width:90%; width: 90%;padding:0px;" [(ngModel)]="reports.activityType" (ngModelChange)="switchType()" interface="popover" placeholder="走访类型" >\n			        <ion-option value="新增走访">新增走访</ion-option>\n			        <ion-option value="多次走访">多次走访</ion-option>\n			      </ion-select>\n			      <ion-label class="img4 imgall4"></ion-label>\n			    </ion-item>\n			    <ion-item style="border:none" class="visit">\n			      <!--<ion-label class="common_font" style="max-width:30%;width: 30%;">走访类型</ion-label>-->\n			      <!--<ion-select class="common_font" style="max-width:70%; width: 70%;padding: 11px 8px 11px 6px;" [(ngModel)]="activityType" (ngModelChange)="switchType()" interface="popover" placeholder="走访类型" >-->\n			      <ion-select class="common_font" style="max-width:90%; width: 90%;padding:0px;" [(ngModel)]="reports.rate" (ngModelChange)="switchType2()" interface="popover" placeholder="走访进度" >\n			        <ion-option value="未拜访">未拜访</ion-option>\n			        <ion-option value="已拜访">已拜访</ion-option>\n			      </ion-select>\n			      <ion-label class="img4 imgall4"></ion-label>\n			    </ion-item>\n			    <ion-item style="border:none" class="visit">\n			      <!--<ion-label class="common_font" style="max-width:30%;width: 30%;">走访类型</ion-label>-->\n			      <ion-select class="common_font" style="max-width:90%; width: 90%;padding:0px;" [(ngModel)]="reports.manager" (ngModelChange)="switchType3()" interface="popover" placeholder="产品经理" >\n			        <ion-option value="张经理">张经理</ion-option>\n			        <ion-option value="刘经理">刘经理</ion-option>\n			        <ion-option value="王经理">王经理</ion-option>\n			      </ion-select>\n			      <ion-label class="img4 imgall4"></ion-label>\n			    </ion-item>\n		    </div>\n		    <ion-item style="border:none;"  (click)=\'showArrow()\'>\n		     	<ion-icon ios="ios-arrow-down" *ngIf="isShowArrow" class="icon_isShow"></ion-icon>\n		     	<ion-icon ios="ios-arrow-up" *ngIf="!isShowArrow" class="icon_isShow"></ion-icon>\n		    </ion-item>\n      </ion-list>\n      <!--<div class="kittens_item" *ngFor="let item of workList" (click)="goCalendarDetail(item)">-->\n      <div class="kittens_item" *ngFor="let item of reportants" (click)="goAddReport(item)">\n            <div class="item_alltime">\n              <!--10:00-->\n              <span class="commonT startT padding-top16">{{item.realDate}}</span>\n              <!--<span class="commonT endT">{{item.endDate}}</span>-->\n            </div>\n            <div class="item_content">\n            	<!--接待-->\n          <!--<span class="item_style">\n            {{item.scheduleType}}\n          </span>-->\n              <div class="item_detail">\n                <div style="font-size: 14px;">{{item.userName}}</div>\n                <!--<div style="color:#999;font-size: 12px;">{{item.address}}</div>-->\n              </div>\n            </div>\n            <div class="item_status">\n              <div style="font-size: 14px;" *ngIf="item.status==2">审批中</div>\n              <div style="font-size: 14px;" *ngIf="item.status==3">已审批</div>\n              <div style="font-size: 14px;" *ngIf="item.status==4">已退回</div>\n            </div>\n          </div>\n      <!--************************************-->\n\n			 <ion-fab style="position:fixed;right:10px;bottom:80px;" >\n        <button ion-fab style="width: 50px;height: 50px;line-height: 50px;margin-right: 10px;background:#ff8611"><ion-icon name="add"></ion-icon></button>\n        <ion-fab-list  side="top" >\n          <button class="btnfab yellowBg" (click)="report(0)">报告</button>\n          <button class="btnfab yellowBg" (click)="plan()">计划</button>\n          <!--<button class="btnfab yellowBg" (click)="presentModal()">其他</button>-->\n        </ion-fab-list>\n      </ion-fab>\n    </ion-list>\n\n		<!--走访计划-->\n    <ion-list *ngSwitchCase="\'kittens\'"\n              (swipeleft)="next()"\n              (swiperight)="previous()"\n              (panup)="onPanUp()"\n              (pandown)="onPanDown()"\n    >\n      <!--<ion-calendar #calendar [events]="currentEvents" (onDaySelect)="onDaySelect($event)"></ion-calendar>-->\n      <calendar #calendar (onDayEvent)="onDayEvent($event)"\n                (onChangeEvent)="onChange($event)"\n                (onTitleChangeEvent)="onTitleChange($event)"\n                [daysEvents]="daysEvents"\n                (onGoTodayEvent)="goToday()"\n                (onIsTodayEvent)="isToday($event)"\n                [showCNDate]="true"></calendar>\n      <div class="kittens_content" *ngIf="hasEvent != \'\'">\n        <div class="common_header">{{date}}</div>\n\n        <!--具体日期有数据时-->\n        <div *ngIf="hasEvent == \'true\'">\n          <!--<div class="kittens_item" *ngFor="let item of workList" (click)="goCalendarDetail(item)">-->\n          <div class="kittens_item" *ngFor="let item of workList" (click)="goAddReport(item)">\n            <div class="item_alltime">\n              <!--10:00-->\n              <span class="commonT startT padding-top16">{{item.planDate}}</span>\n              <!--<span class="commonT endT">{{item.endDate}}</span>-->\n            </div>\n            <div class="item_content">\n            	  <!--接待-->\n          <!--<span class="item_style">\n            {{item.scheduleType}}\n          </span>-->\n              <div class="item_detail">\n                <div style="font-size: 14px;">{{item.customName}}</div>\n                <!--<div style="color:#999;font-size: 12px;">{{item.address}}</div>-->\n              </div>\n            </div>\n            <div class="item_status">\n              <div style="font-size: 14px;" *ngIf="item.status==2">审批中</div>\n              <div style="font-size: 14px;" *ngIf="item.status==3">已审批</div>\n              <div style="font-size: 14px;" *ngIf="item.status==4">已退回</div>\n            </div>\n          </div>\n        </div>\n        <!--具体日期无数据时-->\n        <div *ngIf="hasEvent == \'false\'">\n          <div class="nothing">\n            <ion-icon name="people" style="color: #CDCDC1;font-size:100px;"></ion-icon>\n          </div>\n          <div style="width: 100%;text-align: center;font-size: 1.2rem">\n            <label >暂无更多事件</label>\n          </div>\n        </div>\n\n      </div>\n      <ion-fab style="position:fixed;right:10px;bottom:80px;">\n        <button ion-fab  style="width: 50px;height: 50px;line-height: 50px;margin-right: 10px;background:#ff8611"><ion-icon name="add"></ion-icon></button>\n        <ion-fab-list  side="top" >\n          <!--<button class="btnfab redBg" (click)="showmarket()">计划</button>\n          <button class="btnfab saffronyellowBg" (click)="gomeeting()">报告</button>\n          <button class="btnfab yellowBg" (click)="presentModal()">其他</button>-->\n          <button class="btnfab yellowBg" (click)="report()">报告</button>\n          <button class="btnfab yellowBg" (click)="plan()">计划</button>\n        </ion-fab-list>\n      </ion-fab>\n    </ion-list>\n\n\n    <ion-list *ngSwitchCase="\'meeting\'">\n      <ion-list ng-controller="MyCtrl"\n                show-delete="shouldShowDelete"\n                show-reorder="shouldShowReorder"\n                can-swipe="listCanSwipe"  class="item-thumbnail-left">\n        <div class="button-positive clearfix"   ng-click="share(item);" *ngFor="let item of meetinglist" (click)="gotomeetingdetil(item)">\n          <ion-item ng-repeat="item in items"  class="about-list-item-magin">\n            <div style="width: 80%;float: left">\n              <div class="list_mark left bsFont "><label >{{item.meetingType}}</label></div>\n              <div class="item_title left titlefont blackwideFont"  style="font-weight: 550;"><label >{{item.title}}</label></div>\n              <div class="item_time left bsFont btmfont"><label >时间：{{item.startTime}}-{{item.endTime}}</label></div>\n              <div class="item_address left bsFont btmfont"><label >地点：{{item.address}}&nbsp;&nbsp;&nbsp;</label></div>\n              <div class="item_who left bsFont btmfont"><label class="buleFont">{{item.who}}&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</label>\n                <label class="wathetbuleFont">{{item.nowTime}}</label>\n              </div>\n              <div class="item_address left bsFont btmfont"><label >签到人数：&nbsp;&nbsp;&nbsp;</label></div>\n            </div>\n\n            <div style="width: 20%;float: right" id="statusdiv" >\n              <label class="bsFont btmfont" >{{item.status}}</label>\n            </div>\n\n          </ion-item>\n\n        </div>\n      </ion-list>\n    </ion-list>\n\n\n\n    <ion-list *ngSwitchCase="\'other\'" >\n      <ion-list ng-controller="MyCtrl"\n                show-delete="shouldShowDelete"\n                show-reorder="shouldShowReorder"\n                can-swipe="listCanSwipe"  class="item-thumbnail-left">\n          <div class="button-positive clearfix">\n            <ion-item  *ngFor="let item of elseList" (click)="gotoOtherDetail(item)"   class="about-list-item-magin">\n	            <div style="width: 80%;float: left">\n	              <!--<div class="list_mark left bsFont other_bg"><label >{{item.style}}</label></div>-->\n	              <div class="list_mark left bsFont other_bg"><label>其它</label></div>\n	              <div class="item_title left titlefont blackwideFont" *ngIf="item.title"  style="font-weight: 550;" ><label >{{item.title}}</label></div><br />\n	              <div class="item_time left bsFont btmfont"><label >时间：{{item.time}}</label></div>\n	              <div class="item_address left bsFont btmfont"><label >内容：{{item.content}}</label></div>\n	            </div>\n          </ion-item>\n          </div>\n          <!--<ion-fab bottom right>-->\n		        <!--<button ion-fab style="width: 50px;height: 50px;line-height: 50px;margin-right: 10px;" (click)="addOther()"><ion-icon name="add"></ion-icon></button>-->\n		        <!--<button ion-fab style="width: 50px;height: 50px;line-height: 50px;margin-right: 10px;" (click)="presentModal()"><ion-icon name="add"></ion-icon></button>-->\n		      <!--</ion-fab>-->\n      </ion-list>\n    </ion-list>\n\n\n    <ion-list *ngSwitchCase="\'card\'" >\n      <ion-list ng-controller="MyCtrl"\n                show-delete="shouldShowDelete"\n                show-reorder="shouldShowReorder"\n                can-swipe="listCanSwipe"  class="item-thumbnail-left">\n        <div class="button-positive clearfix"   ng-click="share(item);" (click)="gotoCardDetail(item)"  *ngFor="let item of cardlist">\n          <ion-item ng-repeat="item in items" class="about-list-item-magin" >\n            <div style="width: 80%;float: left">\n              <div class="list_mark left bsFont "><label >{{item.style}}</label></div>\n              <div class="item_title left titlefont blackwideFont"  style="font-weight: 550;"><label >{{item.title}}</label></div>\n              <div class="item_time left bsFont btmfont"><label >时间：{{item.time}}</label></div>\n              <div class="item_address left bsFont btmfont"><label >地点：{{item.address}}&nbsp;&nbsp;&nbsp;</label>\n                <ion-icon name="send" style="color: #00008B;font-size: 14px" (click)="openMap();$event.stopPropagation();"></ion-icon>\n                <label>{{item.length}}</label>\n              </div>\n              <div class="item_thing left bsFont btmfont"><label >事项：{{item.content}}</label></div>\n              <div class="item_who left bsFont btmfont"><label class="buleFont">{{item.who}}&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</label>\n                <label class="wathetbuleFont">{{item.nowTime}}</label>\n              </div>\n            </div>\n\n            <div style="width: 20%;float: right">\n              <ion-icon name="call" style="color: #2ec95c;font-size: 40px;margin-top: 34%;margin-right: 20px" class="right" (click)="CallPhone(item.phone);$event.stopPropagation();"></ion-icon>\n            </div>\n\n          </ion-item>\n\n        </div>\n      </ion-list>\n\n    </ion-list>\n  </div>\n\n\n\n\n<!--上滑加载更多-->\n <!--\n  <ion-infinite-scroll (ionInfinite)="doInfinite($event)">\n    <ion-infinite-scroll-content\n      loadingSpinner="bubbles"\n      loadingText="Loading more data...">\n    </ion-infinite-scroll-content>\n  </ion-infinite-scroll>-->\n\n\n\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\about\about.html"*/
+            selector: 'page-about',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\about\about.html"*/'<ion-header class="header">\n  <ion-navbar>\n    <ion-title>\n      {{title}}\n      <ion-badge item-end (click)="goToday()" *ngIf="(isTodayFlag) && kk==\'kittens\'" style="font-size: 1.3rem;background:#7CC839">今</ion-badge>\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n\n  <div style="background: #ffffff">\n    <ion-segment [(ngModel)]="kk" class="about-list">\n      <ion-segment-button class="seg-btn" value="kittens">\n        走访计划\n      </ion-segment-button>\n      <ion-segment-button class="seg-btn" value="mareketing"  (click)="getmarketing()" >\n        走访报告\n      </ion-segment-button>\n      <!--<ion-segment-button class="seg-btn" value="meeting" (click)="getmeetinginfo()">\n        会议\n      </ion-segment-button>\n      <ion-segment-button class="seg-btn" value="card" (click)="getcardinfo()">\n        信用卡\n      </ion-segment-button>-->\n      <!--<ion-segment-button class="seg-btn" value="other"  (click)="nowflage()">\n        其他\n      </ion-segment-button>-->\n\n    </ion-segment>\n  </div>\n  <!--走访报告-->\n  <div [ngSwitch]="kk">\n    <ion-list *ngSwitchCase="\'mareketing\'">\n\n      <!--************************************-->\n      <ion-list class="item-thumbnail-left" style="margin-bottom: 0px;">\n        <ion-item class="items"  >\n         <div class="search_inp">\n         	 <input type="text" placeholder="请输入客户名称" [(ngModel)]="reports.customer"/>\n         	 <ion-icon name="search" class="search_icon" (click)="goSearch()"></ion-icon>\n         </div>\n        </ion-item>\n\n				<div *ngIf="!isShowArrow">\n	        <ion-item style="border:none" class="visit">\n			      <!--<ion-label class="common_font" style="max-width:30%;width: 30%;">走访类型</ion-label>-->\n			      <ion-select class="common_font" style="max-width:90%; width: 90%;padding:0px;" [(ngModel)]="reports.activityType" (ngModelChange)="switchType()" interface="popover" placeholder="走访类型" >\n			        <ion-option value="新增走访">新增走访</ion-option>\n			        <ion-option value="多次走访">多次走访</ion-option>\n			      </ion-select>\n			      <ion-label class="img4 imgall4"></ion-label>\n			    </ion-item>\n			    <ion-item style="border:none" class="visit">\n			      <!--<ion-label class="common_font" style="max-width:30%;width: 30%;">走访类型</ion-label>-->\n			      <!--<ion-select class="common_font" style="max-width:70%; width: 70%;padding: 11px 8px 11px 6px;" [(ngModel)]="activityType" (ngModelChange)="switchType()" interface="popover" placeholder="走访类型" >-->\n			      <ion-select class="common_font" style="max-width:90%; width: 90%;padding:0px;" [(ngModel)]="reports.rate" (ngModelChange)="switchType2()" interface="popover" placeholder="走访进度" >\n			        <ion-option value="未拜访">未拜访</ion-option>\n			        <ion-option value="已拜访">已拜访</ion-option>\n			      </ion-select>\n			      <ion-label class="img4 imgall4"></ion-label>\n			    </ion-item>\n			    <ion-item style="border:none" class="visit">\n			      <!--<ion-label class="common_font" style="max-width:30%;width: 30%;">走访类型</ion-label>-->\n			      <ion-select class="common_font" style="max-width:90%; width: 90%;padding:0px;" [(ngModel)]="reports.manager" (ngModelChange)="switchType3()" interface="popover" placeholder="产品经理" >\n			        <ion-option value="张经理">张经理</ion-option>\n			        <ion-option value="刘经理">刘经理</ion-option>\n			        <ion-option value="王经理">王经理</ion-option>\n			      </ion-select>\n			      <ion-label class="img4 imgall4"></ion-label>\n			    </ion-item>\n		    </div>\n		    <ion-item style="border:none;"  (click)=\'showArrow()\'>\n		     	<ion-icon ios="ios-arrow-down" *ngIf="isShowArrow" class="icon_isShow"></ion-icon>\n		     	<ion-icon ios="ios-arrow-up" *ngIf="!isShowArrow" class="icon_isShow"></ion-icon>\n		    </ion-item>\n      </ion-list>\n      <!--<div class="kittens_item" *ngFor="let item of workList" (click)="goCalendarDetail(item)">-->\n      <div class="kittens_item" *ngFor="let item of reportants" (click)="go_visidetail(item)">\n            <div class="item_alltime">\n              <!--10:00-->\n              <span class="commonT startT padding-top16">{{item.realDate}}</span>\n              <!--<span class="commonT endT">{{item.endDate}}</span>-->\n            </div>\n            <div class="item_content">\n            	<!--接待-->\n          <!--<span class="item_style">\n            {{item.scheduleType}}\n          </span>-->\n              <div class="item_detail">\n                <div style="font-size: 14px;">{{item.userName}}</div>\n                <!--<div style="color:#999;font-size: 12px;">{{item.address}}</div>-->\n              </div>\n            </div>\n            <div class="item_status">\n              <div style="font-size: 14px;" *ngIf="item.status==2">审批中</div>\n              <div style="font-size: 14px;" *ngIf="item.status==3">已审批</div>\n              <div style="font-size: 14px;" *ngIf="item.status==4">已退回</div>\n            </div>\n          </div>\n      <!--************************************-->\n\n			 <ion-fab style="position:fixed;right:10px;bottom:80px;" >\n        <button ion-fab style="width: 50px;height: 50px;line-height: 50px;margin-right: 10px;background:#ff8611"><ion-icon name="add"></ion-icon></button>\n        <ion-fab-list  side="top" >\n          <button class="btnfab yellowBg" (click)="report(0)">报告</button>\n          <button class="btnfab yellowBg" (click)="plan()">计划</button>\n          <!--<button class="btnfab yellowBg" (click)="presentModal()">其他</button>-->\n        </ion-fab-list>\n      </ion-fab>\n    </ion-list>\n\n		<!--走访计划-->\n    <ion-list *ngSwitchCase="\'kittens\'"\n              (swipeleft)="next()"\n              (swiperight)="previous()"\n              (panup)="onPanUp()"\n              (pandown)="onPanDown()"\n    >\n      <!--<ion-calendar #calendar [events]="currentEvents" (onDaySelect)="onDaySelect($event)"></ion-calendar>-->\n      <calendar #calendar (onDayEvent)="onDayEvent($event)"\n                (onChangeEvent)="onChange($event)"\n                (onTitleChangeEvent)="onTitleChange($event)"\n                [daysEvents]="daysEvents"\n                (onGoTodayEvent)="goToday()"\n                (onIsTodayEvent)="isToday($event)"\n                [showCNDate]="true"></calendar>\n      <div class="kittens_content" *ngIf="hasEvent != \'\'">\n        <div class="common_header">{{date}}</div>\n\n        <!--具体日期有数据时-->\n        <div *ngIf="hasEvent == \'true\'">\n          <!--<div class="kittens_item" *ngFor="let item of workList" (click)="goCalendarDetail(item)">-->\n          <div class="kittens_item" *ngFor="let item of workList" (click)="goAddReport(item)">\n            <div class="item_alltime">\n              <!--10:00-->\n              <span class="commonT startT padding-top16">{{item.planDate}}</span>\n              <!--<span class="commonT endT">{{item.endDate}}</span>-->\n            </div>\n            <div class="item_content">\n            	  <!--接待-->\n          <!--<span class="item_style">\n            {{item.scheduleType}}\n          </span>-->\n              <div class="item_detail">\n                <div style="font-size: 14px;">{{item.customName}}</div>\n                <!--<div style="color:#999;font-size: 12px;">{{item.address}}</div>-->\n              </div>\n            </div>\n            <div class="item_status">\n              <div style="font-size: 14px;" *ngIf="item.status==2">审批中</div>\n              <div style="font-size: 14px;" *ngIf="item.status==3">已审批</div>\n              <div style="font-size: 14px;" *ngIf="item.status==4">已退回</div>\n            </div>\n          </div>\n        </div>\n        <!--具体日期无数据时-->\n        <div *ngIf="hasEvent == \'false\'">\n          <div class="nothing">\n            <ion-icon name="people" style="color: #CDCDC1;font-size:100px;"></ion-icon>\n          </div>\n          <div style="width: 100%;text-align: center;font-size: 1.2rem">\n            <label >暂无更多事件</label>\n          </div>\n        </div>\n      </div>\n\n      <ion-fab style="position:fixed;right:10px;bottom:80px;">\n        <button ion-fab  style="width: 50px;height: 50px;line-height: 50px;margin-right: 10px;background:#ff8611"><ion-icon name="add"></ion-icon></button>\n        <ion-fab-list  side="top" >\n          <!--<button class="btnfab redBg" (click)="showmarket()">计划</button>\n          <button class="btnfab saffronyellowBg" (click)="gomeeting()">报告</button>\n          <button class="btnfab yellowBg" (click)="presentModal()">其他</button>-->\n          <button class="btnfab yellowBg" (click)="report()">报告</button>\n          <button class="btnfab yellowBg" (click)="plan()">计划</button>\n        </ion-fab-list>\n      </ion-fab>\n    </ion-list>\n\n\n    <ion-list *ngSwitchCase="\'meeting\'">\n      <ion-list ng-controller="MyCtrl"\n                show-delete="shouldShowDelete"\n                show-reorder="shouldShowReorder"\n                can-swipe="listCanSwipe"  class="item-thumbnail-left">\n        <div class="button-positive clearfix"   ng-click="share(item);" *ngFor="let item of meetinglist" (click)="gotomeetingdetil(item)">\n          <ion-item ng-repeat="item in items"  class="about-list-item-magin">\n            <div style="width: 80%;float: left">\n              <div class="list_mark left bsFont "><label >{{item.meetingType}}</label></div>\n              <div class="item_title left titlefont blackwideFont"  style="font-weight: 550;"><label >{{item.title}}</label></div>\n              <div class="item_time left bsFont btmfont"><label >时间：{{item.startTime}}-{{item.endTime}}</label></div>\n              <div class="item_address left bsFont btmfont"><label >地点：{{item.address}}&nbsp;&nbsp;&nbsp;</label></div>\n              <div class="item_who left bsFont btmfont"><label class="buleFont">{{item.who}}&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</label>\n                <label class="wathetbuleFont">{{item.nowTime}}</label>\n              </div>\n              <div class="item_address left bsFont btmfont"><label >签到人数：&nbsp;&nbsp;&nbsp;</label></div>\n            </div>\n\n            <div style="width: 20%;float: right" id="statusdiv" >\n              <label class="bsFont btmfont" >{{item.status}}</label>\n            </div>\n\n          </ion-item>\n\n        </div>\n      </ion-list>\n    </ion-list>\n\n\n\n    <ion-list *ngSwitchCase="\'other\'" >\n      <ion-list ng-controller="MyCtrl"\n                show-delete="shouldShowDelete"\n                show-reorder="shouldShowReorder"\n                can-swipe="listCanSwipe"  class="item-thumbnail-left">\n          <div class="button-positive clearfix">\n            <ion-item  *ngFor="let item of elseList" (click)="gotoOtherDetail(item)"   class="about-list-item-magin">\n	            <div style="width: 80%;float: left">\n	              <!--<div class="list_mark left bsFont other_bg"><label >{{item.style}}</label></div>-->\n	              <div class="list_mark left bsFont other_bg"><label>其它</label></div>\n	              <div class="item_title left titlefont blackwideFont" *ngIf="item.title"  style="font-weight: 550;" ><label >{{item.title}}</label></div><br />\n	              <div class="item_time left bsFont btmfont"><label >时间：{{item.time}}</label></div>\n	              <div class="item_address left bsFont btmfont"><label >内容：{{item.content}}</label></div>\n	            </div>\n          </ion-item>\n          </div>\n          <!--<ion-fab bottom right>-->\n		        <!--<button ion-fab style="width: 50px;height: 50px;line-height: 50px;margin-right: 10px;" (click)="addOther()"><ion-icon name="add"></ion-icon></button>-->\n		        <!--<button ion-fab style="width: 50px;height: 50px;line-height: 50px;margin-right: 10px;" (click)="presentModal()"><ion-icon name="add"></ion-icon></button>-->\n		      <!--</ion-fab>-->\n      </ion-list>\n    </ion-list>\n\n\n    <ion-list *ngSwitchCase="\'card\'" >\n      <ion-list ng-controller="MyCtrl"\n                show-delete="shouldShowDelete"\n                show-reorder="shouldShowReorder"\n                can-swipe="listCanSwipe"  class="item-thumbnail-left">\n        <div class="button-positive clearfix"   ng-click="share(item);" (click)="gotoCardDetail(item)"  *ngFor="let item of cardlist">\n          <ion-item ng-repeat="item in items" class="about-list-item-magin" >\n            <div style="width: 80%;float: left">\n              <div class="list_mark left bsFont "><label >{{item.style}}</label></div>\n              <div class="item_title left titlefont blackwideFont"  style="font-weight: 550;"><label >{{item.title}}</label></div>\n              <div class="item_time left bsFont btmfont"><label >时间：{{item.time}}</label></div>\n              <div class="item_address left bsFont btmfont"><label >地点：{{item.address}}&nbsp;&nbsp;&nbsp;</label>\n                <ion-icon name="send" style="color: #00008B;font-size: 14px" (click)="openMap();$event.stopPropagation();"></ion-icon>\n                <label>{{item.length}}</label>\n              </div>\n              <div class="item_thing left bsFont btmfont"><label >事项：{{item.content}}</label></div>\n              <div class="item_who left bsFont btmfont"><label class="buleFont">{{item.who}}&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</label>\n                <label class="wathetbuleFont">{{item.nowTime}}</label>\n              </div>\n            </div>\n\n            <div style="width: 20%;float: right">\n              <ion-icon name="call" style="color: #2ec95c;font-size: 40px;margin-top: 34%;margin-right: 20px" class="right" (click)="CallPhone(item.phone);$event.stopPropagation();"></ion-icon>\n            </div>\n\n          </ion-item>\n\n        </div>\n      </ion-list>\n\n    </ion-list>\n  </div>\n\n\n\n\n<!--上滑加载更多-->\n <!--\n  <ion-infinite-scroll (ionInfinite)="doInfinite($event)">\n    <ion-infinite-scroll-content\n      loadingSpinner="bubbles"\n      loadingText="Loading more data...">\n    </ion-infinite-scroll-content>\n  </ion-infinite-scroll>-->\n\n\n\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\about\about.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */],
@@ -1466,14 +1900,14 @@ var AboutPage = (function () {
 
 /***/ }),
 
-/***/ 214:
+/***/ 219:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return OtherDetailPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__addotherpage_addotherpage__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__addotherpage_addotherpage__ = __webpack_require__(106);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1524,7 +1958,7 @@ var OtherDetailPage = (function () {
 
 /***/ }),
 
-/***/ 215:
+/***/ 220:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1562,6 +1996,7 @@ var AddplanpagePage = (function () {
         this.others = {};
         this.isDisabled = true;
         this.searchLists = [];
+        this.searchList = [];
         this.infoType = this.navParams.get('type');
         this.num = this.navParams.get('num');
         console.log(navParams.get('otherDetails'));
@@ -1694,7 +2129,7 @@ var AddplanpagePage = (function () {
         //  console.log(this.meterial);
         console.log('选择类型');
     };
-    AddplanpagePage.prototype.goSearch = function () {
+    AddplanpagePage.prototype.goSearch = function ($event) {
         var _this = this;
         var url = "search/customer.json";
         var param = {
@@ -1710,12 +2145,27 @@ var AddplanpagePage = (function () {
         })
             .then(function (res) {
             console.log(res);
-            _this.searchLists = res.customs;
-            if (_this.searchLists.length == 0) {
-                _this.isSearch = 'none';
+            _this.searchList = res.customs;
+            _this.searchLists = [];
+            if ($event.target.value) {
+                for (var i = 0, len = _this.searchList.length; i < len; i++) {
+                    if (_this.searchList[i].customName.indexOf($event.target.value) != -1) {
+                        console.log($event.target.value);
+                        _this.searchLists.push(_this.searchList[i]);
+                    }
+                    else {
+                        _this.isSearch = 'none';
+                    }
+                }
+                if (_this.searchLists.length == 0) {
+                    _this.isSearch = 'none';
+                }
+                else {
+                    _this.isSearch = 'block';
+                }
             }
             else {
-                _this.isSearch = 'block';
+                _this.isSearch = 'none';
             }
         });
     };
@@ -1728,7 +2178,7 @@ var AddplanpagePage = (function () {
     };
     AddplanpagePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addplanpage',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\addplanpage\addplanpage.html"*/'\n<ion-header  class="header">\n\n  <ion-navbar>\n\n    <ion-title>新增计划</ion-title>\n    <div class="save right" (click)="saveInfo(0)">保存</div>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-item>\n    <ion-label fixed>客户名称</ion-label>\n    <ion-input type="text" value="" placeholder="客户名称" [(ngModel)]="addOthers.title" (keyup)="goSearch()"></ion-input>\n  </ion-item>\n  <div class="serach_lists" [ngStyle]="{\'display\':isSearch}">\n   		<div class="lists_cont">\n   			<div class="list_item" (click)="goCustomer(item)" *ngFor="let item of searchLists">{{item.customName}}</div>\n   		</div>\n   	</div>\n  <ion-item>\n    <ion-label fixed>计划走访时间</ion-label>\n		<div item-content class="item_width">\n      <div class="left">\n      	<ion-datetime displayFormat="YYYY年MM月DD日 HH:mm" placeholder="计划走访时间" cancelText="取消" doneText="完成" [(ngModel)]="addOthers.time" ></ion-datetime>\n      </div>\n      <ion-label class="img imgall"></ion-label>\n    </div>\n  </ion-item>\n	<ion-item >\n    <ion-label fixed> <label ></label>客户地址</ion-label>\n    <ion-label class="imgall2  add_attendees" (click)="addAttendees()">\n    	<div class="add_img" >\n				<ion-icon name="md-add"></ion-icon>\n	    </div>\n    </ion-label>\n  </ion-item>\n    <ion-item style="border:none" [ngStyle]="{\'display\':isAddress}" *ngIf="!activityType2 || activityType2 == \'请选择市区\'">\n      <ion-label class="common_font" style="max-width:30%;width: 30%;">客户省份</ion-label>\n      <ion-select class="common_font" style="max-width:70%; width: 70%;padding: 11px 8px 11px 6px;" [(ngModel)]="addOthers.province" (ngModelChange)="switchType()" interface="popover" placeholder="请选择省份">\n        <ion-option value="上海">上海</ion-option>\n        <ion-option value="浙江省">浙江省</ion-option>\n        <ion-option value="江苏省">江苏省</ion-option>\n      </ion-select>\n      <ion-label class="img4 imgall4"></ion-label>\n    </ion-item>\n    <ion-item style="border:none" [ngStyle]="{\'display\':isAddress}" *ngIf="!activityType2 || activityType2 == \'请选择市区\'">\n      <ion-label class="common_font" style="max-width:30%;width: 30%;">客户市区</ion-label>\n      <ion-select class="common_font" style="max-width:70%; width: 70%;padding: 11px 8px 11px 6px;" [(ngModel)]="addOthers.area" (ngModelChange)="switchType2()" interface="popover" placeholder="请选择市区">\n        <ion-option value="请选择市区">请选择市区</ion-option>\n        <ion-option value="宁波">宁波</ion-option>\n        <ion-option value="杭州">杭州</ion-option>\n        <ion-option value="温州">温州</ion-option>\n      </ion-select>\n      <ion-label class="img4 imgall4"></ion-label>\n    </ion-item>\n\n  <ion-item style="border:none" *ngIf="activityType2 && activityType2 != \'请选择市区\'">\n    <ion-label class="common_font" style="max-width:30%;width: 30%;">客户地址</ion-label>\n    <ion-label class="common_font" style="max-width:70%;width: 70%;">{{activityType}}{{activityType2}}</ion-label>\n  </ion-item>\n\n   <div class="submit" (click)="saveInfo(1)">提交</div>\n\n  <div class="footer"></div>\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\addplanpage\addplanpage.html"*/,
+            selector: 'page-addplanpage',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\addplanpage\addplanpage.html"*/'\n<ion-header  class="header">\n\n  <ion-navbar>\n\n    <ion-title>新增计划</ion-title>\n    <div class="save right" (click)="saveInfo(0)">保存</div>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-item>\n    <ion-label fixed>客户名称</ion-label>\n    <ion-input type="text" value="" placeholder="客户名称" [(ngModel)]="addOthers.title" (keyup)="goSearch($event)"></ion-input>\n  </ion-item>\n  <div class="serach_lists" [ngStyle]="{\'display\':isSearch}">\n   		<div class="lists_cont">\n   			<div class="list_item" (click)="goCustomer(item)" *ngFor="let item of searchLists">{{item.customName}}</div>\n   		</div>\n   	</div>\n  <ion-item>\n    <ion-label fixed>计划走访时间</ion-label>\n		<div item-content class="item_width">\n      <div class="left">\n      	<ion-datetime displayFormat="YYYY年MM月DD日 HH:mm" placeholder="计划走访时间" cancelText="取消" doneText="完成" [(ngModel)]="addOthers.time" ></ion-datetime>\n      </div>\n      <ion-label class="img imgall"></ion-label>\n    </div>\n  </ion-item>\n	<ion-item >\n    <ion-label fixed> <label ></label>客户地址</ion-label>\n    <ion-label class="imgall2  add_attendees" (click)="addAttendees()">\n    	<div class="add_img" >\n				<ion-icon name="md-add"></ion-icon>\n	    </div>\n    </ion-label>\n  </ion-item>\n    <ion-item style="border:none" [ngStyle]="{\'display\':isAddress}" *ngIf="!activityType2 || activityType2 == \'请选择市区\'">\n      <ion-label class="common_font" style="max-width:30%;width: 30%;">客户省份</ion-label>\n      <ion-select class="common_font" style="max-width:70%; width: 70%;padding: 11px 8px 11px 6px;" [(ngModel)]="addOthers.province" (ngModelChange)="switchType()" interface="popover" placeholder="请选择省份">\n        <ion-option value="上海">上海</ion-option>\n        <ion-option value="浙江省">浙江省</ion-option>\n        <ion-option value="江苏省">江苏省</ion-option>\n      </ion-select>\n      <ion-label class="img4 imgall4"></ion-label>\n    </ion-item>\n    <ion-item style="border:none" [ngStyle]="{\'display\':isAddress}" *ngIf="!activityType2 || activityType2 == \'请选择市区\'">\n      <ion-label class="common_font" style="max-width:30%;width: 30%;">客户市区</ion-label>\n      <ion-select class="common_font" style="max-width:70%; width: 70%;padding: 11px 8px 11px 6px;" [(ngModel)]="addOthers.area" (ngModelChange)="switchType2()" interface="popover" placeholder="请选择市区">\n        <ion-option value="请选择市区">请选择市区</ion-option>\n        <ion-option value="宁波">宁波</ion-option>\n        <ion-option value="杭州">杭州</ion-option>\n        <ion-option value="温州">温州</ion-option>\n      </ion-select>\n      <ion-label class="img4 imgall4"></ion-label>\n    </ion-item>\n\n  <ion-item style="border:none" *ngIf="activityType2 && activityType2 != \'请选择市区\'">\n    <ion-label class="common_font" style="max-width:30%;width: 30%;">客户地址</ion-label>\n    <ion-label class="common_font" style="max-width:70%;width: 70%;">{{activityType}}{{activityType2}}</ion-label>\n  </ion-item>\n\n   <div class="submit" (click)="saveInfo(1)">提交</div>\n\n  <div class="footer"></div>\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\addplanpage\addplanpage.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
             __WEBPACK_IMPORTED_MODULE_2__providers_HttpService__["a" /* HttpService */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */],
@@ -1741,7 +2191,7 @@ var AddplanpagePage = (function () {
 
 /***/ }),
 
-/***/ 216:
+/***/ 221:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1749,7 +2199,8 @@ var AddplanpagePage = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_HttpService__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__addattend_addattend__ = __webpack_require__(217);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__addattend_addattend__ = __webpack_require__(222);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_angular_3_9_2_ionic_angular_components_toast_toast_controller__ = __webpack_require__(100);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1763,6 +2214,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 /**
  * Generated class for the AttendeesPage page.
  *
@@ -1770,19 +2222,22 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Ionic pages and navigation.
  */
 var AttendeesPage = (function () {
-    function AttendeesPage(navCtrl, navParams, httpService, viewCtrl) {
+    function AttendeesPage(navCtrl, navParams, httpService, viewCtrl, toastCtrl) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.httpService = httpService;
         this.viewCtrl = viewCtrl;
+        this.toastCtrl = toastCtrl;
         this.attendLists = [];
         this.attendArr = [];
         this.attends = {};
+        this.attentdList = [];
+        this.isTrue = true;
         this.checked_select = false;
-        this.getData();
+        //this.getData();
     }
     AttendeesPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad AttendeesPage');
+        // console.log('ionViewDidLoad AttendeesPage');
     };
     AttendeesPage.prototype.getData = function () {
         var _this = this;
@@ -1816,11 +2271,67 @@ var AttendeesPage = (function () {
             this.attendArr = this.attendLists;
         }
     };
-    AttendeesPage.prototype.goSearch = function () {
+    AttendeesPage.prototype.picc = function ($event) {
+        this.isTrue = false;
+        if ($event.target.value) {
+            this.isTrue = false;
+        }
+        else {
+            this.isTrue = true;
+        }
+    };
+    AttendeesPage.prototype.goSearch = function ($event) {
         this.getData();
+        if (this.attends.activityType) {
+            //this.getData();
+            this.attentdList = [];
+            if (this.attendLists.length > 0) {
+                for (var i = 0, len = this.attendLists.length; i < len; i++) {
+                    if (this.attendLists[i].type === this.attends.activityType && this.attendLists[i].name.indexOf($event.target.previousSibling.previousSibling.value) != -1) {
+                        this.attentdList.push(this.attendLists[i]);
+                    }
+                    else {
+                        var toast = this.toastCtrl.create({
+                            message: '没有找到数据',
+                            duration: 1000,
+                            position: 'middle' //位置
+                        });
+                        toast.present();
+                        break;
+                    }
+                }
+            }
+            if (this.attentdList.length > 0) {
+                this.isDisplay = "block";
+            }
+            else {
+                this.isDisplay = "none";
+            }
+        }
+        else {
+            if (!$event.target.previousSibling.previousSibling.value) {
+                var toast = this.toastCtrl.create({
+                    message: '请输入姓名',
+                    duration: 1000,
+                    position: 'middle' //位置
+                });
+                toast.present();
+            }
+            else {
+                this.isTrue = false;
+                var toast = this.toastCtrl.create({
+                    message: '请选择类型',
+                    duration: 1000,
+                    position: 'middle' //位置
+                });
+                toast.present();
+            }
+        }
     };
     //选择类型
     AttendeesPage.prototype.switchType = function () {
+        console.log(typeof this.attends.activityType);
+        this.isDisplay = "none";
         console.log("点击类型");
     };
     //选择职位
@@ -1845,12 +2356,13 @@ var AttendeesPage = (function () {
     };
     AttendeesPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-attendees',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\attendees\attendees.html"*/'<!--\n  Generated template for the AttendeesPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header class="header">\n  <ion-navbar>\n    <div class="search_header">\n      <input class="input" type="search" placeholder="请输入名字" [(ngModel)]="attends.customer">\n      <div class="search_icon" (click)="goSearch()">搜索</div>\n    </div>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content>\n\n  <div style="border-bottom: 1px #ddd solid;display: -webkit-box;">\n  <ion-item style="border:none" class="visit">\n    <!--<ion-label class="common_font" style="max-width:30%;width: 30%;">走访类型</ion-label>-->\n    <ion-select class="common_font" style="max-width:90%; width: 90%;padding:0px;" [(ngModel)]="attends.activityType" (ngModelChange)="switchType()" interface="popover" placeholder="类型" >\n      <ion-option value="拜访">拜访</ion-option>\n      <ion-option value="活动">活动</ion-option>\n      <ion-option value="接待">接待</ion-option>\n    </ion-select>\n    <ion-label class="img4 imgall4"></ion-label>\n  </ion-item>\n  <ion-item style="border:none" class="visit">\n    <!--<ion-label class="common_font" style="max-width:30%;width: 30%;">走访类型</ion-label>-->\n    <!--<ion-select class="common_font" style="max-width:70%; width: 70%;padding: 11px 8px 11px 6px;" [(ngModel)]="activityType" (ngModelChange)="switchType()" interface="popover" placeholder="走访类型" >-->\n    <ion-select class="common_font" style="max-width:90%; width: 90%;padding:0px;" [(ngModel)]="attends.department" (ngModelChange)="switchType1()" interface="popover" placeholder="部门" >\n      <ion-option value="测试中心">测试中心</ion-option>\n      <ion-option value="解决方案">解决方案</ion-option>\n      <ion-option value="平面设计">平面设计</ion-option>\n    </ion-select>\n    <ion-label class="img4 imgall4"></ion-label>\n  </ion-item>\n  <ion-item style="border:none" class="visit">\n    <!--<ion-label class="common_font" style="max-width:30%;width: 30%;">走访类型</ion-label>-->\n    <ion-select class="common_font" style="max-width:90%; width: 90%;padding:0px;" [(ngModel)]="attends.position" (ngModelChange)="switchType2()" interface="popover" placeholder="职位" >\n      <ion-option value="前端开发">前端开发</ion-option>\n      <ion-option value="数据挖掘">数据挖掘</ion-option>\n      <ion-option value="ui设计">ui设计</ion-option>\n    </ion-select>\n    <ion-label class="img4 imgall4"></ion-label>\n  </ion-item>\n  </div>\n  <div class="common_content common_flex" style="border-bottom: 1px #ddd solid;" *ngFor="let item of attendLists">\n    <div style="display: -webkit-box;-webkit-box-align: center">\n      <input type="checkbox" style="display: -webkit-box;width:1.5rem;height:1.5rem;margin-right: 1rem" [checked]="checked_select"  (click)="selectName(item)">\n    </div>\n    <div  class="content_nowrap">\n      <div class="content_title">{{item.name}}</div>\n      <div class="content_font" style="margin-top: 1rem;">\n        <span>部门：{{item.department}}</span><span style="margin-left: 2rem;">职位：{{item.position}}</span>\n      </div>\n    </div>\n  </div>\n\n  <div class="footer">\n    <div style="display: -webkit-box;-webkit-box-align: center;width:10%;-webkit-box-pack:end">\n      <input type="checkbox" style="display: -webkit-box;width:1.5rem;height:1.5rem;" [checked]="checked_all_select" (click)="all_check()">\n    </div>\n    <div style="width: 10%;text-align: center;" (click)="all_check()">\n      全选\n    </div>\n    <div style="width: 30%;text-align: center;">\n      <span (click)="addList()">新增</span>\n    </div>\n    <div style="width: 50%;text-align: center">\n      <span style="background: #ff8611;color:#ffffff;" (click)="addAtteends()">立即添加</span>\n    </div>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\attendees\attendees.html"*/,
+            selector: 'page-attendees',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\attendees\attendees.html"*/'<!--\n  Generated template for the AttendeesPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header class="header">\n  <ion-navbar>\n    <div class="search_header">\n      <input class="input" type="search"  (keyup)="picc($event)" placeholder="请输入名字" [(ngModel)]="attends.customer">\n      <div class="search_icon" (click)="goSearch($event)">搜索</div>\n    </div>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content>\n\n  <div style="border-bottom: 1px #ddd solid;display: -webkit-box;">\n  <ion-item style="border:none" class="visit">\n    <!--<ion-label class="common_font" style="max-width:30%;width: 30%;">走访类型</ion-label>-->\n    <ion-select class="common_font" style="max-width:90%; width: 90%;padding:0px;" [(ngModel)]="attends.activityType" [disabled]="isTrue"  (ngModelChange)="switchType()" interface="popover" placeholder="类型" >\n      <ion-option value="0">我方</ion-option>\n      <ion-option value="1">客户</ion-option>\n    </ion-select>\n    <ion-label class="img4 imgall4"></ion-label>\n  </ion-item>\n  </div>\n\n  <div [ngStyle]="{\'display\':isDisplay}" class="common_content common_flex"  style="border-bottom: 1px #ddd solid;"  *ngFor="let item of attentdList">\n    <div style="display: -webkit-box;-webkit-box-align: center">\n      <input type="checkbox" style="display: -webkit-box;width:1.5rem;height:1.5rem;margin-right: 1rem" [checked]="checked_select"  (click)="selectName(item)">\n    </div>\n    <div  class="content_nowrap">\n      <div class="content_title">{{item.name}}</div>\n      <div class="content_font" style="margin-top: 1rem;">\n        <span>部门：{{item.department}}</span><span style="margin-left: 2rem;">职位：{{item.position}}</span>\n      </div>\n    </div>\n  </div>\n\n  <div class="footer">\n    <div style="display: -webkit-box;-webkit-box-align: center;width:10%;-webkit-box-pack:end">\n      <input type="checkbox" style="display: -webkit-box;width:1.5rem;height:1.5rem;" [checked]="checked_all_select" (click)="all_check()">\n    </div>\n    <div style="width: 10%;text-align: center;" (click)="all_check($event)">\n      全选\n    </div>\n    <div style="width: 30%;text-align: center;">\n      <span (click)="addList()">新增</span>\n    </div>\n    <div style="width: 50%;text-align: center">\n      <span style="background: #ff8611;color:#ffffff;" (click)="addAtteends()">立即添加</span>\n    </div>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\attendees\attendees.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
             __WEBPACK_IMPORTED_MODULE_2__providers_HttpService__["a" /* HttpService */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */]])
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */],
+            __WEBPACK_IMPORTED_MODULE_4__ionic_angular_3_9_2_ionic_angular_components_toast_toast_controller__["a" /* ToastController */]])
     ], AttendeesPage);
     return AttendeesPage;
 }());
@@ -1859,7 +2371,7 @@ var AttendeesPage = (function () {
 
 /***/ }),
 
-/***/ 217:
+/***/ 222:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2031,7 +2543,7 @@ var AddattendPage = (function () {
     };
     AddattendPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addattendpage',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\addattend\addattend.html"*/'\n<ion-header  class="header">\n\n  <ion-navbar>\n\n    <ion-title>新增与会人员</ion-title>\n    <div class="save right" (click)="saveOther()">保存</div>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-item>\n    <ion-label fixed>姓名</ion-label>\n    <ion-input type="text" value="" placeholder="请输入会谈人员姓名" [(ngModel)]="addOthers.title"></ion-input>\n  </ion-item>\n  <ion-item style="border:none" >\n      <ion-label class="common_font" style="max-width:30%;width: 30%;">类型</ion-label>\n      <ion-select class="common_font" style="max-width:70%; width: 70%;padding: 11px 8px 11px 6px;" [(ngModel)]="addOthers.type" (ngModelChange)="switchType()" interface="popover" placeholder="请选择类型">\n        <ion-option value="我方">我方</ion-option>\n        <ion-option value="第三方">第三方</ion-option>\n      </ion-select>\n      <ion-label class="img4 imgall4"></ion-label>\n    </ion-item>\n    <ion-item>\n	    <ion-label fixed>所属部门</ion-label>\n	    <ion-input type="text" value="" placeholder="请输入会谈人员所属部门" [(ngModel)]="addOthers.department"></ion-input>\n	  </ion-item>\n	   <ion-item>\n	    <ion-label fixed>职位</ion-label>\n	    <ion-input type="text" value="" placeholder="请输入会谈人员职位" [(ngModel)]="addOthers.position"></ion-input>\n	  </ion-item>\n	  <ion-item>\n	    <ion-label fixed>名片</ion-label>\n	    <ion-input type="text" value="" placeholder="请输入会谈人员名片" [(ngModel)]="addOthers.businessCard"></ion-input>\n	  </ion-item>\n	  <ion-item>\n	    <ion-label fixed>电话</ion-label>\n	    <ion-input type="text" value="" placeholder="请输入会谈人员电话" [(ngModel)]="addOthers.phone"></ion-input>\n	  </ion-item>\n    \n    \n    \n\n\n   <div class="submit" (click)="saveOther()">提交</div>\n\n  <div class="footer"></div>\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\addattend\addattend.html"*/,
+            selector: 'page-addattendpage',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\addattend\addattend.html"*/'\n<ion-header  class="header">\n\n  <ion-navbar>\n\n    <ion-title>新增与会人员</ion-title>\n    <div class="save right" (click)="saveOther()">保存</div>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-item>\n    <ion-label fixed>姓名</ion-label>\n    <ion-input type="text" value="" placeholder="请输入会谈人员姓名" [(ngModel)]="addOthers.title"></ion-input>\n  </ion-item>\n  <ion-item style="border:none" >\n      <ion-label class="common_font" style="max-width:30%;width: 30%;">类型</ion-label>\n      <ion-select class="common_font" style="max-width:70%; width: 70%;padding: 11px 8px 11px 6px;" [(ngModel)]="addOthers.type" (ngModelChange)="switchType()" interface="popover" placeholder="请选择类型">\n        <ion-option value="我方">我方</ion-option>\n        <ion-option value="第三方">第三方</ion-option>\n      </ion-select>\n      <ion-label class="img4 imgall4"></ion-label>\n    </ion-item>\n    <ion-item>\n	    <ion-label fixed>所属部门</ion-label>\n	    <ion-input type="text" value="" placeholder="请输入会谈人员所属部门" [(ngModel)]="addOthers.department"></ion-input>\n	  </ion-item>\n	   <ion-item>\n	    <ion-label fixed>职位</ion-label>\n	    <ion-input type="text" value="" placeholder="请输入会谈人员职位" [(ngModel)]="addOthers.position"></ion-input>\n	  </ion-item>\n	  <ion-item>\n	    <ion-label fixed>名片</ion-label>\n	    <ion-input type="text" value="" placeholder="请输入会谈人员名片" [(ngModel)]="addOthers.businessCard"></ion-input>\n	  </ion-item>\n	  <ion-item>\n	    <ion-label fixed>电话</ion-label>\n	    <ion-input type="text" value="" placeholder="请输入会谈人员电话" [(ngModel)]="addOthers.phone"></ion-input>\n	  </ion-item>\n\n\n\n\n\n   <div class="submit" (click)="saveOther()">提交</div>\n\n  <div class="footer"></div>\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\addattend\addattend.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
             __WEBPACK_IMPORTED_MODULE_2__providers_HttpService__["a" /* HttpService */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */],
@@ -2044,19 +2556,179 @@ var AddattendPage = (function () {
 
 /***/ }),
 
-/***/ 218:
+/***/ 223:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VisidetailPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__visitlist_visitlist__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_Constants__ = __webpack_require__(32);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+/**
+ * Generated class for the VisidetailPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var VisidetailPage = (function () {
+    function VisidetailPage(navCtrl, viewCtrl, navParams, alertCtrl, httpService) {
+        this.navCtrl = navCtrl;
+        this.viewCtrl = viewCtrl;
+        this.navParams = navParams;
+        this.alertCtrl = alertCtrl;
+        this.httpService = httpService;
+        this.iii = false;
+        this.roles = [];
+        //已审批状态
+        this.haveapprove = false;
+        //退回原因
+        this.canselreason = false;
+        this.id = navParams.get("item");
+        var 
+        // roles=sessionStorage.getItem("roles");
+        roles = [{ "roleid": "aaa" }, { "roleid": "outsourceTA" }];
+        for (var i = 0; i < roles.length; i++) {
+            if (roles[i].roleid == "outsourceTA") {
+                this.iii = true;
+                console.log(this.iii);
+            }
+        }
+        //this.status_index = navParams.get("index");
+        this.status_index = 4;
+        console.log("您点击的是第" + this.status_index + "项");
+        if (this.status_index == 1) {
+            this.haveapprove = false;
+        }
+        else if (this.status_index == 2) {
+            this.haveapprove = false;
+        }
+        else if (this.status_index == 3) {
+            this.haveapprove = true;
+        }
+        else if (this.status_index == 4 && this.iii == true) {
+            this.canselreason = true;
+        }
+    }
+    VisidetailPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad VisidetailPage');
+    };
+    VisidetailPage.prototype.cansel = function () {
+        var _this = this;
+        console.log("你点击了取消");
+        var confirm = this.alertCtrl.create({
+            title: '提示',
+            message: '是否取消该走访计划?',
+            buttons: [
+                {
+                    text: '取消',
+                    handler: function () {
+                        console.log('您点击了取消');
+                    }
+                },
+                {
+                    text: '是',
+                    handler: function () {
+                        console.log('您点击了是');
+                        _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__visitlist_visitlist__["a" /* VisitlistPage */], { animate: true });
+                    }
+                }
+            ]
+        });
+        confirm.present();
+    };
+    VisidetailPage.prototype.presentPrompt = function (msg) {
+        var _this = this;
+        var alert = this.alertCtrl.create({
+            title: '请打分',
+            subTitle: msg,
+            buttons: [
+                {
+                    text: '1分',
+                    handler: function () { _this.score = '1'; console.log(_this.score); }
+                },
+                {
+                    text: '2分',
+                    handler: function () { _this.score = '2'; }
+                },
+                {
+                    text: '3分',
+                    handler: function () { _this.score = '3'; }
+                },
+                {
+                    text: '4分',
+                    handler: function () { _this.score = '4'; }
+                },
+                {
+                    text: '5分',
+                    handler: function () { _this.score = '5'; }
+                }
+            ]
+        });
+        alert.present();
+    };
+    VisidetailPage.prototype.updateSource = function () {
+        var url = __WEBPACK_IMPORTED_MODULE_4__providers_Constants__["a" /* Contents */].HTTP_LOCAL_ORIGIN;
+        // this.presentPrompt('请打分');
+        var data = {
+            "appId": "mcrm",
+            "reqParam": {
+                "userId": sessionStorage.getItem("userId"),
+                "interviewId": this.id,
+                "score": this.score
+            }
+            // "serviceId":Contents.UPDATE_INTERVIEW_SCORE
+        };
+        this.httpService.getData({
+            url: url,
+            body: data
+        }).then(function (res) {
+            console.log(res);
+            console.log(res.info);
+        });
+    };
+    VisidetailPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-visidetail',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\visidetail\visidetail.html"*/'<!--\n  Generated template for the VisidetailPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header class="header">\n\n  <ion-navbar>\n    <ion-title>未完成走访计划详情</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n  <ion-list>\n    <ion-item>\n      <ion-label class="common_font" style="padding-left:14px;max-width:30%;width: 30%;">走访类型</ion-label>\n      <ion-select class="common_font" style="max-width:70%; width: 70%;padding: 11px 8px 11px 6px;"  interface="popover" placeholder="请选择" value="审批中" readonly>\n        <ion-option value="新增">新增</ion-option>\n        <ion-option value="审批中">审批中</ion-option>\n        <ion-option value="已审批">已审批</ion-option>\n        <ion-option value="已退回">已退回</ion-option>\n      </ion-select>\n    </ion-item>\n\n    <ion-item>\n      <ion-label class="common_font" style="padding-left:14px;max-width:30%;width: 30%;">客户名称</ion-label>\n      <ion-label class="common_font" style="max-width: 70%;"  type="text">希维尔</ion-label>\n    </ion-item>\n\n    <ion-item>\n      <ion-label class="common_font" style="padding-left:14px;max-width:30%;width: 30%;">走访进度</ion-label>\n      <ion-label class="common_font" style="max-width: 70%;"  type="text">审批中</ion-label>\n    </ion-item>\n\n    <ion-item>\n      <ion-label class="common_font" style="padding-left:14px;max-width:30%;width: 30%;">客户地址</ion-label>\n      <ion-label class="common_font" style="max-width: 70%;"  type="text">重庆沙坪坝</ion-label>\n    </ion-item>\n\n    <ion-item>\n      <ion-label class="common_font" style="padding-left:14px;max-width:30%;width: 30%;">计划走访时间</ion-label>\n      <ion-label class="common_font" style="max-width: 70%;"  type="text">2018-3-23 09:30</ion-label>\n    </ion-item>\n\n    <ion-item>\n      <ion-label class="common_font" style="padding-left:14px;max-width:30%;width: 30%;">实际走访时间</ion-label>\n      <ion-label class="common_font" style="max-width: 70%;"  type="text">2018-3-23 09:30</ion-label>\n    </ion-item>\n\n    <ion-item>\n      <ion-label class="common_font" style="padding-left:14px;max-width:30%;width: 30%;">行内人员</ion-label>\n      <ion-label class="common_font" style="max-width: 70%;"  type="text">佐助，小樱，鸣人</ion-label>\n    </ion-item>\n\n    <ion-item>\n      <ion-label class="common_font" style="padding-left:14px;max-width:30%;width: 30%;">拜访客户</ion-label>\n      <ion-label class="common_font" style="max-width: 70%;"  type="text">卡卡西</ion-label>\n    </ion-item>\n\n    <ion-item  *ngIf="haveapprove">\n      <ion-label class="common_font" style="padding-left:14px;max-width:30%;width: 30%;">审批信息</ion-label>\n      <ion-label class="common_font" style="max-width: 70%;"  type="text">通过</ion-label>\n    </ion-item>\n\n    <ion-item  *ngIf="haveapprove">\n      <ion-label class="common_font" style="padding-left:14px;max-width:30%;width: 30%;">分数</ion-label>\n      <ion-label class="common_font" style="max-width: 70%;"  type="text">100</ion-label>\n    </ion-item>\n\n    <ion-item  *ngIf="canselreason">\n      <ion-label class="common_font" style="padding-left:14px;max-width:30%;width: 30%;">退回原因</ion-label>\n      <ion-label class="common_font" style="max-width: 70%;"  type="text">路程太远</ion-label>\n    </ion-item>\n\n    <ion-item>\n      <ion-label class="common_font" style="padding-left:14px;max-width:30%;width: 30%;">客户名片</ion-label>\n    </ion-item>\n    <div class="common_font" style="height: 5rem;background: red;margin:30px;color:#ffffff;line-height: 5rem;text-align: center">图片区域</div>\n\n    <ion-item>\n      <ion-label class="common_font" style="padding-left:14px;max-width:30%;width: 30%;">拜访图片</ion-label>\n    </ion-item>\n    <div class="common_font" style="height: 5rem;background: red;margin:30px;color:#ffffff;line-height: 5rem;text-align: center">图片区域</div>\n\n  </ion-list>\n  <ion-item  *ngIf="canselreason">\n  <div class="login_button" (click)="presentPrompt(msg)">\n    打分\n  </div>\n  </ion-item>\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\visidetail\visidetail.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__["a" /* HttpService */]])
+    ], VisidetailPage);
+    return VisidetailPage;
+}());
+
+//# sourceMappingURL=visidetail.js.map
+
+/***/ }),
+
+/***/ 224:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return WorkBench; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__workbenchService__ = __webpack_require__(461);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__formalcust_formalcust__ = __webpack_require__(219);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__potentialcust_potentialcust__ = __webpack_require__(222);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__myapprove_myapprove__ = __webpack_require__(224);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__bulletin_bulletin__ = __webpack_require__(226);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__searchlist_searchlist__ = __webpack_require__(230);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__workbenchService__ = __webpack_require__(462);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__formalcust_formalcust__ = __webpack_require__(225);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__potentialcust_potentialcust__ = __webpack_require__(228);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__myapprove_myapprove__ = __webpack_require__(230);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__bulletin_bulletin__ = __webpack_require__(232);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__searchlist_searchlist__ = __webpack_require__(236);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2139,16 +2811,16 @@ var WorkBench = (function () {
 
 /***/ }),
 
-/***/ 219:
+/***/ 225:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FormalcustPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__formalparticulars_formalparticulars__ = __webpack_require__(220);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__formalparticulars_formalparticulars__ = __webpack_require__(226);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_Constants__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_Constants__ = __webpack_require__(32);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2252,15 +2924,15 @@ var FormalcustPage = (function () {
 
 /***/ }),
 
-/***/ 220:
+/***/ 226:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FormalparticularsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__enjoycard_enjoycard__ = __webpack_require__(221);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_Constants__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__enjoycard_enjoycard__ = __webpack_require__(227);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_Constants__ = __webpack_require__(32);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_HttpService__ = __webpack_require__(5);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -2373,14 +3045,14 @@ var FormalparticularsPage = (function () {
 
 /***/ }),
 
-/***/ 221:
+/***/ 227:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EnjoycardPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__examinerecord_examinerecord__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__examinerecord_examinerecord__ = __webpack_require__(108);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2505,17 +3177,17 @@ var EnjoycardPage = (function () {
 
 /***/ }),
 
-/***/ 222:
+/***/ 228:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PotentialcustPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__potentialcustdetails_potentialcustdetails__ = __webpack_require__(223);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__potentialcustdetails_potentialcustdetails__ = __webpack_require__(229);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_Constants__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__potentialcustedit_potentialcustedit__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_Constants__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__potentialcustedit_potentialcustedit__ = __webpack_require__(109);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2612,15 +3284,15 @@ var PotentialcustPage = (function () {
 
 /***/ }),
 
-/***/ 223:
+/***/ 229:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PotentialcustdetailsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__potentialcustedit_potentialcustedit__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_Constants__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__potentialcustedit_potentialcustedit__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_Constants__ = __webpack_require__(32);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_HttpService__ = __webpack_require__(5);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -2701,14 +3373,14 @@ var PotentialcustdetailsPage = (function () {
 
 /***/ }),
 
-/***/ 224:
+/***/ 230:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyapprovePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__myapprovedetil_myapprovedetil__ = __webpack_require__(225);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__myapprovedetil_myapprovedetil__ = __webpack_require__(231);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2756,14 +3428,14 @@ var MyapprovePage = (function () {
 
 /***/ }),
 
-/***/ 225:
+/***/ 231:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyapprovedetilPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__examinerecord_examinerecord__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__examinerecord_examinerecord__ = __webpack_require__(108);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2869,7 +3541,7 @@ var MyapprovedetilPage = (function () {
 
 /***/ }),
 
-/***/ 226:
+/***/ 232:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2877,9 +3549,9 @@ var MyapprovedetilPage = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_HttpService__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__largeremind_largeremind__ = __webpack_require__(227);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__arrivalremind_arrivalremind__ = __webpack_require__(228);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__advancemoney_advancemoney__ = __webpack_require__(229);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__largeremind_largeremind__ = __webpack_require__(233);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__arrivalremind_arrivalremind__ = __webpack_require__(234);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__advancemoney_advancemoney__ = __webpack_require__(235);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2989,7 +3661,7 @@ var BulletinPage = (function () {
 
 /***/ }),
 
-/***/ 227:
+/***/ 233:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3058,7 +3730,7 @@ var LargeremindPage = (function () {
 
 /***/ }),
 
-/***/ 228:
+/***/ 234:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3127,7 +3799,7 @@ var ArrivalremindPage = (function () {
 
 /***/ }),
 
-/***/ 229:
+/***/ 235:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3196,18 +3868,18 @@ var AdvancemoneyPage = (function () {
 
 /***/ }),
 
-/***/ 230:
+/***/ 236:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SearchlistPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__customer_customer__ = __webpack_require__(231);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__project_project__ = __webpack_require__(233);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__rate_rate__ = __webpack_require__(235);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__accountSearch_accountSearch__ = __webpack_require__(237);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__balance_balance__ = __webpack_require__(239);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__customer_customer__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__project_project__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__rate_rate__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__accountSearch_accountSearch__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__balance_balance__ = __webpack_require__(115);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3274,93 +3946,14 @@ var SearchlistPage = (function () {
 
 /***/ }),
 
-/***/ 231:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CustomerPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__customerdetail_customerdetail__ = __webpack_require__(232);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__ = __webpack_require__(5);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-/**
- * Generated class for the MarketingPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var CustomerPage = (function () {
-    function CustomerPage(navCtrl, navParams, modalCtrl, httpService) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.modalCtrl = modalCtrl;
-        this.httpService = httpService;
-        this.search = {};
-        this.searchLists = [];
-    }
-    CustomerPage.prototype.goCustomer = function (cust) {
-        console.log('去客户详情');
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__customerdetail_customerdetail__["a" /* CustomerDetailPage */], { "customer": this.search.customer }, { animate: true });
-    };
-    CustomerPage.prototype.goSearch = function () {
-        var _this = this;
-        var url = "search/customer.json";
-        var param = {
-            "customName": this.search.customer,
-            "pageNo": "1",
-            "dataCount": "10",
-            "fisrPageNo": "10",
-            "vague": true
-        };
-        this.httpService.getData({
-            url: url,
-            body: param
-        })
-            .then(function (res) {
-            console.log(res);
-            _this.searchLists = res.customs;
-        });
-    };
-    CustomerPage.prototype.presentModal = function () {
-        console.log('分享');
-    };
-    CustomerPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-customerpage',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\customer\customer.html"*/'\n<ion-header class="header">\n\n  <ion-navbar>\n    <ion-title>用户信息</ion-title>\n    <!--<div class="edit right" (click)="goEditOther(otherDetails)">编辑</div>-->\n    <div class="edit right" (click)="presentModal()">分享</div>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding class="cont_bg_color">\n  <div class="customer_search">\n   	<div class="serach_top">\n   		<div class="serach_title">客户名称</div>\n   		<div class="serach_cont">\n   			<ion-icon name="search" class="search_icon" (keyup)="goSearch()"></ion-icon>\n   			<input type="text" class="serach_inp" placeholder="客户名称"  [(ngModel)]="search.customer" (keyup)="goSearch()"/>\n   		</div>\n   	</div>\n   	<div class="serach_lists">\n   		<div class="lists_cont">\n   			<div class="list_item" (click)="goCustomer(cust)" *ngFor="let item of searchLists">{{item.customName}}</div>\n   		</div>\n   	</div>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\customer\customer.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */],
-            __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__["a" /* HttpService */]])
-    ], CustomerPage);
-    return CustomerPage;
-}());
-
-//# sourceMappingURL=customer.js.map
-
-/***/ }),
-
-/***/ 232:
+/***/ 237:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CustomerDetailPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__customermanagerprodetail_customermanagerprodetail__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__customermanagerprodetail_customermanagerprodetail__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__ = __webpack_require__(5);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -3431,90 +4024,7 @@ var CustomerDetailPage = (function () {
 
 /***/ }),
 
-/***/ 233:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProjectPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__projectDetail_projectDetail__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__ = __webpack_require__(5);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-// import { Cookie } from 'ng2-cookies/ng2-cookies';
-/**
- * Generated class for the MarketingPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var ProjectPage = (function () {
-    function ProjectPage(navCtrl, navParams, modalCtrl, httpService) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.modalCtrl = modalCtrl;
-        this.httpService = httpService;
-        this.search = {};
-        this.projectLists = [];
-        this.userName = sessionStorage.getItem('userName');
-    }
-    ProjectPage.prototype.goCustomer = function (instId) {
-        console.log(instId);
-        console.log('去客户详情');
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__projectDetail_projectDetail__["a" /* ProjectDetailPage */], { "instId": instId }, { animate: true });
-    };
-    ProjectPage.prototype.goSearch = function () {
-        var _this = this;
-        console.log('搜索');
-        var url = "search/project.json";
-        var param = {
-            "customName": this.search.project,
-            "userId": this.userName,
-            "pageNo": "1",
-            "dataCount": "10",
-            "firstPageNo": "10"
-        };
-        this.httpService.getData({
-            url: url,
-            body: param
-        })
-            .then(function (res) {
-            console.log(res);
-            _this.projectLists = res.projects;
-        });
-    };
-    ProjectPage.prototype.presentModal = function () {
-        console.log("分享");
-    };
-    ProjectPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-projectpage',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\project\project.html"*/'\n<ion-header class="header">\n\n  <ion-navbar>\n    <ion-title>项目信息</ion-title>\n    <!--<div class="edit right" (click)="goEditOther(otherDetails)">编辑</div>-->\n    <div class="edit right" (click)="presentModal()">分享</div>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding class="cont_bg_color">\n  <div class="customer_search">\n   	<div class="serach_top">\n   		<div class="serach_title">项目名称</div>\n   		<div class="serach_cont">\n   			<ion-icon name="search" class="search_icon" (click)="goSearch()"></ion-icon>\n   			<input type="text" class="serach_inp" placeholder="客户名称"  [(ngModel)]="search.project" (keyup)="goSearch()"/>\n   			\n   		</div>\n   	</div>\n   	<div class="serach_lists">\n   		<div class="lists_cont">\n   			<div class="list_item" (click)="goCustomer(item.instId)" *ngFor="let item of projectLists">{{item.name}}</div>\n   		</div>\n   	</div>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\project\project.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */],
-            __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__["a" /* HttpService */]])
-    ], ProjectPage);
-    return ProjectPage;
-}());
-
-//# sourceMappingURL=project.js.map
-
-/***/ }),
-
-/***/ 234:
+/***/ 238:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3584,113 +4094,7 @@ var ProjectDetailPage = (function () {
 
 /***/ }),
 
-/***/ 235:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RatePage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__rateDetail_rateDetail__ = __webpack_require__(236);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__ = __webpack_require__(5);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-/**
- * Generated class for the MarketingPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var RatePage = (function () {
-    function RatePage(navCtrl, navParams, modalCtrl, httpService) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.modalCtrl = modalCtrl;
-        this.httpService = httpService;
-        this.rates = {};
-        this.reports = {};
-    }
-    RatePage.prototype.goSearch = function () {
-        var _this = this;
-        var url = "search/customer.json";
-        // const param={
-        //   "customName":this.reports.customer,
-        //   "pageNo":"1",
-        //   "dataCount":"10",
-        //   "fisrPageNo":"10",
-        //   "vague":true
-        // }
-        this.httpService.getData({
-            url: url
-            // body: param
-        })
-            .then(function (res) {
-            console.log(res);
-            _this.searchLists = res.customs;
-            if (_this.searchLists.length == 0) {
-                _this.isSearch = 'none';
-            }
-            else {
-                _this.isSearch = 'block';
-            }
-        });
-    };
-    RatePage.prototype.goCustomer = function (cust) {
-        this.reports.customer = cust.customName;
-        this.isSearch = 'none';
-    };
-    RatePage.prototype.goRateDetail = function () {
-        var _this = this;
-        console.log('去客户详情');
-        var url = "search/rate.json";
-        var param = {
-            "name": this.rates.name,
-            "beginDate": this.rates.start,
-            "endDate": this.rates.end,
-            "pageNo": "1",
-            "dataCount": "10",
-            "firstPageNo": "10"
-        };
-        this.httpService.getData({
-            url: url,
-            body: param
-        })
-            .then(function (res) {
-            console.log(res);
-            _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__rateDetail_rateDetail__["a" /* RateDetailPage */], { "ratesDetails": res }, { animate: true });
-        });
-    };
-    RatePage.prototype.presentModal = function () {
-        console.log("分享");
-    };
-    RatePage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-ratepage',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\rate\rate.html"*/'\n<ion-header class="header">\n\n  <ion-navbar>\n    <ion-title>指令进度</ion-title>\n    <!--<div class="edit right" (click)="goEditOther(otherDetails)">编辑</div>-->\n    <div class="edit right" (click)="presentModal()">分享</div>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding class="cont_bg_color">\n   <!--<div class="rate">\n			<ion-list>\n			  <ion-item>\n				  <ion-label fixed>项目名称:</ion-label>\n				  <ion-input type="text" placeholder="项目名称"></ion-input>\n				</ion-item>\n				<ion-item>\n				  <ion-label>开始日期:</ion-label>\n				  <ion-datetime displayFormat="YYYY/MM/DD" placeholder="开始时间" cancelText="取消" doneText="完成" [(ngModel)]="start" ></ion-datetime>\n				</ion-item>\n				<ion-item>\n				  <ion-label>结束日期:</ion-label>\n				  <ion-datetime displayFormat="YYYY/MM/DD" placeholder="结束时间" cancelText="取消" doneText="完成" [(ngModel)]="end" ></ion-datetime>\n				</ion-item>\n				<div class="search_btn">\n					<button ion-button (click)="goRateDetail(rate)">查询</button>\n				</div>\n			</ion-list>\n   </div>-->\n\n   <div class="rate">\n			<ion-list>\n			  <ion-item>\n				  <ion-label fixed>项目名称:</ion-label>\n				  <ion-input type="text" [(ngModel)]="rates.name" placeholder="项目名称" (keyup)="goSearch()"></ion-input>\n				</ion-item>\n        <div class="serach_lists" [ngStyle]="{\'display\':isSearch}">\n          <div class="lists_cont">\n            <div class="list_item" (click)="goCustomer(item)" *ngFor="let item of searchLists">{{item.customName}}</div>\n          </div>\n        </div>\n				<ion-item>\n				  <ion-label>开始日期:</ion-label>\n				  <ion-datetime displayFormat="YYYY/MM/DD" placeholder="开始时间" cancelText="取消" doneText="完成" [(ngModel)]="rates.start" ></ion-datetime>\n				</ion-item>\n				<ion-item>\n				  <ion-label>结束日期:</ion-label>\n				  <ion-datetime displayFormat="YYYY/MM/DD" placeholder="结束时间" cancelText="取消" doneText="完成" [(ngModel)]="rates.end" ></ion-datetime>\n				</ion-item>\n				<div class="search_btn">\n					<button ion-button (click)="goRateDetail()">查询</button>\n				</div>\n			</ion-list>\n   </div>\n\n		<!--<button (click)="goRateDetail(rate)">进度详情</button>-->\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\rate\rate.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */],
-            __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__["a" /* HttpService */]])
-    ], RatePage);
-    return RatePage;
-}());
-
-//# sourceMappingURL=rate.js.map
-
-/***/ }),
-
-/***/ 236:
+/***/ 239:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3741,84 +4145,7 @@ var RateDetailPage = (function () {
 
 /***/ }),
 
-/***/ 237:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AccountSearchPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__accountDetail_accountDetail__ = __webpack_require__(238);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__ = __webpack_require__(5);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-/**
- * Generated class for the MarketingPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var AccountSearchPage = (function () {
-    function AccountSearchPage(navCtrl, navParams, modalCtrl, httpService) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.modalCtrl = modalCtrl;
-        this.httpService = httpService;
-        this.accounts = {};
-    }
-    AccountSearchPage.prototype.goRateDetail = function (search) {
-        var _this = this;
-        console.log('去客户详情');
-        var url = "search/accountSearch.json";
-        var param = {
-            "name": this.accounts.name,
-            "AccountId": this.accounts.AccountId,
-            "beginDate": this.accounts.start,
-            "endDate": this.accounts.end,
-            "pageNo": "1",
-            "dataCount": "10",
-            "firstPageNo": "10"
-        };
-        this.httpService.getData({
-            url: url,
-            body: param
-        })
-            .then(function (res) {
-            console.log(res);
-            _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__accountDetail_accountDetail__["a" /* AccountDetailPage */], { "accountDetails": res }, { animate: true });
-        });
-    };
-    AccountSearchPage.prototype.presentModal = function () {
-        console.log("分享");
-    };
-    AccountSearchPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-accountSearchpage',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\accountSearch\accountSearch.html"*/'\n<ion-header class="header">\n\n  <ion-navbar>\n    <ion-title>资金进出</ion-title>\n    <!--<div class="edit right" (click)="goEditOther(otherDetails)">编辑</div>-->\n    <div class="edit right" (click)="presentModal()">分享</div>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding class="cont_bg_color">\n   <div class="rate">\n			<ion-list>\n			  <ion-item>\n				  <ion-label fixed>项目名称:</ion-label>\n				  <ion-input type="text" placeholder="项目名称" [(ngModel)]="accounts.name"></ion-input>\n				</ion-item>\n				<ion-item>\n				  <ion-label fixed>账户信息:</ion-label>\n				  <ion-input type="text" placeholder="账户信息" [(ngModel)]="accounts.AccountId"></ion-input>\n				</ion-item>\n				<ion-item>\n				  <ion-label>开始日期:</ion-label>\n				  <ion-datetime displayFormat="YYYY/MM/DD" placeholder="开始时间" cancelText="取消" doneText="完成" [(ngModel)]="accounts.start" ></ion-datetime>\n				</ion-item>\n				<ion-item>\n				  <ion-label>结束日期:</ion-label>\n				  <ion-datetime displayFormat="YYYY/MM/DD" placeholder="结束时间" cancelText="取消" doneText="完成" [(ngModel)]="accounts.end" ></ion-datetime>\n				</ion-item>\n				<div class="search_btn">\n					<button ion-button (click)="goRateDetail(search)">查询</button>\n				</div>\n			</ion-list>\n   	\n   	\n   </div>\n		<!--<button (click)="goRateDetail(rate)">进度详情</button>-->\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\accountSearch\accountSearch.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */],
-            __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__["a" /* HttpService */]])
-    ], AccountSearchPage);
-    return AccountSearchPage;
-}());
-
-//# sourceMappingURL=accountSearch.js.map
-
-/***/ }),
-
-/***/ 238:
+/***/ 240:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3868,84 +4195,7 @@ var AccountDetailPage = (function () {
 
 /***/ }),
 
-/***/ 239:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BalancePage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__balanceDetail_balanceDetail__ = __webpack_require__(240);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__ = __webpack_require__(5);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-/**
- * Generated class for the MarketingPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var BalancePage = (function () {
-    function BalancePage(navCtrl, navParams, modalCtrl, httpService) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.modalCtrl = modalCtrl;
-        this.httpService = httpService;
-        this.balance = {};
-    }
-    BalancePage.prototype.goRateDetail = function (search) {
-        var _this = this;
-        console.log('去客户详情');
-        var url = "search/balance.json";
-        var param = {
-            "name": this.balance.name,
-            "AccountId": this.balance.AccountId,
-            "beginDate": this.balance.start,
-            "endDate": this.balance.end,
-            "pageNo": "1",
-            "dataCount": "1",
-            "firstPageNo": "1"
-        };
-        this.httpService.getData({
-            url: url,
-            body: param
-        })
-            .then(function (res) {
-            console.log(res);
-            _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__balanceDetail_balanceDetail__["a" /* BalanceDetailPage */], { "balanceDetails": res }, { animate: true });
-        });
-    };
-    BalancePage.prototype.presentModal = function () {
-        console.log("分享");
-    };
-    BalancePage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-balancepage',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\balance\balance.html"*/'\n<ion-header class="header">\n\n  <ion-navbar>\n    <ion-title>余额查询</ion-title>\n    <!--<div class="edit right" (click)="goEditOther(otherDetails)">编辑</div>-->\n    <div class="edit right" (click)="presentModal()">分享</div>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding class="cont_bg_color">\n   <div class="rate">\n			<ion-list>\n			  <ion-item>\n				  <ion-label fixed>项目名称:</ion-label>\n				  <ion-input type="text" placeholder="项目名称" [(ngModel)]="balance.name"></ion-input>\n				</ion-item>\n				<ion-item>\n				  <ion-label fixed>账户信息:</ion-label>\n				  <ion-input type="text" placeholder="账户信息" [(ngModel)]="balance.AccountId"></ion-input>\n				</ion-item>\n				<ion-item>\n				  <ion-label>开始日期:</ion-label>\n				  <ion-datetime displayFormat="YYYY/MM/DD" placeholder="开始时间" cancelText="取消" doneText="完成" [(ngModel)]="balance.start" ></ion-datetime>\n				</ion-item>\n				<ion-item>\n				  <ion-label>结束日期:</ion-label>\n				  <ion-datetime displayFormat="YYYY/MM/DD" placeholder="结束时间" cancelText="取消" doneText="完成" [(ngModel)]="balance.end" ></ion-datetime>\n				</ion-item>\n				<div class="search_btn">\n					<button ion-button (click)="goRateDetail(search)">查询</button>\n				</div>\n			</ion-list>\n   	\n   	\n   </div>\n		<!--<button (click)="goRateDetail(rate)">进度详情</button>-->\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\balance\balance.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */],
-            __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__["a" /* HttpService */]])
-    ], BalancePage);
-    return BalancePage;
-}());
-
-//# sourceMappingURL=balance.js.map
-
-/***/ }),
-
-/***/ 240:
+/***/ 241:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3997,21 +4247,26 @@ var BalanceDetailPage = (function () {
 
 /***/ }),
 
-/***/ 241:
+/***/ 242:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__HomeService__ = __webpack_require__(462);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__HomeService__ = __webpack_require__(463);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__approvedpending_approvedpending__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__businessreport_businessreport__ = __webpack_require__(245);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__approvedpenddetail_approvedpenddetail__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__businessreportdetail_businessreportdetail__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__visitlist_visitlist__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__businessreport_businessreport__ = __webpack_require__(246);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__approvedpenddetail_approvedpenddetail__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__businessreportdetail_businessreportdetail__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__visitlist_visitlist__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__addreport_addreport__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__customer_customer__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__project_project__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__rate_rate__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__accountSearch_accountSearch__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__balance_balance__ = __webpack_require__(115);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -4031,6 +4286,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
+
+
+
+
 var HomePage = (function () {
     //传递待审批更多的字段
     function HomePage(navCtrl, httpService) {
@@ -4040,6 +4300,7 @@ var HomePage = (function () {
         this.homePageDrtail = [];
         //empID
         this.empId = 1;
+        this.arr = [];
     }
     //点击进入走访详情页面
     HomePage.prototype.go_visidetail = function (status) {
@@ -4228,13 +4489,46 @@ var HomePage = (function () {
         var arr = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"];
         return arr[new Date(time).getDay()];
     };
+    HomePage.prototype.arrClassname = function (cls) {
+        this.arr = cls.split(" ");
+    };
+    HomePage.prototype.goSearchlists = function ($event) {
+        this.arrClassname($event.target.className);
+        console.log($event.target.className);
+        for (var i = 0, len = this.arr.length; i < len; i++) {
+            switch (this.arr[i]) {
+                case "customer_icon":
+                    console.log("666");
+                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_10__customer_customer__["a" /* CustomerPage */], {}, { animate: true });
+                    break;
+                case "project_icon":
+                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_11__project_project__["a" /* ProjectPage */], {}, { animate: true });
+                    break;
+                case "rate_icon":
+                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_12__rate_rate__["a" /* RatePage */], {}, { animate: true });
+                    break;
+                case "account_icon":
+                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_13__accountSearch_accountSearch__["a" /* AccountSearchPage */], {}, { animate: true });
+                    break;
+                case "balance_icon":
+                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_14__balance_balance__["a" /* BalancePage */], {}, { animate: true });
+                    break;
+                case "market_icon":
+                    ;
+                    break;
+                case "pr1111_icon":
+                    ;
+                    break;
+            }
+        }
+    };
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */]),
         __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */])
     ], HomePage.prototype, "content", void 0);
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\home\home.html"*/'\n<ion-header>\n</ion-header>\n\n<ion-content style="">\n  <div class="show_nav_detail">\n    <div class="flex_one" style="-webkit-box-orient: vertical;">\n      <div class="nav_title">业绩完成率</div>\n      <div class="nav_number">80%</div>\n    </div>\n    <div class="flex_one" style="-webkit-box-orient: vertical;">\n      <div class="nav_title">当前排名</div>\n      <div class="nav_number">1</div>\n    </div>\n  </div>\n\n  <div class="home_menu">\n    <div class="menu_list">\n      <div class="menu_item flex_one">\n        <img src="">\n        <div>客户动态</div>\n      </div>\n\n      <div class="menu_item flex_one">\n        <img src="">\n        <div>客户动态</div>\n      </div>\n\n      <div class="menu_item flex_one">\n        <img src="">\n        <div>客户动态</div>\n      </div>\n\n      <div class="menu_item flex_one">\n        <img src="">\n        <div>客户动态</div>\n      </div>\n\n      <div class="menu_item flex_one">\n        <img src="">\n        <div>客户动态</div>\n      </div>\n    </div>\n\n    <div class="menu_list" style="padding:1rem 0rem 2rem 0rem">\n      <div class="menu_item flex_one">\n        <img src="">\n        <div>客户动态</div>\n      </div>\n\n      <div class="menu_item flex_one">\n        <img src="">\n        <div>客户动态</div>\n      </div>\n\n      <div class="menu_item flex_one">\n        <img src="">\n        <div>客户动态</div>\n      </div>\n\n      <div class="menu_item flex_one">\n        <img src="">\n        <div>客户动态</div>\n      </div>\n\n      <div class="menu_item flex_one">\n        <img src="">\n        <div>客户动态</div>\n      </div>\n    </div>\n\n  </div>\n\n  <div class="home_menu" style="margin-top: 1rem;padding: 0px;">\n    <div class="common_title">\n      <span class="nav_icon"></span>\n      待审批事项\n      <span class="common_more" (click)="go_approverpend(0)">更多</span>\n    </div>\n\n    <div class="common_content">\n      <div class="flex_horizontal">\n        <div class="flex_one" (click)="go_approverpend(1)" style="color:#FB7B78">\n          <img class="record_img" src="../../assets/imgs/formaldetail/edit.png">\n          用印\n          <span style="margin-left: 1rem;">{{homePageDrtail.recordNum}}</span>\n        </div>\n        <div  class="flex_one" (click)="go_approverpend(2)" style="color:#0099ff">\n          <img class="report_img" src="../../assets/imgs/formaldetail/remark.png">\n          项目<span style="margin-left: 1rem;">{{homePageDrtail.reportNum}}</span>\n        </div>\n      </div>\n\n      <div class="flex_horizontal">\n        <span class="flex_one" (click)="go_approverpend(3)" style="color:#666666">\n          <img class="pro_img" src="../../assets/imgs/tab/about.png">\n          尽调<span style="margin-left: 1rem;">{{homePageDrtail.proNum}}</span>\n        </span>\n        <span class="flex_one" (click)="go_approverpend(4)" style="color:#3CB371">\n          <img class="num_img" src="../../assets/imgs/market/report.png">\n          报告<span style="margin-left: 1rem;">{{homePageDrtail.num}}</span>\n        </span>\n      </div>\n\n    </div>\n\n\n\n    <!--<div class="common_content common_flex" (click)="approvedpendingdetail()">-->\n      <!--<div  class="content_nowrap">-->\n        <!--<div class="content_title">宁波天心企业咨询有限公司资产托管上报资料</div>-->\n        <!--<div class="content_font" style="margin-top: 1rem;">-->\n          <!--<span class="content_type" style="background: rgb(85, 221, 170);color:#ffffff">类型</span>-->\n          <!--<span>2017-11-23 9:00</span>-->\n        <!--</div>-->\n      <!--</div>-->\n      <!--<div class="content_detail">   >  </div>-->\n    <!--</div>-->\n  </div>\n\n  <div class="home_menu" style="margin-top: 1rem;padding: 0px;">\n    <div class="common_title" (click)="go_visitlist()">\n      <span class="nav_icon"></span>\n      未完成走访计划\n      <span class="common_more">更多</span>\n    </div>\n\n    <div (click)="go_visidetail(item.status)" *ngFor="let item of homePageDrtail;let i = index" class="common_content common_flex" style="padding: 1.5rem 1rem 1.5rem 1rem;border-bottom: 1px #ddd solid;">\n      <div  class="content_nowrap">\n        <div class="content_title" style="display: -webkit-box">\n          <span style="color:#ff9933">{{ getWeekday(item.planDate) }}</span>\n          <span class="line_vertical"></span>\n          <span>{{item.customName}}</span>\n          <span class="content_type" [ngClass]="{\'orange\':item.status == \'待走访\',\'red\':item.status == \'已走访\',\'orange\':item.status == \'已取消\',\'seagreen\':item.status == \'过期未走访\',\'powderblue\':item.status == \'已提交待审批\'}">{{item.status}}</span>\n        </div>\n      </div>\n      <div class="content_detail">   >  </div>\n    </div>\n    <!--<div class="common_content common_flex" style="padding: 1.5rem 1rem 1.5rem 1rem;border-bottom: 1px #ddd solid;">-->\n      <!--<div  class="content_nowrap">-->\n        <!--<div class="content_title" style="display: -webkit-box">-->\n          <!--<span style="color:#ff9933">周三</span>-->\n          <!--<span class="line_vertical"></span>-->\n          <!--<span>宁波天心企业咨询有限公司</span>-->\n          <!--<span class="content_type">类型</span>-->\n        <!--</div>-->\n      <!--</div>-->\n      <!--<div class="content_detail">   >  </div>-->\n    <!--</div>-->\n    <!--<div class="common_content common_flex" style="padding: 1.5rem 1rem 1.5rem 1rem;border-bottom: 1px #ddd solid;">-->\n      <!--<div  class="content_nowrap">-->\n        <!--<div class="content_title" style="display: -webkit-box">-->\n          <!--<span style="color:#ff9933">周三</span>-->\n          <!--<span class="line_vertical"></span>-->\n          <!--<span>宁波天心企业咨询有限公司</span>-->\n          <!--<span class="content_type">类型</span>-->\n        <!--</div>-->\n      <!--</div>-->\n      <!--<div class="content_detail">   >  </div>-->\n    <!--</div>-->\n  </div>\n\n  <!--<div class="home_menu" style="margin-top: 1rem;padding: 0px;">-->\n    <!--<div class="common_title">-->\n      <!--<span class="nav_icon"></span>-->\n      <!--重要客户业务动态-->\n      <!--<span class="common_more">更多</span>-->\n    <!--</div>-->\n    <!--<div class="common_content common_flex">-->\n      <!--<div  class="content_nowrap">-->\n        <!--<div class="content_title">宁波天心企业咨询有限公司已开通分级基金</div>-->\n        <!--<div class="content_font" style="margin-top: 1rem;">-->\n          <!--<span>2017-11-23 9:00</span>-->\n        <!--</div>-->\n      <!--</div>-->\n      <!--<div class="content_detail">   >  </div>-->\n    <!--</div>-->\n  <!--</div>-->\n\n  <div class="home_menu" style="margin-top: 1rem;padding: 0px;margin-bottom: 2rem;">\n    <div class="common_title">\n      <span class="nav_icon"></span>\n      每周业务报告\n      <span class="common_more" (click)="go_report()">更多</span>\n    </div>\n    <div class="common_content common_flex" (click)="go_businessreportdetail()">\n      <div  class="content_nowrap">\n        <div class="content_title">2018年第<span>{{reprotArrListLastWeek}}</span>周业务报告</div>\n        <div class="content_font" style="margin-top: 1rem;">\n          <span>{{reprotArrListLastTime}}</span>\n        </div>\n      </div>\n      <div class="content_detail">   >  </div>\n    </div>\n  </div>\n\n</ion-content>\n\n\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\home\home.html"*/,
+            selector: 'page-home',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\home\home.html"*/'\n<ion-header>\n</ion-header>\n\n<ion-content style="">\n  <div class="show_nav_detail">\n    <div class="flex_one" style="-webkit-box-orient: vertical;">\n      <div class="nav_title">业绩完成率</div>\n      <div class="nav_number">80%</div>\n    </div>\n    <div class="flex_one" style="-webkit-box-orient: vertical;">\n      <div class="nav_title">当前排名</div>\n      <div class="nav_number">1</div>\n    </div>\n  </div>\n\n  <div class="home_menu">\n      <div class="menu_list" (click)="goSearchlists($event)">\n      <div style = "position: relative;" class="menu_item flex_one">\n        <ion-icon name="md-person" class="customer_icon icon icon-ios ion-md-person item-icon" role="img" aria-label="person"></ion-icon>\n        <div class="fontColor1 fontSize">客户查询</div>\n      </div>\n\n      <div class="menu_item flex_one">\n        <ion-icon name="md-square" class="project_icon icon icon-ios ion-md-square item-icon" role="img" aria-label="square"></ion-icon>\n        <div class="fontColor2 fontSize">项目查询</div>\n      </div>\n\n      <div class="menu_item flex_one">\n        <ion-icon name="md-radio-button-on" class="rate_icon icon icon-ios ion-md-radio-button-on item-icon" role="img" aria-label="radio button-on"></ion-icon>\n        <div class="fontColor3 fontSize">指令查询</div>\n      </div>\n\n      <div class="menu_item flex_one">\n        <ion-icon name="ios-list-box" class="account_icon icon icon-ios ion-ios-list-box item-icon" role="img" aria-label="list box"></ion-icon>\n        <div class="fontColor4 fontSize">账户查询</div>\n      </div>\n\n      <div class="menu_item flex_one">\n        <ion-icon name="ios-folder" class="balance_icon icon icon-ios ion-ios-folder item-icon" role="img" aria-label="folder"></ion-icon>\n        <div class="fontColor5 fontSize">余额查询</div>\n      </div>\n    </div>\n\n    <div class="menu_list">\n      <div class="menu_item flex_one">\n        <ion-icon name="md-star" class="market_icon icon icon-ios ion-md-star item-icon" role="img" aria-label="start"></ion-icon>\n        <div class="fontColor6 fontSize">营销查询</div>\n      </div>\n\n      <div class="menu_item flex_one">\n        <img src="">\n        <div class="fontColor7 fontSize">敬请期待</div>\n      </div>\n\n      <div class="menu_item flex_one">\n        <img src="">\n        <div class="fontColor8 fontSize">敬请期待</div>\n      </div>\n\n      <div class="menu_item flex_one">\n        <img src="">\n        <div class="fontColor9 fontSize">敬请期待</div>\n      </div>\n\n      <div class="menu_item flex_one">\n        <img src="">\n        <div class="fontColor10 fontSize">敬请期待</div>\n      </div>\n    </div>\n\n  </div>\n\n  <div class="home_menu" style="margin-top: 1rem;padding: 0px;">\n    <div class="common_title">\n      <span class="nav_icon"></span>\n      待审批事项\n      <span class="common_more" (click)="go_approverpend(0)">更多</span>\n    </div>\n\n    <div class="common_content">\n      <div class="flex_horizontal">\n        <div class="flex_one" (click)="go_approverpend(1)" style="color:#FB7B78">\n          <img class="record_img" src="../../assets/imgs/formaldetail/edit.png">\n          用印\n          <span style="margin-left: 1rem;">{{homePageDrtail.recordNum}}</span>\n        </div>\n        <div  class="flex_one" (click)="go_approverpend(2)" style="color:#0099ff">\n          <img class="report_img" src="../../assets/imgs/formaldetail/remark.png">\n          项目<span style="margin-left: 1rem;">{{homePageDrtail.reportNum}}</span>\n        </div>\n      </div>\n\n      <div class="flex_horizontal">\n        <span class="flex_one" (click)="go_approverpend(3)" style="color:#666666">\n          <img class="pro_img" src="../../assets/imgs/tab/about.png">\n          尽调<span style="margin-left: 1rem;">{{homePageDrtail.proNum}}</span>\n        </span>\n        <span class="flex_one" (click)="go_approverpend(4)" style="color:#3CB371">\n          <img class="num_img" src="../../assets/imgs/market/report.png">\n          报告<span style="margin-left: 1rem;">{{homePageDrtail.num}}</span>\n        </span>\n      </div>\n\n    </div>\n\n\n\n    <!--<div class="common_content common_flex" (click)="approvedpendingdetail()">-->\n      <!--<div  class="content_nowrap">-->\n        <!--<div class="content_title">宁波天心企业咨询有限公司资产托管上报资料</div>-->\n        <!--<div class="content_font" style="margin-top: 1rem;">-->\n          <!--<span class="content_type" style="background: rgb(85, 221, 170);color:#ffffff">类型</span>-->\n          <!--<span>2017-11-23 9:00</span>-->\n        <!--</div>-->\n      <!--</div>-->\n      <!--<div class="content_detail">   >  </div>-->\n    <!--</div>-->\n  </div>\n\n  <div class="home_menu" style="margin-top: 1rem;padding: 0px;">\n    <div class="common_title" (click)="go_visitlist()">\n      <span class="nav_icon"></span>\n      未完成走访计划\n      <span class="common_more">更多</span>\n    </div>\n\n    <div (click)="go_visidetail(item.status)" *ngFor="let item of homePageDrtail;let i = index" class="common_content common_flex" style="padding: 1.5rem 1rem 1.5rem 1rem;border-bottom: 1px #ddd solid;">\n      <div  class="content_nowrap">\n        <div class="content_title" style="display: -webkit-box">\n          <span style="color:#ff9933">{{ getWeekday(item.planDate) }}</span>\n          <span class="line_vertical"></span>\n          <span>{{item.customName}}</span>\n          <span class="content_type" [ngClass]="{\'orange\':item.status == \'待走访\',\'red\':item.status == \'已走访\',\'orange\':item.status == \'已取消\',\'seagreen\':item.status == \'过期未走访\',\'powderblue\':item.status == \'已提交待审批\'}">{{item.status}}</span>\n        </div>\n      </div>\n      <div class="content_detail">   >  </div>\n    </div>\n    <!--<div class="common_content common_flex" style="padding: 1.5rem 1rem 1.5rem 1rem;border-bottom: 1px #ddd solid;">-->\n      <!--<div  class="content_nowrap">-->\n        <!--<div class="content_title" style="display: -webkit-box">-->\n          <!--<span style="color:#ff9933">周三</span>-->\n          <!--<span class="line_vertical"></span>-->\n          <!--<span>宁波天心企业咨询有限公司</span>-->\n          <!--<span class="content_type">类型</span>-->\n        <!--</div>-->\n      <!--</div>-->\n      <!--<div class="content_detail">   >  </div>-->\n    <!--</div>-->\n    <!--<div class="common_content common_flex" style="padding: 1.5rem 1rem 1.5rem 1rem;border-bottom: 1px #ddd solid;">-->\n      <!--<div  class="content_nowrap">-->\n        <!--<div class="content_title" style="display: -webkit-box">-->\n          <!--<span style="color:#ff9933">周三</span>-->\n          <!--<span class="line_vertical"></span>-->\n          <!--<span>宁波天心企业咨询有限公司</span>-->\n          <!--<span class="content_type">类型</span>-->\n        <!--</div>-->\n      <!--</div>-->\n      <!--<div class="content_detail">   >  </div>-->\n    <!--</div>-->\n  </div>\n\n  <!--<div class="home_menu" style="margin-top: 1rem;padding: 0px;">-->\n    <!--<div class="common_title">-->\n      <!--<span class="nav_icon"></span>-->\n      <!--重要客户业务动态-->\n      <!--<span class="common_more">更多</span>-->\n    <!--</div>-->\n    <!--<div class="common_content common_flex">-->\n      <!--<div  class="content_nowrap">-->\n        <!--<div class="content_title">宁波天心企业咨询有限公司已开通分级基金</div>-->\n        <!--<div class="content_font" style="margin-top: 1rem;">-->\n          <!--<span>2017-11-23 9:00</span>-->\n        <!--</div>-->\n      <!--</div>-->\n      <!--<div class="content_detail">   >  </div>-->\n    <!--</div>-->\n  <!--</div>-->\n\n  <div class="home_menu" style="margin-top: 1rem;padding: 0px;margin-bottom: 2rem;">\n    <div class="common_title">\n      <span class="nav_icon"></span>\n      每周业务报告\n      <span class="common_more" (click)="go_report()">更多</span>\n    </div>\n    <div class="common_content common_flex" (click)="go_businessreportdetail()">\n      <div  class="content_nowrap">\n        <div class="content_title">2018年第<span>{{reprotArrListLastWeek}}</span>周业务报告</div>\n        <div class="content_font" style="margin-top: 1rem;">\n          <span>{{reprotArrListLastTime}}</span>\n        </div>\n      </div>\n      <div class="content_detail">   >  </div>\n    </div>\n  </div>\n\n</ion-content>\n\n\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\home\home.html"*/,
             providers: [__WEBPACK_IMPORTED_MODULE_2__HomeService__["a" /* HomeService */]]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
@@ -4247,7 +4541,7 @@ var HomePage = (function () {
 
 /***/ }),
 
-/***/ 242:
+/***/ 243:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4347,7 +4641,7 @@ var ApproveprojectdetailPage = (function () {
 
 /***/ }),
 
-/***/ 243:
+/***/ 244:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4452,7 +4746,7 @@ var ApproveindiadetailPage = (function () {
 
 /***/ }),
 
-/***/ 244:
+/***/ 245:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4553,14 +4847,14 @@ var ApprovewechartdetailPage = (function () {
 
 /***/ }),
 
-/***/ 245:
+/***/ 246:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BusinessreportPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__businessreportdetail_businessreportdetail__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__businessreportdetail_businessreportdetail__ = __webpack_require__(117);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -4617,7 +4911,7 @@ var BusinessreportPage = (function () {
 
 /***/ }),
 
-/***/ 246:
+/***/ 247:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4625,7 +4919,7 @@ var BusinessreportPage = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_HttpService__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__login_login__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__login_login__ = __webpack_require__(105);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -4669,7 +4963,7 @@ var MinePage = (function () {
 
 /***/ }),
 
-/***/ 247:
+/***/ 248:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4677,7 +4971,7 @@ var MinePage = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_HttpService__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__customermanagerlist_customermanagerlist__ = __webpack_require__(248);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__customermanagerlist_customermanagerlist__ = __webpack_require__(249);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -4845,14 +5139,14 @@ var CustomermanagerPage = (function () {
 
 /***/ }),
 
-/***/ 248:
+/***/ 249:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CustomermanagerlistPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__customermanagerdetail_customermanagerdetail__ = __webpack_require__(249);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__customermanagerdetail_customermanagerdetail__ = __webpack_require__(250);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__ = __webpack_require__(5);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -4937,14 +5231,14 @@ var CustomermanagerlistPage = (function () {
 
 /***/ }),
 
-/***/ 249:
+/***/ 250:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CustomermanagerdetailPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__customermanagerprodetail_customermanagerprodetail__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__customermanagerprodetail_customermanagerprodetail__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_HttpService__ = __webpack_require__(5);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -5013,7 +5307,7 @@ var CustomermanagerdetailPage = (function () {
 
 /***/ }),
 
-/***/ 251:
+/***/ 252:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5101,7 +5395,7 @@ var RtprecordPage = (function () {
 
 /***/ }),
 
-/***/ 252:
+/***/ 253:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5146,7 +5440,7 @@ var ApprovedetailPage = (function () {
 
 /***/ }),
 
-/***/ 253:
+/***/ 254:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5190,7 +5484,7 @@ var ThirdPath = (function () {
 
 /***/ }),
 
-/***/ 35:
+/***/ 32:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5240,7 +5534,7 @@ var Contents = (function () {
 
 /***/ }),
 
-/***/ 378:
+/***/ 379:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5360,7 +5654,7 @@ var CustomerlistPage = (function () {
 
 /***/ }),
 
-/***/ 379:
+/***/ 380:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5478,13 +5772,13 @@ var PeoplereceptPage = (function () {
 
 /***/ }),
 
-/***/ 380:
+/***/ 381:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CalendarUtil; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__calendar_holiday__ = __webpack_require__(381);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__calendar_holiday__ = __webpack_require__(382);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -6062,7 +6356,7 @@ var CalendarUtil = (function () {
 
 /***/ }),
 
-/***/ 381:
+/***/ 382:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6094,13 +6388,13 @@ var CalendarHoliday = (function () {
 
 /***/ }),
 
-/***/ 382:
+/***/ 383:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(383);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(404);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(384);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(405);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -6108,7 +6402,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 404:
+/***/ 405:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6116,81 +6410,81 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(25);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(446);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_login_login__ = __webpack_require__(104);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_formalcust_formalcust__ = __webpack_require__(219);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_formalparticulars_formalparticulars__ = __webpack_require__(220);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_potentialcust_potentialcust__ = __webpack_require__(222);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_potentialcustdetails_potentialcustdetails__ = __webpack_require__(223);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_potentialcustedit_potentialcustedit__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_otherdetailpage_otherdetailpage__ = __webpack_require__(214);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_targetdetail_targetdetail__ = __webpack_require__(465);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ionic_native_status_bar__ = __webpack_require__(206);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ionic_native_splash_screen__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(447);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_login_login__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_formalcust_formalcust__ = __webpack_require__(225);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_formalparticulars_formalparticulars__ = __webpack_require__(226);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_potentialcust_potentialcust__ = __webpack_require__(228);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_potentialcustdetails_potentialcustdetails__ = __webpack_require__(229);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_potentialcustedit_potentialcustedit__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_otherdetailpage_otherdetailpage__ = __webpack_require__(219);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_targetdetail_targetdetail__ = __webpack_require__(466);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ionic_native_status_bar__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ionic_native_splash_screen__ = __webpack_require__(214);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__providers_HttpService__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__angular_common_http__ = __webpack_require__(213);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_carddetil_carddetil__ = __webpack_require__(466);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_approve_approve__ = __webpack_require__(467);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_approvedetail_approvedetail__ = __webpack_require__(252);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_addotherpage_addotherpage__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_camera_camera__ = __webpack_require__(468);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__providers_third_path_third_path__ = __webpack_require__(253);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__angular_platform_browser_animations__ = __webpack_require__(471);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_addmeetinginfo_addmeetinginfo__ = __webpack_require__(473);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_visit_visit__ = __webpack_require__(474);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_customerlist_customerlist__ = __webpack_require__(378);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_reception_reception__ = __webpack_require__(475);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_peoplerecept_peoplerecept__ = __webpack_require__(379);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_tabs_tabs__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pages_report_report__ = __webpack_require__(476);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_mine_mine__ = __webpack_require__(246);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pages_knowledge_knowledge__ = __webpack_require__(210);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_home_home__ = __webpack_require__(241);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__pages_about_about__ = __webpack_require__(212);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__components_calendar_calendar_module__ = __webpack_require__(477);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__pages_enjoycard_enjoycard__ = __webpack_require__(221);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__pages_examinerecord_examinerecord__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__pages_rtprecord_rtprecord__ = __webpack_require__(251);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__pages_bulletin_bulletin__ = __webpack_require__(226);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__pages_largeremind_largeremind__ = __webpack_require__(227);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__pages_myapprove_myapprove__ = __webpack_require__(224);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__pages_myapprovedetil_myapprovedetil__ = __webpack_require__(225);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__pages_advancemoney_advancemoney__ = __webpack_require__(229);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__pages_arrivalremind_arrivalremind__ = __webpack_require__(228);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__pages_opinionfedb_opinionfedb__ = __webpack_require__(479);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__pages_funddailyreport_funddailyreport__ = __webpack_require__(480);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__pages_branchlinereport_branchlinereport__ = __webpack_require__(481);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__pages_largechangereport_largechangereport__ = __webpack_require__(482);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__angular_common_http__ = __webpack_require__(218);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_carddetil_carddetil__ = __webpack_require__(467);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_approve_approve__ = __webpack_require__(468);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_approvedetail_approvedetail__ = __webpack_require__(253);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_addotherpage_addotherpage__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_camera_camera__ = __webpack_require__(469);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__providers_third_path_third_path__ = __webpack_require__(254);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__angular_platform_browser_animations__ = __webpack_require__(472);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_addmeetinginfo_addmeetinginfo__ = __webpack_require__(474);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_visit_visit__ = __webpack_require__(475);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_customerlist_customerlist__ = __webpack_require__(379);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_reception_reception__ = __webpack_require__(476);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_peoplerecept_peoplerecept__ = __webpack_require__(380);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_tabs_tabs__ = __webpack_require__(216);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pages_report_report__ = __webpack_require__(477);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_mine_mine__ = __webpack_require__(247);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pages_knowledge_knowledge__ = __webpack_require__(215);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_home_home__ = __webpack_require__(242);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__pages_about_about__ = __webpack_require__(217);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__components_calendar_calendar_module__ = __webpack_require__(478);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__pages_enjoycard_enjoycard__ = __webpack_require__(227);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__pages_examinerecord_examinerecord__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__pages_rtprecord_rtprecord__ = __webpack_require__(252);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__pages_bulletin_bulletin__ = __webpack_require__(232);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__pages_largeremind_largeremind__ = __webpack_require__(233);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__pages_myapprove_myapprove__ = __webpack_require__(230);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__pages_myapprovedetil_myapprovedetil__ = __webpack_require__(231);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__pages_advancemoney_advancemoney__ = __webpack_require__(235);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__pages_arrivalremind_arrivalremind__ = __webpack_require__(234);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__pages_opinionfedb_opinionfedb__ = __webpack_require__(480);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__pages_funddailyreport_funddailyreport__ = __webpack_require__(481);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__pages_branchlinereport_branchlinereport__ = __webpack_require__(482);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__pages_largechangereport_largechangereport__ = __webpack_require__(483);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__pages_approvedpending_approvedpending__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__pages_approvedpenddetail_approvedpenddetail__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__pages_businessreport_businessreport__ = __webpack_require__(245);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__pages_searchlist_searchlist__ = __webpack_require__(230);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__pages_customer_customer__ = __webpack_require__(231);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__pages_customerdetail_customerdetail__ = __webpack_require__(232);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__pages_project_project__ = __webpack_require__(233);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__pages_projectDetail_projectDetail__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_56__pages_rate_rate__ = __webpack_require__(235);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__pages_rateDetail_rateDetail__ = __webpack_require__(236);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__pages_accountSearch_accountSearch__ = __webpack_require__(237);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__pages_accountDetail_accountDetail__ = __webpack_require__(238);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__pages_balance_balance__ = __webpack_require__(239);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__pages_balanceDetail_balanceDetail__ = __webpack_require__(240);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__pages_businessreportdetail_businessreportdetail__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__pages_customermanager_customermanager__ = __webpack_require__(247);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__pages_customermanagerlist_customermanagerlist__ = __webpack_require__(248);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_65__pages_customermanagerdetail_customermanagerdetail__ = __webpack_require__(249);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_66__pages_addplanpage_addplanpage__ = __webpack_require__(215);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__pages_approvedpenddetail_approvedpenddetail__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__pages_businessreport_businessreport__ = __webpack_require__(246);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__pages_searchlist_searchlist__ = __webpack_require__(236);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__pages_customer_customer__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__pages_customerdetail_customerdetail__ = __webpack_require__(237);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__pages_project_project__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__pages_projectDetail_projectDetail__ = __webpack_require__(238);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_56__pages_rate_rate__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__pages_rateDetail_rateDetail__ = __webpack_require__(239);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__pages_accountSearch_accountSearch__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__pages_accountDetail_accountDetail__ = __webpack_require__(240);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__pages_balance_balance__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__pages_balanceDetail_balanceDetail__ = __webpack_require__(241);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__pages_businessreportdetail_businessreportdetail__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__pages_customermanager_customermanager__ = __webpack_require__(248);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__pages_customermanagerlist_customermanagerlist__ = __webpack_require__(249);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_65__pages_customermanagerdetail_customermanagerdetail__ = __webpack_require__(250);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_66__pages_addplanpage_addplanpage__ = __webpack_require__(220);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_67__pages_addreport_addreport__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_68__pages_approveprojectdetail_approveprojectdetail__ = __webpack_require__(242);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_69__pages_approveindiadetail_approveindiadetail__ = __webpack_require__(243);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_70__pages_approvewechartdetail_approvewechartdetail__ = __webpack_require__(244);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_71__pages_customermanagerprodetail_customermanagerprodetail__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_72__pages_visitlist_visitlist__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_73__pages_visidetail_visidetail__ = __webpack_require__(483);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_68__pages_approveprojectdetail_approveprojectdetail__ = __webpack_require__(243);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_69__pages_approveindiadetail_approveindiadetail__ = __webpack_require__(244);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_70__pages_approvewechartdetail_approvewechartdetail__ = __webpack_require__(245);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_71__pages_customermanagerprodetail_customermanagerprodetail__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_72__pages_visitlist_visitlist__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_73__pages_visidetail_visidetail__ = __webpack_require__(223);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_74__pages_prompt_prompt__ = __webpack_require__(484);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_75__pages_attendees_attendees__ = __webpack_require__(216);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_76__pages_addattend_addattend__ = __webpack_require__(217);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_77__pages_workbench_workbench__ = __webpack_require__(218);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_75__pages_attendees_attendees__ = __webpack_require__(221);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_76__pages_addattend_addattend__ = __webpack_require__(222);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_77__pages_workbench_workbench__ = __webpack_require__(224);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -6423,15 +6717,15 @@ var AppModule = (function () {
                         { loadChildren: '../pages/rateDetail/rateDetail.module#RateDetailPageModule', name: 'RateDetailPage', segment: 'rateDetail', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/reception/reception.module#ReceptionPageModule', name: 'ReceptionPage', segment: 'reception', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/regularclient/regularclient.module#RegularclientPageModule', name: 'RegularclientPage', segment: 'regularclient', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/report/report.module#ReportPageModule', name: 'ReportPage', segment: 'report', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/rtprecord/rtprecord.module#RtprecordPageModule', name: 'RtprecordPage', segment: 'rtprecord', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/report/report.module#ReportPageModule', name: 'ReportPage', segment: 'report', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/searchlist/searchlist.module#SearchlistPageModule', name: 'SearchlistPage', segment: 'searchlist', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/tabs/tabs.module#TabsPageModule', name: 'tabs', segment: 'tabs', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/targetdetail/targetdetail.module#TargetdetailPageModule', name: 'TargetdetailPage', segment: 'targetdetail', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/visidetail/visidetail.module#VisidetailPageModule', name: 'VisidetailPage', segment: 'visidetail', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/tabs/tabs.module#TabsPageModule', name: 'tabs', segment: 'tabs', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/visit/visit.module#VisitPageModule', name: 'VisitPage', segment: 'visit', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/visitlist/visitlist.module#VisitlistPageModule', name: 'VisitlistPage', segment: 'visitlist', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/workbench/workbench.module#WorkBenchModule', name: 'WorkBench', segment: 'workbench', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/workbench/workbench.module#WorkBenchModule', name: 'WorkBench', segment: 'workbench', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/visidetail/visidetail.module#VisidetailPageModule', name: 'VisidetailPage', segment: 'visidetail', priority: 'low', defaultHistory: [] }
                     ]
                 }),
                 __WEBPACK_IMPORTED_MODULE_15__angular_common_http__["b" /* HttpClientModule */],
@@ -6531,10 +6825,10 @@ var AppModule = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ApprovedpendingPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__approvedpenddetail_approvedpenddetail__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__approveprojectdetail_approveprojectdetail__ = __webpack_require__(242);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__approveindiadetail_approveindiadetail__ = __webpack_require__(243);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__approvewechartdetail_approvewechartdetail__ = __webpack_require__(244);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__approvedpenddetail_approvedpenddetail__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__approveprojectdetail_approveprojectdetail__ = __webpack_require__(243);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__approveindiadetail_approveindiadetail__ = __webpack_require__(244);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__approvewechartdetail_approvewechartdetail__ = __webpack_require__(245);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_HttpService__ = __webpack_require__(5);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -6690,17 +6984,17 @@ var ApprovedpendingPage = (function () {
 
 /***/ }),
 
-/***/ 446:
+/***/ 447:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(206);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(209);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_knowledge_knowledge__ = __webpack_require__(210);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_login_login__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_knowledge_knowledge__ = __webpack_require__(215);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_login_login__ = __webpack_require__(105);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -6739,7 +7033,7 @@ var MyApp = (function () {
 
 /***/ }),
 
-/***/ 461:
+/***/ 462:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6782,7 +7076,7 @@ var WorkbenchService = (function () {
 
 /***/ }),
 
-/***/ 462:
+/***/ 463:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6824,7 +7118,7 @@ var HomeService = (function () {
 
 /***/ }),
 
-/***/ 465:
+/***/ 466:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6882,14 +7176,14 @@ var TargetdetailPage = (function () {
 
 /***/ }),
 
-/***/ 466:
+/***/ 467:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CarddetilPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__rtprecord_rtprecord__ = __webpack_require__(251);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__rtprecord_rtprecord__ = __webpack_require__(252);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__ = __webpack_require__(25);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -7030,14 +7324,14 @@ var CarddetilPage = (function () {
 
 /***/ }),
 
-/***/ 467:
+/***/ 468:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ApprovePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__approvedetail_approvedetail__ = __webpack_require__(252);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__approvedetail_approvedetail__ = __webpack_require__(253);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -7078,7 +7372,7 @@ var ApprovePage = (function () {
 
 /***/ }),
 
-/***/ 468:
+/***/ 469:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7123,256 +7417,256 @@ var CameraPage = (function () {
 
 /***/ }),
 
-/***/ 470:
+/***/ 471:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./af": 254,
-	"./af.js": 254,
-	"./ar": 255,
-	"./ar-dz": 256,
-	"./ar-dz.js": 256,
-	"./ar-kw": 257,
-	"./ar-kw.js": 257,
-	"./ar-ly": 258,
-	"./ar-ly.js": 258,
-	"./ar-ma": 259,
-	"./ar-ma.js": 259,
-	"./ar-sa": 260,
-	"./ar-sa.js": 260,
-	"./ar-tn": 261,
-	"./ar-tn.js": 261,
-	"./ar.js": 255,
-	"./az": 262,
-	"./az.js": 262,
-	"./be": 263,
-	"./be.js": 263,
-	"./bg": 264,
-	"./bg.js": 264,
-	"./bm": 265,
-	"./bm.js": 265,
-	"./bn": 266,
-	"./bn.js": 266,
-	"./bo": 267,
-	"./bo.js": 267,
-	"./br": 268,
-	"./br.js": 268,
-	"./bs": 269,
-	"./bs.js": 269,
-	"./ca": 270,
-	"./ca.js": 270,
-	"./cs": 271,
-	"./cs.js": 271,
-	"./cv": 272,
-	"./cv.js": 272,
-	"./cy": 273,
-	"./cy.js": 273,
-	"./da": 274,
-	"./da.js": 274,
-	"./de": 275,
-	"./de-at": 276,
-	"./de-at.js": 276,
-	"./de-ch": 277,
-	"./de-ch.js": 277,
-	"./de.js": 275,
-	"./dv": 278,
-	"./dv.js": 278,
-	"./el": 279,
-	"./el.js": 279,
-	"./en-au": 280,
-	"./en-au.js": 280,
-	"./en-ca": 281,
-	"./en-ca.js": 281,
-	"./en-gb": 282,
-	"./en-gb.js": 282,
-	"./en-ie": 283,
-	"./en-ie.js": 283,
-	"./en-il": 284,
-	"./en-il.js": 284,
-	"./en-nz": 285,
-	"./en-nz.js": 285,
-	"./eo": 286,
-	"./eo.js": 286,
-	"./es": 287,
-	"./es-do": 288,
-	"./es-do.js": 288,
-	"./es-us": 289,
-	"./es-us.js": 289,
-	"./es.js": 287,
-	"./et": 290,
-	"./et.js": 290,
-	"./eu": 291,
-	"./eu.js": 291,
-	"./fa": 292,
-	"./fa.js": 292,
-	"./fi": 293,
-	"./fi.js": 293,
-	"./fo": 294,
-	"./fo.js": 294,
-	"./fr": 295,
-	"./fr-ca": 296,
-	"./fr-ca.js": 296,
-	"./fr-ch": 297,
-	"./fr-ch.js": 297,
-	"./fr.js": 295,
-	"./fy": 298,
-	"./fy.js": 298,
-	"./gd": 299,
-	"./gd.js": 299,
-	"./gl": 300,
-	"./gl.js": 300,
-	"./gom-latn": 301,
-	"./gom-latn.js": 301,
-	"./gu": 302,
-	"./gu.js": 302,
-	"./he": 303,
-	"./he.js": 303,
-	"./hi": 304,
-	"./hi.js": 304,
-	"./hr": 305,
-	"./hr.js": 305,
-	"./hu": 306,
-	"./hu.js": 306,
-	"./hy-am": 307,
-	"./hy-am.js": 307,
-	"./id": 308,
-	"./id.js": 308,
-	"./is": 309,
-	"./is.js": 309,
-	"./it": 310,
-	"./it.js": 310,
-	"./ja": 311,
-	"./ja.js": 311,
-	"./jv": 312,
-	"./jv.js": 312,
-	"./ka": 313,
-	"./ka.js": 313,
-	"./kk": 314,
-	"./kk.js": 314,
-	"./km": 315,
-	"./km.js": 315,
-	"./kn": 316,
-	"./kn.js": 316,
-	"./ko": 317,
-	"./ko.js": 317,
-	"./ky": 318,
-	"./ky.js": 318,
-	"./lb": 319,
-	"./lb.js": 319,
-	"./lo": 320,
-	"./lo.js": 320,
-	"./lt": 321,
-	"./lt.js": 321,
-	"./lv": 322,
-	"./lv.js": 322,
-	"./me": 323,
-	"./me.js": 323,
-	"./mi": 324,
-	"./mi.js": 324,
-	"./mk": 325,
-	"./mk.js": 325,
-	"./ml": 326,
-	"./ml.js": 326,
-	"./mn": 327,
-	"./mn.js": 327,
-	"./mr": 328,
-	"./mr.js": 328,
-	"./ms": 329,
-	"./ms-my": 330,
-	"./ms-my.js": 330,
-	"./ms.js": 329,
-	"./mt": 331,
-	"./mt.js": 331,
-	"./my": 332,
-	"./my.js": 332,
-	"./nb": 333,
-	"./nb.js": 333,
-	"./ne": 334,
-	"./ne.js": 334,
-	"./nl": 335,
-	"./nl-be": 336,
-	"./nl-be.js": 336,
-	"./nl.js": 335,
-	"./nn": 337,
-	"./nn.js": 337,
-	"./pa-in": 338,
-	"./pa-in.js": 338,
-	"./pl": 339,
-	"./pl.js": 339,
-	"./pt": 340,
-	"./pt-br": 341,
-	"./pt-br.js": 341,
-	"./pt.js": 340,
-	"./ro": 342,
-	"./ro.js": 342,
-	"./ru": 343,
-	"./ru.js": 343,
-	"./sd": 344,
-	"./sd.js": 344,
-	"./se": 345,
-	"./se.js": 345,
-	"./si": 346,
-	"./si.js": 346,
-	"./sk": 347,
-	"./sk.js": 347,
-	"./sl": 348,
-	"./sl.js": 348,
-	"./sq": 349,
-	"./sq.js": 349,
-	"./sr": 350,
-	"./sr-cyrl": 351,
-	"./sr-cyrl.js": 351,
-	"./sr.js": 350,
-	"./ss": 352,
-	"./ss.js": 352,
-	"./sv": 353,
-	"./sv.js": 353,
-	"./sw": 354,
-	"./sw.js": 354,
-	"./ta": 355,
-	"./ta.js": 355,
-	"./te": 356,
-	"./te.js": 356,
-	"./tet": 357,
-	"./tet.js": 357,
-	"./tg": 358,
-	"./tg.js": 358,
-	"./th": 359,
-	"./th.js": 359,
-	"./tl-ph": 360,
-	"./tl-ph.js": 360,
-	"./tlh": 361,
-	"./tlh.js": 361,
-	"./tr": 362,
-	"./tr.js": 362,
-	"./tzl": 363,
-	"./tzl.js": 363,
-	"./tzm": 364,
-	"./tzm-latn": 365,
-	"./tzm-latn.js": 365,
-	"./tzm.js": 364,
-	"./ug-cn": 366,
-	"./ug-cn.js": 366,
-	"./uk": 367,
-	"./uk.js": 367,
-	"./ur": 368,
-	"./ur.js": 368,
-	"./uz": 369,
-	"./uz-latn": 370,
-	"./uz-latn.js": 370,
-	"./uz.js": 369,
-	"./vi": 371,
-	"./vi.js": 371,
-	"./x-pseudo": 372,
-	"./x-pseudo.js": 372,
-	"./yo": 373,
-	"./yo.js": 373,
-	"./zh-cn": 374,
-	"./zh-cn.js": 374,
-	"./zh-hk": 375,
-	"./zh-hk.js": 375,
-	"./zh-tw": 376,
-	"./zh-tw.js": 376
+	"./af": 255,
+	"./af.js": 255,
+	"./ar": 256,
+	"./ar-dz": 257,
+	"./ar-dz.js": 257,
+	"./ar-kw": 258,
+	"./ar-kw.js": 258,
+	"./ar-ly": 259,
+	"./ar-ly.js": 259,
+	"./ar-ma": 260,
+	"./ar-ma.js": 260,
+	"./ar-sa": 261,
+	"./ar-sa.js": 261,
+	"./ar-tn": 262,
+	"./ar-tn.js": 262,
+	"./ar.js": 256,
+	"./az": 263,
+	"./az.js": 263,
+	"./be": 264,
+	"./be.js": 264,
+	"./bg": 265,
+	"./bg.js": 265,
+	"./bm": 266,
+	"./bm.js": 266,
+	"./bn": 267,
+	"./bn.js": 267,
+	"./bo": 268,
+	"./bo.js": 268,
+	"./br": 269,
+	"./br.js": 269,
+	"./bs": 270,
+	"./bs.js": 270,
+	"./ca": 271,
+	"./ca.js": 271,
+	"./cs": 272,
+	"./cs.js": 272,
+	"./cv": 273,
+	"./cv.js": 273,
+	"./cy": 274,
+	"./cy.js": 274,
+	"./da": 275,
+	"./da.js": 275,
+	"./de": 276,
+	"./de-at": 277,
+	"./de-at.js": 277,
+	"./de-ch": 278,
+	"./de-ch.js": 278,
+	"./de.js": 276,
+	"./dv": 279,
+	"./dv.js": 279,
+	"./el": 280,
+	"./el.js": 280,
+	"./en-au": 281,
+	"./en-au.js": 281,
+	"./en-ca": 282,
+	"./en-ca.js": 282,
+	"./en-gb": 283,
+	"./en-gb.js": 283,
+	"./en-ie": 284,
+	"./en-ie.js": 284,
+	"./en-il": 285,
+	"./en-il.js": 285,
+	"./en-nz": 286,
+	"./en-nz.js": 286,
+	"./eo": 287,
+	"./eo.js": 287,
+	"./es": 288,
+	"./es-do": 289,
+	"./es-do.js": 289,
+	"./es-us": 290,
+	"./es-us.js": 290,
+	"./es.js": 288,
+	"./et": 291,
+	"./et.js": 291,
+	"./eu": 292,
+	"./eu.js": 292,
+	"./fa": 293,
+	"./fa.js": 293,
+	"./fi": 294,
+	"./fi.js": 294,
+	"./fo": 295,
+	"./fo.js": 295,
+	"./fr": 296,
+	"./fr-ca": 297,
+	"./fr-ca.js": 297,
+	"./fr-ch": 298,
+	"./fr-ch.js": 298,
+	"./fr.js": 296,
+	"./fy": 299,
+	"./fy.js": 299,
+	"./gd": 300,
+	"./gd.js": 300,
+	"./gl": 301,
+	"./gl.js": 301,
+	"./gom-latn": 302,
+	"./gom-latn.js": 302,
+	"./gu": 303,
+	"./gu.js": 303,
+	"./he": 304,
+	"./he.js": 304,
+	"./hi": 305,
+	"./hi.js": 305,
+	"./hr": 306,
+	"./hr.js": 306,
+	"./hu": 307,
+	"./hu.js": 307,
+	"./hy-am": 308,
+	"./hy-am.js": 308,
+	"./id": 309,
+	"./id.js": 309,
+	"./is": 310,
+	"./is.js": 310,
+	"./it": 311,
+	"./it.js": 311,
+	"./ja": 312,
+	"./ja.js": 312,
+	"./jv": 313,
+	"./jv.js": 313,
+	"./ka": 314,
+	"./ka.js": 314,
+	"./kk": 315,
+	"./kk.js": 315,
+	"./km": 316,
+	"./km.js": 316,
+	"./kn": 317,
+	"./kn.js": 317,
+	"./ko": 318,
+	"./ko.js": 318,
+	"./ky": 319,
+	"./ky.js": 319,
+	"./lb": 320,
+	"./lb.js": 320,
+	"./lo": 321,
+	"./lo.js": 321,
+	"./lt": 322,
+	"./lt.js": 322,
+	"./lv": 323,
+	"./lv.js": 323,
+	"./me": 324,
+	"./me.js": 324,
+	"./mi": 325,
+	"./mi.js": 325,
+	"./mk": 326,
+	"./mk.js": 326,
+	"./ml": 327,
+	"./ml.js": 327,
+	"./mn": 328,
+	"./mn.js": 328,
+	"./mr": 329,
+	"./mr.js": 329,
+	"./ms": 330,
+	"./ms-my": 331,
+	"./ms-my.js": 331,
+	"./ms.js": 330,
+	"./mt": 332,
+	"./mt.js": 332,
+	"./my": 333,
+	"./my.js": 333,
+	"./nb": 334,
+	"./nb.js": 334,
+	"./ne": 335,
+	"./ne.js": 335,
+	"./nl": 336,
+	"./nl-be": 337,
+	"./nl-be.js": 337,
+	"./nl.js": 336,
+	"./nn": 338,
+	"./nn.js": 338,
+	"./pa-in": 339,
+	"./pa-in.js": 339,
+	"./pl": 340,
+	"./pl.js": 340,
+	"./pt": 341,
+	"./pt-br": 342,
+	"./pt-br.js": 342,
+	"./pt.js": 341,
+	"./ro": 343,
+	"./ro.js": 343,
+	"./ru": 344,
+	"./ru.js": 344,
+	"./sd": 345,
+	"./sd.js": 345,
+	"./se": 346,
+	"./se.js": 346,
+	"./si": 347,
+	"./si.js": 347,
+	"./sk": 348,
+	"./sk.js": 348,
+	"./sl": 349,
+	"./sl.js": 349,
+	"./sq": 350,
+	"./sq.js": 350,
+	"./sr": 351,
+	"./sr-cyrl": 352,
+	"./sr-cyrl.js": 352,
+	"./sr.js": 351,
+	"./ss": 353,
+	"./ss.js": 353,
+	"./sv": 354,
+	"./sv.js": 354,
+	"./sw": 355,
+	"./sw.js": 355,
+	"./ta": 356,
+	"./ta.js": 356,
+	"./te": 357,
+	"./te.js": 357,
+	"./tet": 358,
+	"./tet.js": 358,
+	"./tg": 359,
+	"./tg.js": 359,
+	"./th": 360,
+	"./th.js": 360,
+	"./tl-ph": 361,
+	"./tl-ph.js": 361,
+	"./tlh": 362,
+	"./tlh.js": 362,
+	"./tr": 363,
+	"./tr.js": 363,
+	"./tzl": 364,
+	"./tzl.js": 364,
+	"./tzm": 365,
+	"./tzm-latn": 366,
+	"./tzm-latn.js": 366,
+	"./tzm.js": 365,
+	"./ug-cn": 367,
+	"./ug-cn.js": 367,
+	"./uk": 368,
+	"./uk.js": 368,
+	"./ur": 369,
+	"./ur.js": 369,
+	"./uz": 370,
+	"./uz-latn": 371,
+	"./uz-latn.js": 371,
+	"./uz.js": 370,
+	"./vi": 372,
+	"./vi.js": 372,
+	"./x-pseudo": 373,
+	"./x-pseudo.js": 373,
+	"./yo": 374,
+	"./yo.js": 374,
+	"./zh-cn": 375,
+	"./zh-cn.js": 375,
+	"./zh-hk": 376,
+	"./zh-hk.js": 376,
+	"./zh-tw": 377,
+	"./zh-tw.js": 377
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -7388,11 +7682,11 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 470;
+webpackContext.id = 471;
 
 /***/ }),
 
-/***/ 473:
+/***/ 474:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7481,14 +7775,14 @@ var AddmeetinginfoPage = (function () {
 
 /***/ }),
 
-/***/ 474:
+/***/ 475:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VisitPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__customerlist_customerlist__ = __webpack_require__(378);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__customerlist_customerlist__ = __webpack_require__(379);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -7574,14 +7868,14 @@ var VisitPage = (function () {
 
 /***/ }),
 
-/***/ 475:
+/***/ 476:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ReceptionPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__peoplerecept_peoplerecept__ = __webpack_require__(379);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__peoplerecept_peoplerecept__ = __webpack_require__(380);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -7656,7 +7950,7 @@ var ReceptionPage = (function () {
 
 /***/ }),
 
-/***/ 476:
+/***/ 477:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7789,16 +8083,16 @@ var ReportPage = (function () {
 
 /***/ }),
 
-/***/ 477:
+/***/ 478:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CalendarModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__calendar__ = __webpack_require__(478);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__calendar__ = __webpack_require__(479);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_util__ = __webpack_require__(380);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__calendar_holiday__ = __webpack_require__(381);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__calendar_util__ = __webpack_require__(381);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__calendar_holiday__ = __webpack_require__(382);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -7833,14 +8127,14 @@ var CalendarModule = (function () {
 
 /***/ }),
 
-/***/ 478:
+/***/ 479:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Calendar; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__providers_third_path_third_path__ = __webpack_require__(253);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__calendar_util__ = __webpack_require__(380);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__providers_third_path_third_path__ = __webpack_require__(254);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__calendar_util__ = __webpack_require__(381);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -8305,7 +8599,7 @@ var Calendar = (function () {
 
 /***/ }),
 
-/***/ 479:
+/***/ 480:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8370,7 +8664,7 @@ var OpinionfedbPage = (function () {
 
 /***/ }),
 
-/***/ 480:
+/***/ 481:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8436,7 +8730,7 @@ var FunddailyreportPage = (function () {
 
 /***/ }),
 
-/***/ 481:
+/***/ 482:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8599,7 +8893,7 @@ var BranchlinereportPage = (function () {
 
 /***/ }),
 
-/***/ 482:
+/***/ 483:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8662,96 +8956,6 @@ var LargechangereportPage = (function () {
 }());
 
 //# sourceMappingURL=largechangereport.js.map
-
-/***/ }),
-
-/***/ 483:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VisidetailPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__visitlist_visitlist__ = __webpack_require__(111);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-/**
- * Generated class for the VisidetailPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var VisidetailPage = (function () {
-    function VisidetailPage(navCtrl, navParams, alertCtrl) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.alertCtrl = alertCtrl;
-        //已审批状态
-        this.haveapprove = false;
-        //退回原因
-        this.canselreason = false;
-        this.status_index = navParams.get("index");
-        console.log("您点击的是第" + this.status_index + "项");
-        if (this.status_index == 1) {
-            this.haveapprove = false;
-        }
-        else if (this.status_index == 2) {
-            this.haveapprove = false;
-        }
-        else if (this.status_index == 3) {
-            this.haveapprove = true;
-        }
-        else if (this.status_index == 4) {
-            this.canselreason = true;
-        }
-    }
-    VisidetailPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad VisidetailPage');
-    };
-    VisidetailPage.prototype.cansel = function () {
-        var _this = this;
-        console.log("你点击了取消");
-        var confirm = this.alertCtrl.create({
-            title: '提示',
-            message: '是否取消该走访计划?',
-            buttons: [
-                {
-                    text: '取消',
-                    handler: function () {
-                        console.log('您点击了取消');
-                    }
-                },
-                {
-                    text: '是',
-                    handler: function () {
-                        console.log('您点击了是');
-                        _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__visitlist_visitlist__["a" /* VisitlistPage */], { animate: true });
-                    }
-                }
-            ]
-        });
-        confirm.present();
-    };
-    VisidetailPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-visidetail',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\visidetail\visidetail.html"*/'<!--\n  Generated template for the VisidetailPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header class="header">\n\n  <ion-navbar>\n    <ion-title>未完成走访计划详情</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n  <ion-list>\n    <ion-item>\n      <ion-label class="common_font" style="padding-left:14px;max-width:30%;width: 30%;">走访类型</ion-label>\n      <ion-select class="common_font" style="max-width:70%; width: 70%;padding: 11px 8px 11px 6px;"  interface="popover" placeholder="请选择" value="审批中" readonly>\n        <ion-option value="新增">新增</ion-option>\n        <ion-option value="审批中">审批中</ion-option>\n        <ion-option value="已审批">已审批</ion-option>\n        <ion-option value="已退回">已退回</ion-option>\n      </ion-select>\n    </ion-item>\n\n    <ion-item>\n      <ion-label class="common_font" style="padding-left:14px;max-width:30%;width: 30%;">客户名称</ion-label>\n      <ion-label class="common_font" style="max-width: 70%;"  type="text">希维尔</ion-label>\n    </ion-item>\n\n    <ion-item>\n      <ion-label class="common_font" style="padding-left:14px;max-width:30%;width: 30%;">走访进度</ion-label>\n      <ion-label class="common_font" style="max-width: 70%;"  type="text">审批中</ion-label>\n    </ion-item>\n\n    <ion-item>\n      <ion-label class="common_font" style="padding-left:14px;max-width:30%;width: 30%;">客户地址</ion-label>\n      <ion-label class="common_font" style="max-width: 70%;"  type="text">重庆沙坪坝</ion-label>\n    </ion-item>\n\n    <ion-item>\n      <ion-label class="common_font" style="padding-left:14px;max-width:30%;width: 30%;">计划走访时间</ion-label>\n      <ion-label class="common_font" style="max-width: 70%;"  type="text">2018-3-23 09:30</ion-label>\n    </ion-item>\n\n    <ion-item>\n      <ion-label class="common_font" style="padding-left:14px;max-width:30%;width: 30%;">实际走访时间</ion-label>\n      <ion-label class="common_font" style="max-width: 70%;"  type="text">2018-3-23 09:30</ion-label>\n    </ion-item>\n\n    <ion-item>\n      <ion-label class="common_font" style="padding-left:14px;max-width:30%;width: 30%;">行内人员</ion-label>\n      <ion-label class="common_font" style="max-width: 70%;"  type="text">佐助，小樱，鸣人</ion-label>\n    </ion-item>\n\n    <ion-item>\n      <ion-label class="common_font" style="padding-left:14px;max-width:30%;width: 30%;">拜访客户</ion-label>\n      <ion-label class="common_font" style="max-width: 70%;"  type="text">卡卡西</ion-label>\n    </ion-item>\n\n    <ion-item  *ngIf="haveapprove">\n      <ion-label class="common_font" style="padding-left:14px;max-width:30%;width: 30%;">审批信息</ion-label>\n      <ion-label class="common_font" style="max-width: 70%;"  type="text">通过</ion-label>\n    </ion-item>\n\n    <ion-item  *ngIf="haveapprove">\n      <ion-label class="common_font" style="padding-left:14px;max-width:30%;width: 30%;">分数</ion-label>\n      <ion-label class="common_font" style="max-width: 70%;"  type="text">100</ion-label>\n    </ion-item>\n\n    <ion-item  *ngIf="canselreason">\n      <ion-label class="common_font" style="padding-left:14px;max-width:30%;width: 30%;">退回原因</ion-label>\n      <ion-label class="common_font" style="max-width: 70%;"  type="text">路程太远</ion-label>\n    </ion-item>\n\n    <ion-item>\n      <ion-label class="common_font" style="padding-left:14px;max-width:30%;width: 30%;">客户名片</ion-label>\n    </ion-item>\n    <div class="common_font" style="height: 5rem;background: red;margin:30px;color:#ffffff;line-height: 5rem;text-align: center">图片区域</div>\n\n    <ion-item>\n      <ion-label class="common_font" style="padding-left:14px;max-width:30%;width: 30%;">拜访图片</ion-label>\n    </ion-item>\n    <div class="common_font" style="height: 5rem;background: red;margin:30px;color:#ffffff;line-height: 5rem;text-align: center">图片区域</div>\n\n  </ion-list>\n\n  <div class="login_button" (click)="cansel()">\n    取消\n  </div>\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\visidetail\visidetail.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
-    ], VisidetailPage);
-    return VisidetailPage;
-}());
-
-//# sourceMappingURL=visidetail.js.map
 
 /***/ }),
 
@@ -8926,10 +9130,10 @@ var PromptPage = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HttpService; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_toPromise__ = __webpack_require__(455);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_toPromise__ = __webpack_require__(456);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_toPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_toPromise__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Constants__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common_http__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Constants__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common_http__ = __webpack_require__(218);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -9129,7 +9333,7 @@ var HttpService = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_HttpService__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__attendees_attendees__ = __webpack_require__(216);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__attendees_attendees__ = __webpack_require__(221);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -9171,6 +9375,7 @@ var addreportPage = (function () {
         this.reports = {};
         this.searchLists = [];
         this.location = "";
+        this.num = 0;
         this.select = {
             ismyListshow: false,
             isUnderListshow: false,
@@ -9302,20 +9507,55 @@ var addreportPage = (function () {
         console.log(this.reports.endtime);
         this.isShowEdit = true;
     };
-    addreportPage.prototype.addAttendees = function (evevt) {
+    addreportPage.prototype.addAttendees = function ($evevt) {
         var _this = this;
-        console.log(evevt);
+        console.log($evevt);
         console.log("添加与会列表");
         var AattendeesModal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_3__attendees_attendees__["a" /* AttendeesPage */], { type: "编辑其它" });
         AattendeesModal.onDidDismiss(function (data) {
-            //	 this.otherDetails=data;
             console.log(data);
-            _this.attends = data;
-            if (data) {
-                _this.isDisplayAttend = 'block';
+            if (data.length !== 0) {
+                if (_this.isDisplayAttend === "none") {
+                    _this.attends = data;
+                    _this.isDisplayAttend = "block";
+                    //data=[];
+                }
+                else {
+                    _this.isDisplayAttend = "none";
+                    _this.attends = Array.from(new Set(_this.attends.concat(data)));
+                    console.log(_this.attends);
+                    _this.isDisplayAttend = "block";
+                    //data=[];
+                }
+            }
+            else {
+                if (_this.isDisplayAttend = "none") {
+                    ;
+                }
+                else {
+                    ;
+                }
             }
         });
         AattendeesModal.present();
+    };
+    addreportPage.prototype.fadeOut = function ($event) {
+        //$event.target.style="display:none";
+        $event.target.parentNode.style = "display:none";
+        this.num++;
+        if (this.attends.length == this.num) {
+            this.isDisplayAttend = "none";
+            $event.target.parentNode.parentNode.removeChild($event.target.parentNode);
+        }
+        for (var i = 0, len = this.attends.length; i < len; i++) {
+            // console.log("666");
+            console.log($event.target.previousSibling.innerHTML);
+            if (this.attends[i].name == $event.target.previousSibling.innerHTML) {
+                console.log("666");
+                this.attends.splice(i, 1);
+                console.log(this.attends);
+            }
+        }
     };
     addreportPage.prototype.isSelect = function () {
         console.log(this.isSelected);
@@ -9454,7 +9694,7 @@ var addreportPage = (function () {
             _this.viewCtrl.dismiss();
         });
     };
-    addreportPage.prototype.goSearch = function () {
+    addreportPage.prototype.goSearch = function ($event) {
         var _this = this;
         var url = "search/customer.json";
         var param = {
@@ -9489,14 +9729,15 @@ var addreportPage = (function () {
         //alert("hello");
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(function (position) {
-                _this.xLocation = position.coords.latitude;
+                alert(position.coords.latitude);
                 _this.yLocation = position.coords.longitude;
             });
         }
         else {
             this.errLocation = "获取位置信息失败。";
         }
-        //let urll = "http://api.map.baidu.com/geocoder/v2/?callback=renderReverse&location=39.983424,116.322987&output=json&pois=1&ak=oVF7rVxFBuiwNWwrqeYshKxme6kpO5ij";
+        //let urll = "http://api.map.baidu.com/geocoder/v2/?callback=renderReverse&location=39.983424,116.322987
+        // &output=json&pois=1&ak=oVF7rVxFBuiwNWwrqeYshKxme6kpO5ij";
         var url = "province/getprovince.json";
         this.httpService.getData({ url: url }).then(function (res) {
             console.log(res);
@@ -9506,7 +9747,7 @@ var addreportPage = (function () {
     };
     addreportPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addreportpage',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\addreport\addreport.html"*/'<ion-header class="header">\n  <ion-navbar>\n    <ion-title>\n      新增走访报告\n    </ion-title>\n    <div class="remark-save" (click)="addReport(0)">保存</div>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n<!--去掉会议类型栏-->\n  <!--<div class="row nav-filtrate">-->\n    <!--&lt;!&ndash;<ion-label style="color: red">*</ion-label>&ndash;&gt;-->\n    <!--<ion-label class="divlist"><label style="color: red;padding-left:10px"></label>会议类型</ion-label>-->\n    <!--<div (click)="showMyList(\'stat\')" class="select-state select ">-->\n      <!--<label>-->\n        <!--<span>{{stateSelectval}}</span>-->\n        <!--<ion-label class="img4 imgall4"></ion-label>-->\n      <!--</label>-->\n    <!--</div>-->\n    <!--<ion-list [ngClass]="{show:select.ismyListshow}" radio-group style="margin-left:32%;width: 70%;float: right;display: none">-->\n      <!--<ion-item *ngFor="let item of myList" class="items" style="border-bottom: 0.55px solid #c8c7cc;font-size: 1.4rem;">-->\n        <!--<ion-label>{{item.option}}</ion-label>-->\n        <!--<ion-radio (click)="getValues(item.option)" value="{{item.option}}"></ion-radio>-->\n      <!--</ion-item>-->\n    <!--</ion-list>-->\n  <!--</div>-->\n  <ion-item class="itemclass">\n    <ion-label  class="divlist" style="width: 25%;padding-left: 10px" fixed>客户名称</ion-label>\n    <ion-input type="text" placeholder="请输入客户名称" [(ngModel)]="reports.customer" (keyup)="goSearch()"></ion-input>\n  </ion-item>\n  <div class="serach_lists" [ngStyle]="{\'display\':isSearch}">\n		<div class="lists_cont">\n			<div class="list_item" (click)="goCustomer(item)" *ngFor="let item of searchLists">{{item.customName}}</div>\n		</div>\n  </div>\n  <ion-item class="itemclass">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>走访进度</ion-label>\n    <ion-input type="text" placeholder="请输入走访进度" [(ngModel)]="reports.pace"></ion-input>\n  </ion-item>\n  <ion-item class="itemclass">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>客户地址</ion-label>\n    <ion-input type="text" placeholder="客户地址" disabled=\'ture\' [(ngModel)]="reports.address" [value]="location"></ion-input>\n    <ion-input type = "button" value="定位签到" class="imgall location" (click) = "getRoad()">定位签到</ion-input>\n  </ion-item>\n\n	<ion-item id="endtime" class="itemclass">\n    <ion-label  class="divlist" fixed style="max-width: 25%;padding-left: 10px">计划走访时间</ion-label>\n    <ion-datetime cancelText="取消" doneText="确定" style="width: 73%;" displayFormat="YYYY年MM月DD日 HH:mm" [min]="minTime" [(ngModel)]="reports.starttime" (ngModelChange)="changeDate($event)"></ion-datetime>\n    <ion-label class="img2 imgall2"></ion-label>\n  </ion-item>\n  <ion-item id="starttime" class="itemclass">\n    <ion-label  class="divlist" fixed style="max-width: 25%;padding-left: 10px"><label style="color: red"></label>实际走访时间</ion-label><!--style="max-width: 22%;margin-left: 1%"-->\n    <ion-input type="text" placeholder="实际走访时间" [(ngModel)]="reports.endtime" disabled="true"></ion-input>\n    <!--<ion-datetime id="chostarttime" cancelText="取消" doneText="确定"  style="width: 73%;" displayFormat="YYYY年MM月DD日 HH:mm" [(ngModel)]="newtime.endtime" (ngModelChange)="changeDate($event)"></ion-datetime>-->\n    <!--<ion-label class="img imgall"></ion-label>-->\n  </ion-item>\n\n\n	<!--<ion-item class="itemclass">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>行内人员</ion-label>\n    <ion-input type="text" placeholder="请输入行内人员"></ion-input>\n  </ion-item>-->\n  <ion-item class="itemclass">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>与会人员</ion-label>\n    <!--<ion-input type="text" placeholder="请输入拜访客户"></ion-input>-->\n    <ion-label class="imgall2  add_attendees" (click)="addAttendees()">\n    	<div class="add_img" >\n				<ion-icon name="md-add"></ion-icon>\n	    </div>\n    </ion-label>\n  </ion-item>\n  <ion-item class="itemclass item_attend" [ngStyle]="{\'display\':isDisplayAttend}">\n   <div class="attend_cont">\n   	  <div class="attend" *ngFor="let item of attends">{{item.name}}</div>\n   </div>\n  </ion-item>\n  <!--<ion-item class="itemclass">\n    <ion-label  class="divlist" fixed> <label style="color: red"></label>新增客户名片</ion-label>\n    <ion-input type="text" placeholder="请输入新增客户名片户"></ion-input>\n  </ion-item>-->\n  <ion-item class="itemclass">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>拜访照片</ion-label>\n    <ion-input type="text" placeholder="请输入拜访照片" [(ngModel)]="reports.photo"></ion-input>\n  </ion-item>\n  <!--<ion-item class="itemclass">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>需求及问题</ion-label>\n    <ion-input type="text" placeholder="请输入需求及问题"></ion-input>\n  </ion-item>-->\n  <ion-item class="itemclass feedback">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>主要目的</ion-label>\n    <ion-textarea col=\'10\' placeholder="主要目的" [(ngModel)]="reports.mainpPurpose"></ion-textarea>\n  </ion-item>\n   <ion-item class="itemclass feedback">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>客户数据</ion-label>\n    <ion-textarea col=\'10\' placeholder="客户数据" [(ngModel)]="reports.customData"></ion-textarea>\n  </ion-item>\n   <ion-item class="itemclass feedback">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>会谈过程</ion-label>\n    <ion-textarea col=\'10\' placeholder="会谈过程" [(ngModel)]="reports.talkProcess"></ion-textarea>\n  </ion-item>\n  <ion-item class="itemclass feedback">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>会谈结论</ion-label>\n    <ion-textarea col=\'10\' placeholder="会谈结论" [(ngModel)]="reports.talkResult"></ion-textarea>\n  </ion-item>\n  <ion-item class="itemclass feedback">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>其它信息</ion-label>\n    <ion-textarea col=\'10\' placeholder="其它信息" [(ngModel)]="reports.otherMsg"></ion-textarea>\n  </ion-item>\n  <ion-item class="itemclass feedback">\n    <div class="btn_box">\n    	<div class="add_btn" (click)="addReport(1)">提交</div>\n      <div class="add_edit" *ngIf="isShowEdit" (click)="editReport(1)">改期</div>\n      <div class="add_cancel" (click)="cancelReport()">取消</div>\n    </div>\n  </ion-item>\n\n\n  <!--<ion-item class="itemclass">\n    <ion-label class="market-list-name">发起人</ion-label>\n    <ion-input type="text" class="market-list-cont" value="张三"></ion-input>\n  </ion-item>-->\n  <!--<ion-item class="itemclass">\n    <ion-label  class="divlist"  fixed style="max-width: 25%;padding-left: 15px"><label style="color: red">*&nbsp;</label>参与人</ion-label>\n    <ion-input type="text"   placeholder="请选择会议参与人" disabled="true" value="{{people}}" (click)="gotochoosepeo()"></ion-input>\n    <ion-label class="img3 imgall3"></ion-label>\n  </ion-item>-->\n\n\n  <!--<ion-item>\n    <ion-label class="market-list-name">提醒</ion-label>\n    <ion-select cancelText="取消" okText="确定">\n      <ion-option value="1">日程开始时</ion-option>\n      <ion-option value="2">提前5分钟</ion-option>\n      <ion-option value="3">提前15分钟</ion-option>\n      <ion-option value="4">提前30分钟</ion-option>\n      <ion-option value="5">提前1小时</ion-option>\n      <ion-option value="6">提前1天</ion-option>\n    </ion-select>\n  </ion-item>\n  <ion-item>\n    <ion-label class="market-list-name">重复</ion-label>\n    <ion-select cancelText="取消" okText="确定">\n      <ion-option value="1">不重复</ion-option>\n      <ion-option value="2">每天</ion-option>\n      <ion-option value="3">每周</ion-option>\n      <ion-option value="4">每两周</ion-option>\n      <ion-option value="5">每月</ion-option>\n      <ion-option value="6">每年</ion-option>\n    </ion-select>\n  </ion-item>\n  <ion-item>\n    <ion-label class="market-list-name">备注</ion-label>\n    <ion-input placeholder="添加备注"></ion-input>\n  </ion-item>-->\n  <div class="prompt_main" [ngStyle]="{\'display\':isBlock}">\n  	<div class="prompt_cont">\n  		<div class="prompt">\n	   	"新增走访记录"功能仅用于添加无走访计划的临时走访，如您已有走访计划，请通过走访计划页面撰写走访记录。否则会导致您的走访计划变为过期未走访。\n	   </div>\n	   <div class="prompt_checkbox">\n	   		<input type="checkbox" name=\'selected\' [(ngModel)]="isSelected" (ngModelChange)="isSelect()"/>\n	   		&nbsp;&nbsp;已知晓，不再提醒\n	   </div>\n\n	   <div class="submit" (click)="saveOther()">关闭提醒</div>\n\n  	</div>\n  </div>\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\addreport\addreport.html"*/
+            selector: 'page-addreportpage',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\addreport\addreport.html"*/'<ion-header class="header">\n  <ion-navbar>\n    <ion-title>\n      新增走访报告\n    </ion-title>\n    <div class="remark-save" (click)="addReport(0)">保存</div>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n<!--去掉会议类型栏-->\n  <!--<div class="row nav-filtrate">-->\n    <!--&lt;!&ndash;<ion-label style="color: red">*</ion-label>&ndash;&gt;-->\n    <!--<ion-label class="divlist"><label style="color: red;padding-left:10px"></label>会议类型</ion-label>-->\n    <!--<div (click)="showMyList(\'stat\')" class="select-state select ">-->\n      <!--<label>-->\n        <!--<span>{{stateSelectval}}</span>-->\n        <!--<ion-label class="img4 imgall4"></ion-label>-->\n      <!--</label>-->\n    <!--</div>-->\n    <!--<ion-list [ngClass]="{show:select.ismyListshow}" radio-group style="margin-left:32%;width: 70%;float: right;display: none">-->\n      <!--<ion-item *ngFor="let item of myList" class="items" style="border-bottom: 0.55px solid #c8c7cc;font-size: 1.4rem;">-->\n        <!--<ion-label>{{item.option}}</ion-label>-->\n        <!--<ion-radio (click)="getValues(item.option)" value="{{item.option}}"></ion-radio>-->\n      <!--</ion-item>-->\n    <!--</ion-list>-->\n  <!--</div>-->\n  <ion-item class="itemclass">\n    <ion-label  class="divlist" style="width: 25%;padding-left: 10px" fixed>客户名称</ion-label>\n    <ion-input type="text" placeholder="请输入客户名称" [(ngModel)]="reports.customer" (keyup)="goSearch()"></ion-input>\n  </ion-item>\n  <div class="serach_lists" [ngStyle]="{\'display\':isSearch}">\n		<div class="lists_cont">\n			<div class="list_item" (click)="goCustomer(item)" *ngFor="let item of searchLists">{{item.customName}}</div>\n		</div>\n  </div>\n  <ion-item class="itemclass">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>走访进度</ion-label>\n    <ion-input type="text" placeholder="请输入走访进度" [(ngModel)]="reports.pace"></ion-input>\n  </ion-item>\n  <ion-item class="itemclass">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>客户地址</ion-label>\n    <ion-input type="text" placeholder="客户地址" disabled=\'ture\' [(ngModel)]="reports.address" [value]="location"></ion-input>\n    <ion-input type = "button" value="定位签到" class="imgall location" (click) = "getRoad()">定位签到</ion-input>\n  </ion-item>\n\n	<ion-item id="endtime" class="itemclass">\n    <ion-label  class="divlist" fixed style="max-width: 25%;padding-left: 10px">计划走访时间</ion-label>\n    <ion-datetime cancelText="取消" doneText="确定" style="width: 73%;" displayFormat="YYYY年MM月DD日 HH:mm" [min]="minTime" [(ngModel)]="reports.starttime" (ngModelChange)="changeDate($event)"></ion-datetime>\n    <ion-label class="img2 imgall2"></ion-label>\n  </ion-item>\n  <ion-item id="starttime" class="itemclass">\n    <ion-label  class="divlist" fixed style="max-width: 25%;padding-left: 10px"><label style="color: red"></label>实际走访时间</ion-label><!--style="max-width: 22%;margin-left: 1%"-->\n    <ion-input type="text" placeholder="实际走访时间" [(ngModel)]="reports.endtime" disabled="true"></ion-input>\n    <!--<ion-datetime id="chostarttime" cancelText="取消" doneText="确定"  style="width: 73%;" displayFormat="YYYY年MM月DD日 HH:mm" [(ngModel)]="newtime.endtime" (ngModelChange)="changeDate($event)"></ion-datetime>-->\n    <!--<ion-label class="img imgall"></ion-label>-->\n  </ion-item>\n\n\n	<!--<ion-item class="itemclass">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>行内人员</ion-label>\n    <ion-input type="text" placeholder="请输入行内人员"></ion-input>\n  </ion-item>-->\n  <ion-item class="itemclass">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>与会人员</ion-label>\n    <!--<ion-input type="text" placeholder="请添加拜访客户"disabled="true"></ion-input>-->\n\n    <ion-label class="imgall2  add_attendees" (click)="addAttendees($event)">\n    	<div class="add_img" >\n				<ion-icon name="md-add"></ion-icon>\n	    </div>\n    </ion-label>\n  </ion-item>\n\n  <ion-item class="itemclass item_attend" [ngStyle]="{\'display\':isDisplayAttend}">\n   <div class="attend_cont">\n     <div class="attend" *ngFor="let item of attends" ><span>{{item.name}}</span>><i class="icon-del" (click) = "fadeOut($event)"></i></div>\n   </div>\n  </ion-item>\n  <!--<ion-item class="itemclass">\n    <ion-label  class="divlist" fixed> <label style="color: red"></label>新增客户名片</ion-label>\n    <ion-input type="text" placeholder="请输入新增客户名片户"></ion-input>\n  </ion-item>-->\n  <ion-item class="itemclass">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>拜访照片</ion-label>\n    <ion-input type="text" placeholder="请输入拜访照片" [(ngModel)]="reports.photo"></ion-input>\n  </ion-item>\n  <!--<ion-item class="itemclass">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>需求及问题</ion-label>\n    <ion-input type="text" placeholder="请输入需求及问题"></ion-input>\n  </ion-item>-->\n  <ion-item class="itemclass feedback">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>主要目的</ion-label>\n    <ion-textarea col=\'10\' placeholder="主要目的" [(ngModel)]="reports.mainpPurpose"></ion-textarea>\n  </ion-item>\n   <ion-item class="itemclass feedback">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>客户数据</ion-label>\n    <ion-textarea col=\'10\' placeholder="客户数据" [(ngModel)]="reports.customData"></ion-textarea>\n  </ion-item>\n   <ion-item class="itemclass feedback">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>会谈过程</ion-label>\n    <ion-textarea col=\'10\' placeholder="会谈过程" [(ngModel)]="reports.talkProcess"></ion-textarea>\n  </ion-item>\n  <ion-item class="itemclass feedback">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>会谈结论</ion-label>\n    <ion-textarea col=\'10\' placeholder="会谈结论" [(ngModel)]="reports.talkResult"></ion-textarea>\n  </ion-item>\n  <ion-item class="itemclass feedback">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>其它信息</ion-label>\n    <ion-textarea col=\'10\' placeholder="其它信息" [(ngModel)]="reports.otherMsg"></ion-textarea>\n  </ion-item>\n  <ion-item class="itemclass feedback">\n    <div class="btn_box">\n    	<div class="add_btn" (click)="addReport(1)">提交</div>\n      <div class="add_edit" *ngIf="isShowEdit" (click)="editReport(1)">改期</div>\n      <div class="add_cancel" (click)="cancelReport()">取消</div>\n    </div>\n  </ion-item>\n\n\n  <!--<ion-item class="itemclass">\n    <ion-label class="market-list-name">发起人</ion-label>\n    <ion-input type="text" class="market-list-cont" value="张三"></ion-input>\n  </ion-item>-->\n  <!--<ion-item class="itemclass">\n    <ion-label  class="divlist"  fixed style="max-width: 25%;padding-left: 15px"><label style="color: red">*&nbsp;</label>参与人</ion-label>\n    <ion-input type="text"   placeholder="请选择会议参与人" disabled="true" value="{{people}}" (click)="gotochoosepeo()"></ion-input>\n    <ion-label class="img3 imgall3"></ion-label>\n  </ion-item>-->\n\n\n  <!--<ion-item>\n    <ion-label class="market-list-name">提醒</ion-label>\n    <ion-select cancelText="取消" okText="确定">\n      <ion-option value="1">日程开始时</ion-option>\n      <ion-option value="2">提前5分钟</ion-option>\n      <ion-option value="3">提前15分钟</ion-option>\n      <ion-option value="4">提前30分钟</ion-option>\n      <ion-option value="5">提前1小时</ion-option>\n      <ion-option value="6">提前1天</ion-option>\n    </ion-select>\n  </ion-item>\n  <ion-item>\n    <ion-label class="market-list-name">重复</ion-label>\n    <ion-select cancelText="取消" okText="确定">\n      <ion-option value="1">不重复</ion-option>\n      <ion-option value="2">每天</ion-option>\n      <ion-option value="3">每周</ion-option>\n      <ion-option value="4">每两周</ion-option>\n      <ion-option value="5">每月</ion-option>\n      <ion-option value="6">每年</ion-option>\n    </ion-select>\n  </ion-item>\n  <ion-item>\n    <ion-label class="market-list-name">备注</ion-label>\n    <ion-input placeholder="添加备注"></ion-input>\n  </ion-item>-->\n  <div class="prompt_main" [ngStyle]="{\'display\':isBlock}">\n  	<div class="prompt_cont">\n  		<div class="prompt">\n	   	"新增走访记录"功能仅用于添加无走访计划的临时走访，如您已有走访计划，请通过走访计划页面撰写走访记录。否则会导致您的走访计划变为过期未走访。\n	   </div>\n	   <div class="prompt_checkbox">\n	   		<input type="checkbox" name=\'selected\' [(ngModel)]="isSelected" (ngModelChange)="isSelect()"/>\n	   		&nbsp;&nbsp;已知晓，不再提醒\n	   </div>\n\n	   <div class="submit" (click)="saveOther()">关闭提醒</div>\n\n  	</div>\n  </div>\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\addreport\addreport.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
@@ -9523,5 +9764,5 @@ var addreportPage = (function () {
 
 /***/ })
 
-},[382]);
+},[383]);
 //# sourceMappingURL=main.js.map
