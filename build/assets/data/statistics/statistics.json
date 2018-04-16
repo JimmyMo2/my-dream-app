@@ -1,0 +1,19 @@
+{
+  "serviceId": "auth.login",
+  "status": "0",
+  "datetime": "2016-11-09 10:35:13",
+  "info": "成功",
+  "resultRes": {
+    "statistics":[{
+      "form":"资金日报表",
+      "status":0
+    },{
+      "form":"存款余额大额变动表",
+      "status":0
+    },{
+      "form":"分支行条线存款统计表",
+      "status":1
+    }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+	"serviceId": "auth.login",
+	"status": "0",
+	"datetime": "2016-11-09 10:35:13",
+	"info": "成功",
+	"resultRes": {
+		"dataList":[
+			{
+				"currentNum":"11",
+				"compareYearBegin":"1%",
+				"targetNum":"11",
+				"completionRate":"100%",
+				"isIncrease":"是"	
+			},
+			{
+				"currentNum":"22",
+				"compareYearBegin":"2%",
+				"targetNum":"22",
+				"completionRate":"100%",
+				"isIncrease":"是"	
+			},
+			{
+				"currentNum":"33",
+				"compareYearBegin":"3%",
+				"targetNum":"33",
+				"completionRate":"100%",
+				"isIncrease":"是"	
+			}		
+		]
+	}
+}

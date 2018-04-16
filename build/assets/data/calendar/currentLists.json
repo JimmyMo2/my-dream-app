@@ -1,0 +1,333 @@
+{
+	"serviceId": "auth.login",
+	"status": "0",
+	"datetime": "2016-11-09 10:35:13",
+	"info": "成功",
+	"resultRes": {
+    "marketingList": [
+      {
+        "type":"1",
+        "scheduleType": "拜访",
+        "title": "重点客户聊天",
+        "address": "黄浦路111号1楼",
+        "startTs": "2017-11-03 9:00",
+        "endTs": "10:00",
+        "originator": "赵福",
+        "scheduleDate": "2017-10-24",
+        "statusName": "已完成"
+      },
+      {
+        "type":"2",
+        "scheduleType": "接待",
+        "title": "重点客户聊天",
+        "address": "黄浦路111号1楼",
+        "startTs": "2017-11-03 9:00",
+        "endTs": "10:00",
+        "originator": "赵福",
+        "scheduleDate": "2017-10-24",
+        "statusName": "未完成"
+      },
+      {
+        "type":"3",
+        "scheduleType": "陪访",
+        "title": "重点客户聊天",
+        "address": "黄浦路111号1楼",
+        "startTs": "2017-11-03 9:00",
+        "endTs": "10:00",
+        "originator": "赵福",
+        "scheduleDate": "2017-10-24",
+        "statusName": "已完成"
+      },
+      {
+        "type":"4",
+        "scheduleType": "客户活动",
+        "title": "重点客户聊天",
+        "address": "黄浦路111号1楼",
+        "startTs": "2017-11-03 9:00",
+        "endTs": "10:00",
+        "originator": "赵福",
+        "scheduleDate": "2017-10-24",
+        "statusName": "未完成"
+      },
+      {
+        "type":"5",
+        "scheduleType": "外拓活动",
+        "title": "重点客户聊天",
+        "address": "黄浦路111号1楼",
+        "startTs": "2017-11-03 9:00",
+        "endTs": "10:00",
+        "originator": "赵福",
+        "scheduleDate": "2017-10-24",
+        "statusName": "已完成"
+      }
+    ],
+		"marketList":[
+			{
+				"ordinaryActivityList":[
+					{
+						"scheduleType":"拜访",
+						"title":"谈业务",
+						"content":"谈业务",
+						"address":"黄浦路111号1楼",
+						"organizer":"赵福",
+						"date":"2017-10-24",
+						"startDate":"2017-10-24",
+						"endDate":"2017-10-24",
+						"customerType":"正式客户",
+						"customerName":"刘能",
+						"status":"已报告"
+					},
+					{
+						"scheduleType":"接待",
+						"title":"谈业务",
+						"content":"谈业务",
+						"address":"淮海路298号3楼",
+						"organizer":"王歌",
+						"date":"2017-10-24",
+						"startDate":"2017-10-24",
+						"endDate":"2017-10-25",
+						"customerType":"潜在客户",
+						"customerName":"李来盛",
+						"status":"未报告"
+					},
+					{
+						"scheduleType":"陪访",
+						"title":"谈业务",
+						"content":"谈业务2",
+						"address":"长宁路238号4楼",
+						"organizer":"刘海",
+						"date":"2017-10-20",
+						"startDate":"2017-10-20",
+						"endDate":"2017-10-21",
+						"customerType":"正式客户",
+						"customerName":"李讯",
+						"status":"已报告"
+					}
+				],
+				"customerActivityList":[
+					{
+						"title":"活动主题",
+						"peerPeople":"同行人",
+						"participantNum":"参与人数"
+					},
+					{
+						"title":"活动主题",
+						"peerPeople":"同行人",
+						"participantNum":"参与人数"
+					},
+					{
+						"title":"活动主题",
+						"peerPeople":"同行人",
+						"participantNum":"参与人数"
+					},
+					{
+						"title":"活动主题",
+						"peerPeople":"同行人",
+						"participantNum":"参与人数"
+					}
+				],
+				"outwardActivityList":[
+					{
+						"activityType":"传单派发",
+						"address":"凯旋路237号1楼",
+						"product":"111111101",
+						"materialPrepare":"物料准备1",
+						"followUpActivity":"22222201"
+					},
+					{
+						"activityType":"设摊",
+						"address":"凯旋路2237号2楼",
+						"product":"111111102",
+						"materialPrepare":"物料准备2",
+						"followUpActivity":"22222202"
+					},
+					{
+						"activityType":"银企联动",
+						"address":"凯旋路37号1楼",
+						"product":"111111103",
+						"materialPrepare":"物料准备3",
+						"followUpActivity":"22222203"
+					},
+					{
+						"activityType":"网周拜访",
+						"address":"凯旋路537号4楼",
+						"product":"111111104",
+						"materialPrepare":"物料准备4",
+						"followUpActivity":"22222204"
+					}
+				]
+			}
+		],
+		"meetList":[
+			{
+				"title":"会议主题1",
+				"content":"会议内容1",
+				"meetingType":"晨会",
+				"startTime":"2017-11-03 9:00",
+				"endTime":"10:00",
+				"address":"徐汇路1号",
+				"sponsor":"李财",
+        "who":"系统发起",
+        "nowTime":"2017-11-02  9:45",
+				"participantList":[
+					{
+						"participant":"刘高新",
+						"name":"钱多多",
+						"uid":"1111"
+					},
+					{
+						"participant":"高二乐",
+						"name":"孙伯光",
+						"uid":"222"
+					}
+				],
+				"status":"已结束"
+			},{
+				"title":"会议主题2",
+				"content":"会议内容2",
+				"meetingType":"夕会",
+				"startTime":"2017-09-03 18:00",
+				"endTime":"19:00",
+				"address":"南浦路1号",
+				"sponsor":"李旺",
+        "who":"自己发起",
+        "nowTime":"2017-09-02  9:45",
+				"participantList":[
+					{
+						"participant":"刘二",
+						"name":"钱大",
+						"uid":"333"
+					},
+					{
+						"participant":"老高",
+						"name":"老孙",
+						"uid":"444"
+					}
+				],
+				"status":"进行中"
+			},
+      {
+        "title":"会议主题3",
+        "content":"会议内容3",
+        "meetingType":"周会",
+        "startTime":"2017-09-03 9:00",
+        "endTime":"12:00",
+        "address":"南浦路1号",
+        "sponsor":"李旺",
+        "who":"系统发起",
+        "nowTime":"2017-09-02  9:45",
+        "participantList":[
+          {
+            "participant":"刘二",
+            "name":"钱大",
+            "uid":"333"
+          },
+          {
+            "participant":"老高",
+            "name":"老孙",
+            "uid":"444"
+          }
+        ],
+        "status":"未开始"
+      }
+		],
+		"elseList":[{
+      "style":"计划1",
+      "title":"提交下周计划1",
+      "content":"讨论app研发",
+      "time":"2018-01-20",
+      "who":"系统发起1",
+      "nowTime":"2018-01-15  9:45"
+    },{
+      "style":"计划2",
+      "title":"提交下周计划2",
+      "content":"讨论web研发",
+      "time":"2018-01-21",
+      "who":"系统发起2",
+      "nowTime":"2018-01-16  9:45"
+    },{
+      "style":"计划3",
+      "title":"提交下周计划3",
+      "content":"讨论登录研发",
+      "time":"2018-03-06",
+      "who":"系统发起3",
+      "addr":"宁波银行",
+      "nowTime":"2018-01-17  9:45"
+    }],
+
+    "cardlist":[{
+      "style":"接待",
+      "title":"刘斌客户有1张信用卡待激活",
+      "time":"2017-10-20",
+      "address":"长宁路238号4楼",
+      "length":"1.5km",
+      "content":"信用卡激活",
+      "who":"系统发起",
+      "nowTime":"2018-01-15  9:45",
+      "phone":"135****5555",
+      "sex":"男",
+      "age":"20",
+      "people":"刘斌",
+      "iccard":"320************34",
+      "businesslist":[
+        {
+          "cardid":"320************34",
+          "cardname":"白金卡",
+          "lines":"100000"
+        },
+        {
+          "cardid":"320************34",
+          "cardname":"金卡",
+          "lines":"50000"
+        }
+      ]
+    },{
+      "style":"接待",
+      "title":"刘斌客户有1张信用卡待激活",
+      "time":"2017-10-20",
+      "address":"长宁路238号4楼",
+      "length":"1.5km",
+      "content":"信用卡激活",
+      "who":"系统发起",
+      "nowTime":"2018-01-15  9:45",
+      "phone":"135****5555",
+      "sex":"男",
+      "age":"20",
+      "people":"刘斌",
+      "iccard":"320************34",
+      "businesslist":[
+        {
+          "cardid":"320************34",
+          "cardname":"白金卡",
+          "lines":"100000"
+        },
+        {
+          "cardid":"321************32",
+          "cardname":"金卡",
+          "lines":"50000"
+        }
+      ]
+    },{
+      "style":"接待",
+      "title":"刘斌客户有1张信用卡待激活",
+      "time":"2017-10-20",
+      "address":"长宁路238号4楼",
+      "length":"1.5km",
+      "content":"信用卡激活",
+      "who":"系统发起",
+      "nowTime":"2018-01-15  9:45",
+      "phone":"135****5555",
+      "sex":"男",
+      "age":"20",
+      "people":"刘斌",
+      "iccard":"320************34",
+      "businesslist":[
+        {
+          "cardid":"320************34",
+          "cardname":"白金卡",
+          "lines":"100000"
+        }
+      ]
+    }]
+	}
+}

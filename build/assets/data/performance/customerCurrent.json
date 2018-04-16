@@ -1,0 +1,70 @@
+{
+	"serviceId": "auth.login",
+	"status": "0",
+	"datetime": "2016-11-09 10:35:13",
+	"info": "获取公告成功",
+	"resultRes": {
+		"targetSummary":[
+			{
+				"indicatorType":"贷款",
+				"indicatorSum":"999"
+			},
+			{
+				"indicatorType":"存款",
+				"indicatorSum":"888"
+			},
+			{
+				"indicatorType":"财富",
+				"indicatorSum":"777"
+			},
+			{
+				"indicatorType":"直销银行",
+				"indicatorSum":"666"
+			},
+			{
+				"indicatorType":"其他",
+				"indicatorSum":"555"
+			}
+		],
+		"pointSummary":[
+			{
+				"pointType":"1月",
+				"pointPercent":"111"
+			},{
+				"pointType":"2月",
+				"pointPercent":"222"
+			},{
+				"pointType":"3月",
+				"pointPercent":"333"
+			},{
+				"pointType":"4月",
+				"pointPercent":"444"
+			},{
+				"pointType":"5月",
+				"pointPercent":"555"
+			},{
+				"pointType":"6月",
+				"pointPercent":"666"
+			},{
+				"pointType":"7月",
+				"pointPercent":"777"
+			},{
+				"pointType":"8月",
+				"pointPercent":"888"
+			},{
+				"pointType":"9月",
+				"pointPercent":"999"
+			},{
+				"pointType":"10月",
+				"pointPercent":"101010"
+			},{
+				"pointType":"11月",
+				"pointPercent":"1111"
+			},{
+				"pointType":"12月",
+				"pointPercent":"121212"
+			}
+		]
+
+	}
+}

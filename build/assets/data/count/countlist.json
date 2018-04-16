@@ -1,0 +1,34 @@
+{
+	"serviceId": "auth.login",
+	"status": "0",
+	"datetime": "2016-11-09 10:35:13",
+	"info": "成功",
+	"resultRes": {
+	    "data":[
+	      {
+	        "projectName":"项目1",
+	        "balance":"69871",
+	        "comparelast":"22221",
+	        "comparelastyear":"415"
+	    },
+	      {
+	        "projectName":"项目2",
+	        "balance":"69827",
+	        "comparelast":"22211",
+	        "comparelastyear":"15"
+	      },
+	      {
+	        "projectName":"项目3",
+	        "balance":"64987",
+	        "comparelast":"25221",
+	        "comparelastyear":"45"
+	      },
+	      {
+	        "projectName":"项目4",
+	        "balance":"3987",
+	        "comparelast":"26221",
+	        "comparelastyear":"75"
+	      }
+	    ]
+	}
+}

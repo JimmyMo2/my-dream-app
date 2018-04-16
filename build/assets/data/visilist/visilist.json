@@ -1,0 +1,106 @@
+{
+	"serviceId": "auth.login",
+	"status": "0",
+	"datetime": "2016-11-09 10:35:13",
+	"info": "成功",
+	"resultRes": {
+    "visitPlans":[
+      {
+        "planId":"10001",
+        "customName":"宁波天心企业有限公司",
+        "status":"待走访",
+        "planDate":"2018-04-01 12:00:00"
+      },
+      {
+        "planId":"10002",
+        "customName":"宁波希维尔企业有限公司",
+        "status":"已提交待审批",
+        "planDate":"2018-04-02 12:00:00"
+      },
+      {
+        "planId":"10003",
+        "customName":"宁波视频企业有限公司",
+        "status":"已走访",
+        "planDate":"2018-04-03 12:00:00"
+      },
+      {
+        "planId":"10004",
+        "customName":"宁波视频1企业有限公司",
+        "status":"已取消",
+        "planDate":"2018-04-04 12:00:00"
+      },
+      {
+        "planId":"10005",
+        "customName":"宁波视频1企业有限公司",
+        "status":"过期未走访",
+        "planDate":"2018-04-05 12:00:00"
+      },
+      {
+        "planId":"10006",
+        "customName":"宁波视频1企业有限公司",
+        "status":"过期未走访",
+        "planDate":"2018-04-05 12:00:00"
+      },
+      {
+        "planId":"10007",
+        "customName":"宁波视频1企业有限公司",
+        "status":"过期未走访",
+        "planDate":"2018-04-05 12:00:00"
+      },
+      {
+        "planId":"10008",
+        "customName":"宁波视频1企业有限公司",
+        "status":"过期未走访",
+        "planDate":"2018-04-05 12:00:00"
+      },
+      {
+        "planId":"10009",
+        "customName":"宁波视频1企业有限公司",
+        "status":"过期未走访",
+        "planDate":"2018-04-05 12:00:00"
+      },
+      {
+        "planId":"100010",
+        "customName":"宁波视频1企业有限公司",
+        "status":"过期未走访",
+        "planDate":"2018-04-05 12:00:00"
+      },
+      {
+        "planId":"100011",
+        "customName":"宁波视频1企业有限公司",
+        "status":"过期未走访",
+        "planDate":"2018-04-05"
+      },
+      {
+        "planId":"100011",
+        "customName":"宁波视频1企业有限公司",
+        "status":"过期未走访",
+        "planDate":"2018-04-05"
+      },
+      {
+        "planId":"100011",
+        "customName":"宁波视频1企业有限公司",
+        "status":"过期未走访",
+        "planDate":"2018-04-05"
+      },
+      {
+        "planId":"100011",
+        "customName":"宁波视频1企业有限公司",
+        "status":"过期未走访",
+        "planDate":"2018-04-05"
+      },
+      {
+        "planId":"100011",
+        "customName":"宁波视频1企业有限公司",
+        "status":"过期未走访",
+        "planDate":"2018-04-05"
+      },
+      {
+        "planId":"100011",
+        "customName":"宁波视频1企业有限公司",
+        "status":"过期未走访",
+        "planDate":"2018-04-05"
+      }
+    ]
+  }
+}

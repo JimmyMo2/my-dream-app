@@ -1,0 +1,9 @@
+{
+	"serviceId": "auth.login",
+	"status": "0",
+	"datetime": "2016-11-09 10:35:13",
+	"info": "成功",
+	"returnCode":"0",
+	"returnMsg":"数据重复，添加失败",
+	"isRpeat":"否"
+}

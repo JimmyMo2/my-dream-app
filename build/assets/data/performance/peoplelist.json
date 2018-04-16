@@ -1,0 +1,64 @@
+{
+  "serviceId": "auth.login",
+  "status": "0",
+  "datetime": "2016-11-09 10:35:13",
+  "info": "成功",
+  "resultRes": {
+    "targetSummary":[
+      {
+        "id":"1",
+        "name":"张红",
+        "iph":"123545",
+        "state":false
+      },
+      {
+        "id":"2",
+        "name":"章兰",
+        "iph":"123445",
+        "state":false
+      },
+      {
+        "id":"3",
+        "name":"小小",
+        "iph":"523445",
+        "state":false
+      },
+      {
+        "id":"4",
+        "name":"小亮",
+        "iph":"423445",
+        "state":false
+      },
+      {
+        "id":"5",
+        "name":"小艳",
+        "iph":"323445",
+        "state":false
+      },
+      {
+        "id":"6",
+        "name":"大大",
+        "iph":"823445",
+        "state":false
+      },
+      {
+        "id":"7",
+        "name":"行政",
+        "iph":"823445",
+        "state":false
+      },
+      {
+        "id":"8",
+        "name":"张建",
+        "iph":"823445",
+        "state":false
+      },
+      {
+        "id":"9",
+        "name":"行兰",
+        "iph":"823445",
+        "state":false
+      }
+    ]
+  }
+}

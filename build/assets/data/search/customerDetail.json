@@ -1,0 +1,16 @@
+{
+	"serviceId": "auth.login",
+	"status": "0",
+	"datetime": "2016-11-09 10:35:13",
+	"info": "成功",
+	"customs":{
+			"customName":"证券公司",
+			"customId":"0001",
+			"legalPerson":"林立",
+			"companyType":"独资",
+			"foundDate":"1997-06-18",
+			"ifZsb":"正式版",
+			"sCale":"80000000.00"
+		}
+
+}

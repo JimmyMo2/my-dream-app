@@ -1,0 +1,22 @@
+{
+  "data":[
+    {"appId":"pcrm","code":"pcrm-170","name":"客户管理","icon":"","parentId":"0"},
+    {"appId":"pcrm","code":"pcrm-180","name":"营销管理","icon":"","parentId":"0"},
+    {"appId":"pcrm","code":"pcrm-190","name":"工作管理","icon":"","parentId":"0"},
+    {"appId":"pcrm","code":"pcrm-200","name":"统计分析","icon":"","parentId":"0"},
+    {"appId":"pcrm","code":"pcrm-171","name":"正式客户","icon":"person","parentId":"pcrm-170","PageId":"FormalcustPage"},
+    {"appId":"pcrm","code":"pcrm-172","name":"潜在客户","icon":"person-add","parentId":"pcrm-170","PageId":"PotentialcustPage"},
+    {"appId":"pcrm","code":"pcrm-173","name":"拍一拍","icon":"logo-instagram","parentId":"pcrm-170","PageId":"TakepicPage"},
+    {"appId":"pcrm","code":"pcrm-181","name":"营销报告","icon":"list-box","parentId":"pcrm-180","PageId":"MarketreportPage"},
+    {"appId":"pcrm","code":"pcrm-182","name":"员工轨迹","icon":"globe","parentId":"pcrm-180","PageId":"Other"},
+    {"appId":"pcrm","code":"pcrm-183","name":"信用卡","icon":"card","parentId":"pcrm-180","PageId":"Other"},
+    {"appId":"pcrm","code":"pcrm-191","name":"我的审批","icon":"ios-create","parentId":"pcrm-190","PageId":"MyapprovePage"},
+    {"appId":"pcrm","code":"pcrm-192","name":"会议","icon":"people","parentId":"pcrm-190","PageId":"MeetinginfoPage"},
+    {"appId":"pcrm","code":"pcrm-193","name":"目标设定","icon":"ios-clipboard","parentId":"pcrm-190","PageId":"TargetplanPage"},
+    {"appId":"pcrm","code":"pcrm-195","name":"任务分配","icon":"done-all","parentId":"pcrm-190","PageId":"Other"},
+    {"appId":"pcrm","code":"pcrm-201","name":"报表","icon":"podium","parentId":"pcrm-200","PageId":"StatisticsPage"},
+    {"appId":"pcrm","code":"pcrm-202","name":"提醒","icon":"notifications","parentId":"pcrm-200","PageId":"BulletinPage"}
+  ],
+  "status": true
+}
+

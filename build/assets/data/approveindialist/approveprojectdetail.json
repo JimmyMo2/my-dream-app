@@ -1,0 +1,30 @@
+{
+	"serviceId": "auth.login",
+	"status": "0",
+	"datetime": "2016-11-09 10:35:13",
+	"info": "成功",
+	"resultRes": {
+    "name":"苏州燕谷公司投资合伙企业（有限合伙）",
+    "proType":"券商集合",
+    "customName":"上海海通证券资产管理有限公司",
+    "consignorId":"苏州燕谷公司投资合伙企业（有限合伙）",
+    "investRange":"现金银行存款，资产管理计划，货币市场工具，股票，固定收益证券，票据，资产支持证券，回购，期货",
+    "scale":"500,000,00,0元",
+    "scaleUpper":"伍亿元整",
+    "planRate":"0.1000%",
+    "chargingType":"按月",
+    "foundDate":"2016-11-15",
+    "planEndDate":"2021-11-15",
+    "compCode":"上海分行",
+    "isEstimate":"是",
+    "estimateType":"公允法",
+    "isOverPrint":"否",
+    "approves":[
+      {
+        "updater":"张三",
+        "errMsg":"同意",
+        "updateDate":"2018-3-30"
+      }
+    ]
+  }
+}

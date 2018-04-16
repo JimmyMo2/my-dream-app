@@ -1,0 +1,28 @@
+{
+	"serviceId":"1111",
+	"status":"0",
+	"datetime":"2018-02-06",
+	"info":"成功",
+	"resultRes":[{
+	  "pkId":"11",
+	  "bizCode":"12",
+	  "bizVal":"13",
+      "title":"提交下周计划1",
+      "content":"讨论app研发",
+      "time":"2018-03-08 周四"
+    },{
+      "pkId":"21",
+	  "bizCode":"22",
+	  "bizVal":"23",
+      "title":"提交下周计划2",
+      "content":"讨论web研发",
+      "time":"2018/03/07 周三"
+    },{
+      "pkId":"31",
+	  "bizCode":"32",
+	  "bizVal":"33",
+      "title":"提交下周计划3",
+      "content":"讨论登录研发",
+      "time":"2018-03-06 周二"
+    }]
+}

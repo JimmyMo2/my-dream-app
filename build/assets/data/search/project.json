@@ -1,0 +1,21 @@
+{
+	"serviceId": "auth.login",
+	"status": "0",
+	"datetime": "2016-11-09 10:35:13",
+	"info": "成功",
+	"projects":[
+		{
+			"name":"项目一",
+			"customName":"张三",
+			"proType":"自有",
+			"instId":"0001"
+		},
+		{
+			"name":"项目二",
+			"customName":"李四",
+			"proType":"外包",
+			"instId":"0002"
+		}
+	],
+	"allPage":""
+}
